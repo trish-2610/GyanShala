@@ -7,7 +7,9 @@ import { BookOpenIcon, Globe2Icon, SparklesIcon } from 'lucide-react-native';
 import { useColorScheme } from 'nativewind';
 import * as React from 'react';
 import { useTranslation } from 'react-i18next';
-import { ScrollView, View } from 'react-native';
+import { Image, ScrollView, View } from 'react-native';
+
+const heroImage = require('@/assets/hero.jpeg');
 
 export default function HomeScreen() {
   const { colorScheme } = useColorScheme();
@@ -29,30 +31,43 @@ export default function HomeScreen() {
           <LanguageDropdown className="w-40" />
         </View>
 
-        {/* Hero */}
-        <View className="gap-3">
-          <Text className="text-4xl font-extrabold text-foreground">GyanShala</Text>
-          <Text className="text-3xl font-semibold text-foreground">{t('hero_title')}</Text>
-          <Text className="text-base text-muted-foreground">{t('hero_body')}</Text>
-        </View>
+        {/* Hero with faded background image */}
+        <View className="relative overflow-hidden rounded-3xl border border-border/60 bg-card/80 p-5">
+          <Image
+            source={heroImage}
+            className="absolute inset-0 h-full w-full opacity-25"
+            resizeMode="cover"
+            style={{
+              transform: [{ translateY: -30 }],
+            }}
+            blurRadius={4}
+          />
 
-        {/* Primary actions */}
-        <View className="flex-row gap-3">
-          <Button
-            className="flex-1"
-            onPress={() => {
-              router.push('/auth');
-            }}>
-            <Text className="font-medium text-primary-foreground">{t('primary_start')}</Text>
-          </Button>
-          <Button
-            className="flex-1"
-            variant="outline"
-            onPress={() => {
-              router.push('/dashboard');
-            }}>
-            <Text className="font-medium">{t('primary_browse')}</Text>
-          </Button>
+          <View className="gap-4">
+            <View className="gap-2">
+              <Text className="text-4xl font-extrabold text-foreground">GyanShala</Text>
+              <Text className="text-3xl font-semibold text-foreground">{t('hero_title')}</Text>
+              <Text className="text-base text-muted-foreground">{t('hero_body')}</Text>
+            </View>
+
+            <View className="flex-row gap-3">
+              <Button
+                className="flex-1"
+                onPress={() => {
+                  router.push('/auth');
+                }}>
+                <Text className="font-medium text-primary-foreground">{t('primary_start')}</Text>
+              </Button>
+              <Button
+                className="flex-1"
+                variant="outline"
+                onPress={() => {
+                  router.push('/dashboard');
+                }}>
+                <Text className="font-medium">{t('primary_browse')}</Text>
+              </Button>
+            </View>
+          </View>
         </View>
 
         {/* Key highlights */}
