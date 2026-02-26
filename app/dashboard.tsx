@@ -8,126 +8,7 @@ const SCREEN_OPTIONS = {
   title: 'Dashboard',
 };
 
-type TabKey = 'studies' | 'query' | 'test' | 'career';
-type SubjectKey = 'english' | 'hindi' | 'maths' | 'science' | 'social';
-
-const TABS: { key: TabKey; label: string }[] = [
-  { key: 'studies', label: 'Studies' },
-  { key: 'query', label: 'Query' },
-  { key: 'test', label: 'Test' },
-  { key: 'career', label: 'Career Awareness' },
-];
-
-const CLASSES = ['6', '7', '8', '9', '10'];
-
-const SUBJECTS: { key: SubjectKey; label: string }[] = [
-  { key: 'english', label: 'English' },
-  { key: 'hindi', label: 'Hindi' },
-  { key: 'maths', label: 'Maths' },
-  { key: 'science', label: 'Science' },
-  { key: 'social', label: 'Social' },
-];
-
-const SUBJECT_TOPICS: Record<
-  SubjectKey,
-  { title: string; description: string }[]
-> = {
-  english: [
-    {
-      title: 'Reading Comprehension',
-      description: 'Practise reading short passages and answering simple questions in English.',
-    },
-    {
-      title: 'Grammar Basics',
-      description: 'Revision of nouns, verbs, tenses and simple sentence formation.',
-    },
-    {
-      title: 'Vocabulary Builder',
-      description: 'Learn new everyday words with meanings and example sentences.',
-    },
-    {
-      title: 'Writing Practice',
-      description: 'Short paragraph and letter-writing practice using guided examples.',
-    },
-  ],
-  hindi: [
-    {
-      title: 'पाठ समझ',
-      description: 'छोटे-छोटे गद्यांश पढ़ना और उनसे जुड़े सरल प्रश्नों के उत्तर देना.',
-    },
-    {
-      title: 'व्याकरण मूल बातें',
-      description: 'संज्ञा, क्रिया, लिंग और वचन जैसे महत्वपूर्ण व्याकरण के नियमों की दोहराई.',
-    },
-    {
-      title: 'शब्द भंडार',
-      description: 'नए हिंदी शब्दों का अभ्यास उनके अर्थ और वाक्यों के साथ.',
-    },
-    {
-      title: 'लेखन अभ्यास',
-      description: 'संक्षिप्त अनुच्छेद और पत्र-लेखन के लिए अभ्यास प्रश्न.',
-    },
-  ],
-  maths: [
-    {
-      title: 'Numbers & Operations',
-      description: 'Addition, subtraction, multiplication and division with easy examples.',
-    },
-    {
-      title: 'Fractions & Decimals',
-      description: 'Understanding parts of a whole using day-to-day situations.',
-    },
-    {
-      title: 'Geometry Basics',
-      description: 'Introduction to shapes, angles and simple constructions.',
-    },
-    {
-      title: 'Word Problems',
-      description: 'Practice story-based sums related to money, time and distance.',
-    },
-  ],
-  science: [
-    {
-      title: 'Plants & Animals',
-      description: 'Overview of local plants, crops and common animals around the village.',
-    },
-    {
-      title: 'Human Body',
-      description: 'Basic information about body parts, health and hygiene.',
-    },
-    {
-      title: 'Water & Air',
-      description: 'Simple explanation of water cycle, air and their importance.',
-    },
-    {
-      title: 'Energy & Light',
-      description: 'Everyday examples of energy, light and simple machines.',
-    },
-  ],
-  social: [
-    {
-      title: 'My Community',
-      description: 'Understanding family, neighbours and roles in the local community.',
-    },
-    {
-      title: 'Our Country',
-      description: 'Intro to India, states, important symbols and festivals.',
-    },
-    {
-      title: 'History Stories',
-      description: 'Short stories about freedom fighters and important events.',
-    },
-    {
-      title: 'Maps & Directions',
-      description: 'Reading simple maps and learning directions using village examples.',
-    },
-  ],
-};
-
 export default function DashboardScreen() {
-  const [activeTab, setActiveTab] = React.useState<TabKey>('studies');
-  const [selectedClass, setSelectedClass] = React.useState<string | null>(null);
-  const [selectedSubject, setSelectedSubject] = React.useState<SubjectKey | null>(null);
 
   return (
     <>
@@ -147,128 +28,68 @@ export default function DashboardScreen() {
             </Text>
           </View>
 
-          {/* Tabs */}
-          <View className="flex-row gap-2 rounded-full border border-border/70 bg-card/80 p-1">
-            {TABS.map((tab) => {
-              const isActive = activeTab === tab.key;
-              return (
-                <Button
-                  key={tab.key}
-                  variant={isActive ? 'default' : 'ghost'}
-                  className="flex-1 rounded-full"
-                  onPress={() => setActiveTab(tab.key)}>
-                  <Text className="text-xs font-medium">{tab.label}</Text>
-                </Button>
-              );
-            })}
+          {/* Quick links to main areas */}
+          <View className="gap-3 rounded-2xl border border-border/70 bg-card/80 p-4">
+            <Text className="text-sm font-semibold text-foreground">Start learning</Text>
+            <Text className="text-xs text-muted-foreground">
+              Choose an area below to move to detailed screens for studies, doubts, tests and career
+              awareness.
+            </Text>
           </View>
 
-          {/* Tab content */}
-          {activeTab === 'studies' && (
-            <View className="gap-4 rounded-2xl border border-border/70 bg-card/80 p-4">
+          <View className="gap-3">
+            <View className="gap-2 rounded-2xl border border-border/70 bg-card/80 p-4">
               <Text className="text-sm font-semibold text-foreground">Studies</Text>
               <Text className="text-xs text-muted-foreground">
-                First choose your class, then pick a subject to see topic-wise placeholder content.
+                Pick your class and subject, then explore topic-wise content.
               </Text>
-
-              {/* Class selection */}
-              <View className="gap-2">
-                <Text className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-                  Select Class
-                </Text>
-                <View className="flex-row flex-wrap gap-2">
-                  {CLASSES.map((cls) => {
-                    const isSelected = selectedClass === cls;
-                    return (
-                      <Button
-                        key={cls}
-                        size="sm"
-                        variant={isSelected ? 'default' : 'outline'}
-                        className="rounded-full px-3 py-1"
-                        onPress={() => {
-                          setSelectedClass(cls);
-                          setSelectedSubject(null);
-                        }}>
-                        <Text className="text-xs font-medium">Class {cls}</Text>
-                      </Button>
-                    );
-                  })}
-                </View>
-              </View>
-
-              {/* Subjects */}
-              {selectedClass && (
-                <View className="gap-2">
-                  <Text className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-                    Select Subject
-                  </Text>
-                  <View className="flex-row flex-wrap gap-2">
-                    {SUBJECTS.map((subject) => {
-                      const isSelected = selectedSubject === subject.key;
-                      return (
-                        <Button
-                          key={subject.key}
-                          size="sm"
-                          variant={isSelected ? 'default' : 'outline'}
-                          className="rounded-full px-3 py-1"
-                          onPress={() => setSelectedSubject(subject.key)}>
-                          <Text className="text-xs font-medium">{subject.label}</Text>
-                        </Button>
-                      );
-                    })}
-                  </View>
-                </View>
-              )}
-
-              {/* Topics */}
-              {selectedClass && selectedSubject && (
-                <View className="gap-3">
-                  <Text className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-                    Topics for Class {selectedClass} –{' '}
-                    {SUBJECTS.find((s) => s.key === selectedSubject)?.label}
-                  </Text>
-                  {SUBJECT_TOPICS[selectedSubject].map((topic) => (
-                    <View
-                      key={topic.title}
-                      className="gap-1 rounded-xl border border-border/60 bg-background/80 p-3">
-                      <Text className="text-xs font-semibold text-foreground">{topic.title}</Text>
-                      <Text className="text-[11px] text-muted-foreground">{topic.description}</Text>
-                    </View>
-                  ))}
-                </View>
-              )}
+              <Button
+                size="sm"
+                className="self-start rounded-full px-4 py-1.5"
+                onPress={() => router.push('/studies')}>
+                <Text className="text-xs font-medium text-primary-foreground">Open Studies</Text>
+              </Button>
             </View>
-          )}
 
-          {activeTab === 'query' && (
-            <View className="gap-3 rounded-2xl border border-border/70 bg-card/80 p-4">
+            <View className="gap-2 rounded-2xl border border-border/70 bg-card/80 p-4">
               <Text className="text-sm font-semibold text-foreground">Query</Text>
               <Text className="text-xs text-muted-foreground">
-                Ask questions to teachers or the AI assistant when you are stuck. This area will
-                show your recent questions and answers.
+                Ask questions and see answers in your preferred language.
               </Text>
+              <Button
+                size="sm"
+                className="self-start rounded-full px-4 py-1.5"
+                onPress={() => router.push('/query')}>
+                <Text className="text-xs font-medium text-primary-foreground">Open Query</Text>
+              </Button>
             </View>
-          )}
 
-          {activeTab === 'test' && (
-            <View className="gap-3 rounded-2xl border border-border/70 bg-card/80 p-4">
+            <View className="gap-2 rounded-2xl border border-border/70 bg-card/80 p-4">
               <Text className="text-sm font-semibold text-foreground">Test</Text>
               <Text className="text-xs text-muted-foreground">
-                Take quick tests to check your understanding. Upcoming quizzes and completed scores
-                will appear here.
+                Take short quizzes and track your scores.
               </Text>
+              <Button
+                size="sm"
+                className="self-start rounded-full px-4 py-1.5"
+                onPress={() => router.push('/test')}>
+                <Text className="text-xs font-medium text-primary-foreground">Open Test</Text>
+              </Button>
             </View>
-          )}
 
-          {activeTab === 'career' && (
-            <View className="gap-3 rounded-2xl border border-border/70 bg-card/80 p-4">
+            <View className="gap-2 rounded-2xl border border-border/70 bg-card/80 p-4">
               <Text className="text-sm font-semibold text-foreground">Career Awareness</Text>
               <Text className="text-xs text-muted-foreground">
-                Explore different career paths, entrance exams, and guidance tailored for rural
-                learners. You will find stories, tips, and next steps here.
+                Read simple guidance about careers, exams and next steps.
               </Text>
+              <Button
+                size="sm"
+                className="self-start rounded-full px-4 py-1.5"
+                onPress={() => router.push('/career')}>
+                <Text className="text-xs font-medium text-primary-foreground">Open Career</Text>
+              </Button>
             </View>
-          )}
+          </View>
 
           <Button
             className="mt-4 rounded-2xl"
