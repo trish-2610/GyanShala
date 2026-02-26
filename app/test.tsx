@@ -5,6 +5,8 @@ import {
   SOCIAL_TESTS_CLASS_10,
 } from '@/lib/socialTests';
 import type { SocialTopicId } from '@/lib/socialStudies';
+import { getScienceTestChapter, SCIENCE_TEST_CHAPTER_ORDER } from '@/lib/scienceTests';
+import type { ScienceChapterId } from '@/lib/scienceStudies';
 import { Stack, router } from 'expo-router';
 import * as React from 'react';
 import { useTranslation } from 'react-i18next';
@@ -16,13 +18,21 @@ const SCREEN_OPTIONS = {
 
 export default function TestScreen() {
   const { t } = useTranslation();
-  const [selectedChapterId, setSelectedChapterId] =
+  const [selectedSubject, setSelectedSubject] = React.useState<'social' | 'science'>(
+    'social'
+  );
+  const [selectedSocialChapterId, setSelectedSocialChapterId] =
     React.useState<SocialTopicId>('economics');
+  const [selectedScienceChapterId, setSelectedScienceChapterId] =
+    React.useState<ScienceChapterId>('1');
   const [expandedAnswerIds, setExpandedAnswerIds] = React.useState<
     Record<string, boolean>
   >({});
 
-  const chapter = SOCIAL_TESTS_CLASS_10[selectedChapterId];
+  const chapter =
+    selectedSubject === 'social'
+      ? SOCIAL_TESTS_CLASS_10[selectedSocialChapterId]
+      : getScienceTestChapter(selectedScienceChapterId);
   const sections = chapter.sections;
 
   const toggleAnswer = React.useCallback((questionId: string) => {
@@ -56,26 +66,57 @@ export default function TestScreen() {
 
           <View className="gap-4 rounded-2xl border border-border/70 bg-card/80 p-4">
             <Text className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-              Class 10 – Social Science
+              Class 10 – Tests
             </Text>
-            <Text className="text-sm font-semibold text-foreground">
-              Select chapter
-            </Text>
+            <Text className="text-sm font-semibold text-foreground">Select subject</Text>
             <View className="flex-row flex-wrap gap-2">
-              {SOCIAL_TEST_CHAPTER_ORDER.map((chapterId) => {
-                const chapterLabel = SOCIAL_TESTS_CLASS_10[chapterId].label;
-                const isSelected = chapterId === selectedChapterId;
-                return (
-                  <Button
-                    key={chapterId}
-                    size="sm"
-                    variant={isSelected ? 'default' : 'outline'}
-                    className="rounded-full px-3 py-1"
-                    onPress={() => setSelectedChapterId(chapterId)}>
-                    <Text className="text-xs font-medium">{chapterLabel}</Text>
-                  </Button>
-                );
-              })}
+              <Button
+                size="sm"
+                variant={selectedSubject === 'social' ? 'default' : 'outline'}
+                className="rounded-full px-3 py-1"
+                onPress={() => setSelectedSubject('social')}>
+                <Text className="text-xs font-medium">Social Science</Text>
+              </Button>
+              <Button
+                size="sm"
+                variant={selectedSubject === 'science' ? 'default' : 'outline'}
+                className="rounded-full px-3 py-1"
+                onPress={() => setSelectedSubject('science')}>
+                <Text className="text-xs font-medium">Science</Text>
+              </Button>
+            </View>
+
+            <Text className="text-sm font-semibold text-foreground">Select chapter</Text>
+            <View className="flex-row flex-wrap gap-2">
+              {selectedSubject === 'social'
+                ? SOCIAL_TEST_CHAPTER_ORDER.map((chapterId) => {
+                    const chapterLabel = SOCIAL_TESTS_CLASS_10[chapterId].label;
+                    const isSelected = chapterId === selectedSocialChapterId;
+                    return (
+                      <Button
+                        key={chapterId}
+                        size="sm"
+                        variant={isSelected ? 'default' : 'outline'}
+                        className="rounded-full px-3 py-1"
+                        onPress={() => setSelectedSocialChapterId(chapterId)}>
+                        <Text className="text-xs font-medium">{chapterLabel}</Text>
+                      </Button>
+                    );
+                  })
+                : SCIENCE_TEST_CHAPTER_ORDER.map((chapterId) => {
+                    const chapterLabel = getScienceTestChapter(chapterId).label;
+                    const isSelected = chapterId === selectedScienceChapterId;
+                    return (
+                      <Button
+                        key={chapterId}
+                        size="sm"
+                        variant={isSelected ? 'default' : 'outline'}
+                        className="rounded-full px-3 py-1"
+                        onPress={() => setSelectedScienceChapterId(chapterId)}>
+                        <Text className="text-xs font-medium">{chapterLabel}</Text>
+                      </Button>
+                    );
+                  })}
             </View>
             <Text className="text-xs text-muted-foreground">
               Viewing questions for: {chapter.label}

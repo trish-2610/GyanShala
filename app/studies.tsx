@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Text } from '@/components/ui/text';
 import { SOCIAL_TOPICS_CLASS_10 } from '@/lib/socialStudies';
+import { SCIENCE_CHAPTERS_CLASS_10 } from '@/lib/scienceStudies';
 import { Stack, router } from 'expo-router';
 import * as React from 'react';
 import { useTranslation } from 'react-i18next';
@@ -255,6 +256,22 @@ export default function StudiesScreen() {
                         </Text>
                       </Pressable>
                     ))
+                  : selectedClass === '10' && selectedSubject === 'science'
+                    ? SCIENCE_CHAPTERS_CLASS_10.map((chapter) => (
+                        <Pressable
+                          key={chapter.id}
+                          onPress={() =>
+                            router.push((`/science/${chapter.id}` as unknown) as any)
+                          }
+                          className="gap-1 rounded-xl border border-border/60 bg-background/80 p-3 active:opacity-80">
+                          <Text className="text-xs font-semibold text-foreground">
+                            Chapter {chapter.id}: {chapter.title}
+                          </Text>
+                          <Text className="text-[11px] text-muted-foreground">
+                            {chapter.summary}
+                          </Text>
+                        </Pressable>
+                      ))
                   : SUBJECT_TOPICS[selectedSubject].map((topic, index) => (
                       <View
                         key={
