@@ -1,0 +1,261 @@
+Chapter 2: Acids, Bases, and Salts
+
+Topic 1: Understanding Acids and Bases
+In our daily life, we come across many substances that are acidic or basic in nature. For example, lemon juice tastes sour because it contains an acid, while soap feels slippery because it contains a base.
+
+An acid is a substance that produces hydrogen ions (H⁺ ions) when dissolved in water. These hydrogen ions are responsible for the acidic properties of the substance.
+Examples of acids include hydrochloric acid (HCl), sulphuric acid (H₂SO₄), and nitric acid (HNO₃). Natural acids are also present in foods such as citric acid in lemons and acetic acid in vinegar.
+
+A base is a substance that produces hydroxide ions (OH⁻ ions) when dissolved in water. Bases are usually bitter in taste and feel slippery to touch.
+
+Examples of bases include sodium hydroxide (NaOH), potassium hydroxide (KOH), and calcium hydroxide (Ca(OH)₂).
+
+Bases that are soluble in water are called alkalis. For example, sodium hydroxide and potassium hydroxide are alkalis.
+Acids and bases have opposite properties. When they react with each other, they neutralize each other's effect.
+
+Topic 2: Properties of Acids and Bases
+Acids and bases have different physical and chemical properties that help us identify them.
+Acids have a sour taste. For example, lemon and vinegar taste sour because they contain acids. Acids can also conduct electricity when dissolved in water because they produce hydrogen ions. Acids turn blue litmus paper red.
+
+Bases have a bitter taste and feel soapy or slippery when touched. Bases also conduct electricity in aqueous solution because they produce hydroxide ions. Bases turn red litmus paper blue.
+Acids react with metals to produce hydrogen gas. 
+
+For example:
+Zn + 2HCl → ZnCl₂ + H₂
+
+In this reaction, zinc reacts with hydrochloric acid and produces hydrogen gas.
+Bases react with acids to form salt and water. This reaction is called neutralization.
+Both acids and bases show their properties only when dissolved in water. This is because they produce ions only in aqueous solution.
+
+Topic 3: What are Indicators?
+Indicators are substances that help us identify whether a substance is acidic or basic. They show different colours in acidic and basic solutions.
+Indicators are very useful in laboratories and experiments.
+
+One common indicator is litmus. Litmus is a natural indicator obtained from lichens. In acidic solutions, blue litmus turns red. In basic solutions, red litmus turns blue.
+Another natural indicator is turmeric. Turmeric remains yellow in acidic solutions but turns red in basic solutions.
+
+China rose indicator also shows colour change. It turns dark pink in acidic solution and green in basic solution.
+
+There are also synthetic indicators such as phenolphthalein and methyl orange. Phenolphthalein is colourless in acid and pink in base. Methyl orange is red in acid and yellow in base.
+Indicators help us easily identify acids and bases by showing colour changes.
+
+
+Topic 4: Strength of Acids and Bases
+The strength of an acid or base depends on the number of ions it produces in water. Strong acids produce a large number of hydrogen ions (H⁺ ions), while weak acids produce fewer hydrogen ions.
+For example, hydrochloric acid (HCl), sulphuric acid (H₂SO₄), and nitric acid (HNO₃) are strong acids because they completely ionize in water.
+
+Weak acids such as acetic acid (CH₃COOH) and carbonic acid (H₂CO₃) do not completely ionize in water. They produce fewer hydrogen ions, so they are weak acids.
+
+Similarly, strong bases such as sodium hydroxide (NaOH) and potassium hydroxide (KOH) completely ionize in water and produce many hydroxide ions (OH⁻).
+
+Weak bases such as ammonium hydroxide (NH₄OH) produce fewer hydroxide ions.
+The strength of acids and bases is not based on their concentration but on their ability to produce ions in solution.
+
+Topic 5: Dilution of Acids and Bases
+Dilution is the process of reducing the concentration of an acid or base by adding water to it.
+Dilution should be done carefully because it produces heat. This is an exothermic process.
+
+When diluting acids, acid should always be added to water slowly with constant stirring. Water should never be added to acid.
+
+This is because adding water to concentrated acid can produce excessive heat and cause splashing, which can be dangerous.
+Dilution makes acids and bases safer to use in laboratories and industries.
+
+Topic 6: pH Scale
+The strength of acids and bases can be measured using the pH scale. The pH scale ranges from 0 to 14.
+
+If the pH value is less than 7, the substance is acidic. Lower pH means stronger acid.
+If the pH value is equal to 7, the substance is neutral. For example, pure water has pH 7.
+If the pH value is greater than 7, the substance is basic. Higher pH means stronger base.
+
+For example:
+• Lemon juice has pH around 2 (strong acid)
+• Water has pH 7 (neutral)
+• Soap solution has pH around 10 (basic)
+The pH scale helps us determine how acidic or basic a substance is.
+
+Topic 7: Importance of pH in Everyday Life
+The pH value plays an important role in many processes in our daily life.
+
+One example is the pH of our stomach. Our stomach produces hydrochloric acid to help digest food. Sometimes, excess acid causes indigestion and pain. To neutralize this acid, we take antacids such as magnesium hydroxide.
+
+Another example is tooth decay. When the pH in the mouth falls below 5.5, tooth enamel starts to decay. Toothpaste, which is basic, helps neutralize the acid and protect teeth.
+
+pH is also important in agriculture. Plants grow well in soil with proper pH. Farmers treat soil with quicklime or slaked lime to reduce acidity.
+pH of water is also important for aquatic life. Sudden changes in pH can harm fish and other organisms.
+
+Topic 8: Chemical Properties of Acids
+Acids show specific chemical reactions.
+Acids react with metals to produce salt and hydrogen gas.
+
+Example:
+Zn + 2HCl → ZnCl₂ + H₂
+Acids react with metal carbonates to produce salt, water, and carbon dioxide gas.
+
+Example:
+Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂
+Acids react with bases to produce salt and water. This is called neutralization.
+
+Example:
+HCl + NaOH → NaCl + H₂O
+These reactions help identify acids.
+
+Topic 9: Chemical Properties of Bases
+Bases also show specific chemical reactions.
+Bases react with acids to form salt and water.
+
+Example:
+NaOH + HCl → NaCl + H₂O
+Bases react with acidic oxides to form salt and water.
+
+Example:
+Ca(OH)₂ + CO₂ → CaCO₃ + H₂O
+Some bases react with certain metals such as zinc and aluminum to produce hydrogen gas.
+Bases are important in making soaps, detergents, and cleaning agents.
+
+Topic 10: What are Salts?
+Salts are substances formed when acids react with bases in a neutralization reaction.
+Salt is made up of the positive ion from the base and the negative ion from the acid.
+
+Example:
+HCl + NaOH → NaCl + H₂O
+
+In this reaction, sodium chloride (NaCl) is the salt formed.
+Salts can be neutral, acidic, or basic depending on the nature of the acid and base used.
+Examples of salts include sodium chloride, copper sulphate, and ammonium chloride.
+Salts are widely used in food, industry, and medicine.
+
+Topic 11: Family of Salts
+Salts having the same positive or negative ions belong to the same family.
+
+For example, sodium chloride (NaCl), sodium sulphate (Na₂SO₄), and sodium nitrate (NaNO₃) belong to the sodium family because they contain sodium ion (Na⁺).
+
+Similarly, chloride salts such as NaCl and KCl belong to the chloride family.
+Studying salt families helps us understand their properties.
+
+Topic 12: pH of Salts
+The pH of a salt solution depends on the strength of the acid and base used to form it.
+If the salt is formed from a strong acid and strong base, it is neutral.
+
+Example: NaCl
+If the salt is formed from a strong acid and weak base, it is acidic.
+
+Example: NH₄Cl
+If the salt is formed from a strong base and weak acid, it is basic.
+
+Example: Na₂CO₃
+This helps determine the nature of salt solutions.
+
+Topic 13: Chemicals from Common Salt (Sodium Chloride)
+Sodium chloride (NaCl), also called common salt, is an important raw material for making many useful chemicals.
+
+These chemicals include:
+• Sodium hydroxide (NaOH)
+• Bleaching powder
+• Baking soda
+• Washing soda
+
+These chemicals are widely used in industries and homes.
+
+Topic 14: Sodium Hydroxide (NaOH)
+Sodium hydroxide is produced by passing electricity through sodium chloride solution. This process is called electrolysis.
+Sodium hydroxide is a strong base.
+
+Uses of sodium hydroxide:
+• Making soaps and detergents
+• Making paper
+• Making textiles
+• Making degreasing metals
+It is also called caustic soda.
+
+Topic 15: Bleaching Powder
+Bleaching powder has the chemical formula CaOCl₂.
+It is produced by passing chlorine gas over dry slaked lime.
+
+Uses of bleaching powder:
+• Disinfecting drinking water
+• Bleaching cotton and linen
+• Making bleaching agents
+• Oxidizing agent in industries
+
+Topic 16: Baking Soda
+The chemical name of baking soda is sodium hydrogen carbonate (NaHCO₃).
+
+Uses of baking soda:
+• Making baking powder
+• Making cakes and bread soft and fluffy
+• Antacid to relieve acidity
+• Making fire extinguishers
+When heated, baking soda produces carbon dioxide gas, which makes cakes fluffy.
+
+Topic 17: Washing Soda
+The chemical name of washing soda is sodium carbonate (Na₂CO₃·10H₂O).
+
+Uses of washing soda:
+• Cleaning agent
+• Softening hard water
+• Making glass, soap, and paper
+• Making other chemicals
+It is used in washing powders.
+
+
+Class 10 Science Test Paper
+Chapter 2: Acids, Bases, and Salts
+Time: 1 Hour
+Maximum Marks: 30
+
+Section A: Multiple Choice Questions (1 mark each)
+(5 × 1 = 5 marks)
+Choose the correct option.
+	1. Which of the following is an acid?
+a) NaOH
+b) HCl
+c) KOH
+d) Ca(OH)₂
+
+	2. Which of the following turns red litmus paper blue?
+a) Acid
+b) Base
+c) Salt
+d) Water
+
+	3. What is the pH value of a neutral solution?
+a) 0
+b) 5
+c) 7
+d) 14
+
+	4. Which gas is produced when acids react with metals?
+a) Oxygen
+b) Hydrogen
+c) Carbon dioxide
+d) Nitrogen
+
+	5. Which of the following is used to make baking powder?
+a) Washing soda
+b) Baking soda
+c) Bleaching powder
+d) Sodium chloride
+
+Section B: Very Short Answer Questions (2 marks each)
+(5 × 2 = 10 marks)
+	6. Define an acid.
+
+	7. What is an indicator? Give one example.
+
+	8. What is pH scale?
+
+	9. What is a salt? Give one example.
+
+	10. Write one use of bleaching powder.
+
+Section C: Short Answer Questions (3 marks each)
+(3 × 3 = 9 marks)
+	11. Write three properties of acids.
+
+	12. Explain neutralization reaction with an example.
+
+	13. Write three uses of washing soda.
+
+Section D: Long Answer Question (6 marks)
+(1 × 6 = 6 marks)
+	14. Explain the importance of pH in everyday life with examples.

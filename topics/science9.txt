@@ -1,0 +1,296 @@
+Chapter 9: Light—Reflection and Refraction
+
+1. Introduction to Light
+Light is a form of energy that enables us to see objects.
+Without light, we cannot see anything. Light travels from a source and enters our eyes, allowing us to see objects.
+Examples of sources of light:
+	• Sun (natural source)
+	• Bulb (artificial source)
+	• Candle
+	• Torch
+Objects that produce light are called luminous objects.
+Example: Sun, bulb
+Objects that do not produce light but reflect light are called non-luminous objects.
+Example: Moon, book, table
+We see non-luminous objects because they reflect light into our eyes.
+
+2. Properties of Light
+Light has several important properties.
+1. Light travels in a straight line
+Light always travels in straight lines. This is called rectilinear propagation of light.
+Example:
+Shadows are formed because light travels in straight lines.
+
+2. Light can be reflected
+Reflection is the bouncing back of light when it strikes a surface.
+Example:
+Mirror reflects light.
+
+3. Light can be refracted
+Refraction is the bending of light when it passes from one medium to another.
+Example:
+A pencil appears bent in water.
+
+4. Light travels very fast
+Speed of light in vacuum is:
+300,000 km/s (3 × 10⁸ m/s)
+
+3. Reflection of Light
+Reflection of light is the bouncing back of light when it strikes a surface.
+When light falls on a mirror, it reflects back.
+Example:
+Seeing your image in a mirror.
+Important terms:
+Incident ray:
+Ray of light that falls on the surface.
+Reflected ray:
+Ray of light that bounces back.
+Normal:
+An imaginary line drawn perpendicular to the surface.
+Angle of incidence (i):
+Angle between incident ray and normal.
+Angle of reflection (r):
+Angle between reflected ray and normal.
+
+4. Laws of Reflection
+There are two laws of reflection.
+
+First Law of Reflection
+The angle of incidence is equal to the angle of reflection.
+Angle of incidence = Angle of reflection
+i = r
+Example:
+If light strikes at 30°, it reflects at 30°.
+
+Second Law of Reflection
+The incident ray, reflected ray, and normal lie in the same plane.
+This means they all lie on the same flat surface.
+
+5. Image Formation by Plane Mirror
+A plane mirror is a flat, smooth mirror.
+Example: Bathroom mirror
+When light rays from an object strike a plane mirror, they reflect back and form an image.
+The reflected rays appear to come from behind the mirror. This creates an image that we see.
+Example:
+When you stand in front of a mirror, you see your image behind the mirror.
+This image is formed due to reflection of light.
+
+6. Characteristics of Image Formed by Plane Mirror
+The image formed by a plane mirror has the following characteristics:
+1. Virtual image
+The image cannot be obtained on a screen.
+2. Erect image
+The image is upright, not upside down.
+3. Same size as object
+Image size is equal to object size.
+4. Same distance behind mirror
+Image forms at the same distance behind the mirror as the object is in front.
+Example:
+If object is 5 cm in front, image is 5 cm behind.
+5. Laterally inverted
+Left side appears right and right appears left.
+Example:
+Your right hand appears as left hand in mirror.
+
+7. Spherical Mirrors
+Spherical mirrors are mirrors whose reflecting surface is curved.
+They are part of a sphere.
+There are two types of spherical mirrors:
+	1. Concave mirror
+	2. Convex mirror
+These mirrors are commonly used in daily life.
+
+Important Terms Related to Spherical Mirrors
+1. Pole (P):
+Center point of mirror.
+2. Center of curvature (C):
+Center of the sphere from which mirror is formed.
+3. Radius of curvature (R):
+Distance between pole and center of curvature.
+4. Principal axis:
+Straight line passing through pole and center of curvature.
+5. Focus (F):
+Point where reflected rays meet or appear to meet.
+
+8. Concave Mirror
+A concave mirror is a mirror that curves inward.
+It is also called converging mirror because it converges (brings together) light rays.
+Example:
+Shaving mirror, dentist mirror
+
+Properties of Concave Mirror
+	• Can form real or virtual images
+	• Can form inverted or erect images
+	• Can form large or small images
+Image formed depends on object position.
+
+Uses of Concave Mirror
+	• Shaving mirrors
+	• Dentist mirrors
+	• Headlights of vehicles
+	• Solar furnaces
+Concave mirrors can produce magnified images.
+
+9. Convex Mirror
+A convex mirror is a mirror that curves outward.
+It is called diverging mirror because it spreads light rays.
+
+Properties of Convex Mirror
+	• Always forms virtual image
+	• Always forms erect image
+	• Always forms smaller image
+Image forms behind the mirror.
+
+Uses of Convex Mirror
+	• Rear-view mirrors in vehicles
+	• Security mirrors in shops
+	• Road safety mirrors
+Convex mirrors provide wide field of view.
+
+Class 10 Science
+Chapter 9: Light — Reflection and Refraction
+Topics 10–14: Ray Diagrams, Mirror Formula, Magnification, Refraction, and Refractive Index
+
+10. Ray Diagrams for Spherical Mirrors
+Ray diagrams help us understand how images are formed.
+There are two important rays:
+Ray 1: Parallel ray
+A ray parallel to principal axis reflects through focus (F).
+Ray 2: Ray through focus
+A ray passing through focus reflects parallel to principal axis.
+Where these rays meet, image is formed.
+
+Concave Mirror Ray Diagram Cases
+Case 1: Object at infinity
+Image forms at focus
+Image is real, inverted, very small
+Case 2: Object beyond center of curvature (C)
+Image forms between C and F
+Image is real, inverted, small
+Case 3: Object at center of curvature (C)
+Image forms at C
+Image is real, inverted, same size
+Case 4: Object between C and F
+Image forms beyond C
+Image is real, inverted, enlarged
+Case 5: Object at focus (F)
+Image forms at infinity
+Case 6: Object between focus and pole
+Image forms behind mirror
+Image is virtual, erect, enlarged
+
+Convex Mirror Ray Diagram
+For convex mirror, image is always:
+	• Virtual
+	• Erect
+	• Smaller
+	• Formed behind mirror
+
+11. Mirror Formula
+The mirror formula is:
+1/f = 1/v + 1/u
+Where:
+f = focal length
+v = image distance
+u = object distance
+This formula is used to calculate image position.
+
+12. Magnification
+Magnification tells how large or small image is.
+Formula:
+m = height of image / height of object
+Also,
+m = v/u
+If magnification is:
+Positive → image is erect
+Negative → image is inverted
+If magnification > 1 → image enlarged
+If magnification < 1 → image smaller
+
+13. Refraction of Light
+Refraction is bending of light when it passes from one medium to another.
+Example:
+Light bends when passing from air to water.
+Reason:
+Speed of light changes in different media.
+Example:
+Straw appears bent in water.
+
+Laws of Refraction
+There are two laws:
+Law 1:
+Incident ray, refracted ray, and normal lie in same plane.
+Law 2 (Snell’s Law):
+sin i / sin r = constant
+This constant is called refractive index.
+
+14. Refractive Index
+Refractive index tells how much light bends.
+Formula:
+Refractive index (n) = speed of light in air / speed of light in medium
+Higher refractive index → more bending
+Example:
+Glass has higher refractive index than air.
+
+Class 10 Science
+Chapter 9: Light — Reflection and Refraction
+Test Paper
+
+Section A: Very Short Answer Questions (1 mark each)
+Q1. What is reflection of light?
+Q2. Define refraction of light.
+Q3. What is the principal focus of a concave mirror?
+Q4. Which mirror is used as rear-view mirror in vehicles?
+Q5. What is refractive index?
+Q6. What happens to light when it enters from air into water?
+Q7. Write the mirror formula.
+Q8. Define magnification.
+Q9. Which mirror always forms virtual image?
+Q10. What is the unit of focal length?
+
+Section B: Short Answer Questions (2–3 marks each)
+Q11. State the laws of reflection of light.
+Q12. Differentiate between concave mirror and convex mirror.
+Q13. Define the following terms:
+a) Pole
+b) Principal axis
+c) Center of curvature
+Q14. Why do objects appear bent in water?
+Q15. Define focal length of a mirror.
+Q16. What kind of image is formed by convex mirror? Write its properties.
+
+Section C: Medium Answer Questions (3–5 marks each)
+Q17. Draw ray diagram of image formed by concave mirror when object is placed beyond center of curvature.
+Q18. Explain refraction with an example.
+Q19. Explain magnification and write its formula.
+Q20. Explain image formation by concave mirror when object is between focus and pole.
+
+Section D: Numericals
+Q21. An object is placed 20 cm from a concave mirror of focal length 10 cm. Find image distance.
+Formula:
+1/f = 1/v + 1/u
+
+Q22. An object of height 4 cm forms image of height 2 cm. Find magnification.
+Formula:
+m = height of image / height of object
+
+Q23. Speed of light in air = 3 × 10⁸ m/s
+Speed of light in glass = 2 × 10⁸ m/s
+Find refractive index.
+Formula:
+n = speed in air / speed in medium
+
+Section E: Long Answer Questions (5 marks each)
+Q24. Explain image formation by concave mirror for different object positions.
+Q25. Explain laws of refraction.
+Q26. Draw ray diagram for convex mirror and explain image formed.
+
+Section F: Case-Based Question
+A student looks into a spoon.
+Outer surface shows small upright image.
+Inner surface shows inverted image.
+Q27. Answer the following:
+a) Outer surface behaves like which mirror?
+b) Inner surface behaves like which mirror?
+c) Which mirror forms inverted image?
+d) Which mirror forms virtual image?

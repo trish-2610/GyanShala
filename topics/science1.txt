@@ -1,0 +1,354 @@
+Chapter 1 - Chemical Reactions and Equations
+
+Topic 1: What is a Chemical Reaction?
+
+A chemical reaction is a process in which one or more substances change to form new substances with different properties. The substances that take part in the reaction are called reactants, and the new substances formed are called products. During a chemical reaction, the atoms of the reactants rearrange themselves to form new products.
+
+For example, when magnesium ribbon is burned in air, it reacts with oxygen and forms magnesium oxide. Magnesium is a shiny metal, but magnesium oxide is a white powder. This shows that a new substance with different properties has been formed. This change is called a chemical reaction.
+Chemical reactions happen all around us in our daily life. When we cook food, the raw ingredients change into cooked food through chemical reactions. When iron objects are exposed to air and moisture, they form rust. Digestion of food in our body is also a series of chemical reactions that help convert food into energy.
+
+In a chemical reaction, new substances are always formed, and the change is usually permanent. The original substances cannot be easily obtained back. This is why chemical reactions are different from physical changes.
+
+
+Topic 2: How do we know that a Chemical Reaction has occurred?
+
+There are several observable changes that help us identify whether a chemical reaction has taken place. These changes act as indicators of a chemical reaction.
+
+One common sign is a change in colour. For example, when an iron nail is placed in copper sulphate solution, the blue colour of the solution slowly changes to green. This colour change indicates that a chemical reaction has occurred and a new substance has been formed.
+
+Another sign is a change in temperature. Some chemical reactions release heat, and these are called exothermic reactions. For example, when fuel burns, it produces heat and light. On the other hand, some reactions absorb heat from the surroundings, and these are called endothermic reactions.
+Formation of gas is also a clear sign of a chemical reaction. For example, when zinc reacts with hydrochloric acid, hydrogen gas is produced. This gas can be seen in the form of bubbles. The formation of gas indicates that a new substance has been formed.
+
+Sometimes, a solid substance is formed when two solutions are mixed. This solid is called a precipitate. The formation of a precipitate is also an indication of a chemical reaction.
+A change in physical state can also indicate a chemical reaction. For example, when electric current is passed through water, it breaks down into hydrogen gas and oxygen gas. This shows that a chemical reaction has taken place.
+
+
+Topic 3: Chemical Equations
+
+A chemical equation is a short and symbolic way of representing a chemical reaction using symbols and formulas of substances. Instead of writing the names of substances in words, we use their chemical formulas.
+
+For example, hydrogen reacts with oxygen to form water. This can be written in words as:
+Hydrogen + Oxygen → Water
+
+This can also be written using chemical symbols as:
+H₂ + O₂ → H₂O
+This is called a chemical equation.
+
+In a chemical equation, the substances on the left side of the arrow are called reactants. These are the substances that take part in the reaction. The substances on the right side of the arrow are called products. These are the new substances formed after the reaction.
+
+The arrow in the equation means "gives" or "forms". It shows the direction of the reaction. The plus sign (+) means "reacts with" or "combines with".
+
+Chemical equations help scientists understand reactions clearly and easily. They provide important information about the reactants, products, and the nature of the reaction. They are also useful in studying and predicting chemical reactions.
+
+
+Topic 4: Writing a Chemical Equation
+
+A chemical equation can be written in two ways: in words and in symbols. The word equation uses the names of substances, while the symbolic equation uses chemical formulas. Writing chemical equations in symbolic form makes them shorter, clearer, and easier to understand.
+
+For example, when zinc reacts with hydrochloric acid, it forms zinc chloride and hydrogen gas.
+The word equation for this reaction is:
+Zinc + Hydrochloric acid → Zinc chloride + Hydrogen
+
+The symbolic equation for the same reaction is:
+Zn + HCl → ZnCl₂ + H₂
+
+In this equation, Zn and HCl are the reactants, and ZnCl₂ and H₂ are the products. The arrow shows that reactants change into products.
+
+Writing chemical equations helps us represent chemical reactions in a simple and scientific way. It also helps us understand which substances are involved and what new substances are formed.
+However, this equation is not fully correct yet because it is not balanced. To make it correct, we need to balance it.
+
+
+Topic 5: Balanced Chemical Equations
+
+According to the law of conservation of mass, mass can neither be created nor destroyed in a chemical reaction. This means that the number of atoms of each element must be the same on both sides of a chemical equation.
+
+A chemical equation in which the number of atoms of each element is equal on both sides is called a balanced chemical equation.
+
+For example, consider this equation:
+H₂ + O₂ → H₂O
+
+On the left side, there are:
+	• 2 hydrogen atoms
+	• 2 oxygen atoms
+On the right side, there are:
+	• 2 hydrogen atoms
+	• 1 oxygen atom
+
+This equation is not balanced because the number of oxygen atoms is different.
+
+To balance it, we write:
+2H₂ + O₂ → 2H₂O
+
+Now on both sides:
+	• Hydrogen atoms = 4
+	• Oxygen atoms = 2
+
+This is now a balanced chemical equation.
+Balanced chemical equations are important because they follow the law of conservation of mass and represent reactions correctly.
+
+
+Topic 6: Law of Conservation of Mass
+
+The law of conservation of mass states that mass can neither be created nor destroyed in a chemical reaction. This means the total mass of reactants is always equal to the total mass of products.
+In simple words, atoms are not lost or gained during a chemical reaction. They only rearrange to form new substances.
+
+For example, when hydrogen reacts with oxygen to form water, the total number of hydrogen atoms and oxygen atoms remains the same before and after the reaction.
+
+This is why chemical equations must always be balanced. A balanced equation ensures that the number of atoms of each element is equal on both sides.
+
+This law was given by the scientist Antoine Lavoisier. His experiments proved that matter is conserved during chemical reactions.
+
+This law is very important in chemistry because it helps scientists write correct chemical equations and understand chemical reactions properly.
+
+
+Topic 7: How to Balance a Chemical Equation (Step-by-Step Method)
+
+Balancing a chemical equation means making sure that the number of atoms of each element is equal on both sides of the equation. This is necessary to follow the law of conservation of mass.
+Let us understand the steps to balance a chemical equation with an example.
+
+Example:
+Fe + H₂O → Fe₃O₄ + H₂
+
+Step 1: Write the unbalanced equation
+First, write the correct chemical formula of all reactants and products.
+Fe + H₂O → Fe₃O₄ + H₂
+
+Step 2: List the number of atoms on both sides
+Element	Reactant side	Product side
+Fe	1	3
+H	2	2
+O	1	4
+
+The number of atoms is not equal, so the equation is unbalanced.
+
+Step 3: Balance one element at a time
+First balance iron (Fe):
+There are 3 Fe atoms on the product side, so put 3 before Fe on the reactant side:
+3Fe + H₂O → Fe₃O₄ + H₂
+
+Step 4: Balance oxygen (O):
+There are 4 oxygen atoms on the product side, so put 4 before H₂O:
+3Fe + 4H₂O → Fe₃O₄ + H₂
+
+Step 5: Balance hydrogen (H):
+There are 8 hydrogen atoms on the reactant side (4 × 2 = 8), so put 4 before H₂:
+3Fe + 4H₂O → Fe₃O₄ + 4H₂
+
+Step 6: Check the equation
+Now count atoms on both sides:
+Fe = 3 and 3
+H = 8 and 8
+O = 4 and 4
+Now the equation is balanced.
+
+
+Topic 8: Types of Chemical Reactions (Introduction)
+
+Chemical reactions can be classified into different types based on how reactants change into products. Understanding these types helps us study reactions more easily.
+The main types of chemical reactions are:
+	1. Combination reaction
+	2. Decomposition reaction
+	3. Displacement reaction
+	4. Double displacement reaction
+	5. Oxidation and Reduction reaction
+Each type has its own characteristics.
+
+
+Topic 9: Combination Reaction
+
+A combination reaction is a reaction in which two or more substances combine to form a single product.
+
+In this type of reaction, multiple reactants combine to form one new substance.
+General form:
+A + B → AB
+
+Example:
+When magnesium burns in oxygen, it forms magnesium oxide.
+2Mg + O₂ → 2MgO
+In this reaction, magnesium and oxygen combine to form a single product, magnesium oxide.
+
+Another example is the formation of water:
+2H₂ + O₂ → 2H₂O
+Hydrogen and oxygen combine to form water.
+
+Combination reactions are usually exothermic reactions because they release heat.
+These reactions are very common in daily life. For example, burning of fuels and formation of compounds are combination reactions.
+
+
+Topic 10: Decomposition Reaction
+
+A decomposition reaction is a type of chemical reaction in which a single substance breaks down into two or more simpler substances. In this reaction, one reactant forms multiple products.
+The general form of a decomposition reaction is:
+AB → A + B
+
+In decomposition reactions, energy is usually required to break the bonds between atoms. This energy can be in the form of heat, electricity, or light.
+
+For example, when calcium carbonate is heated, it breaks down into calcium oxide and carbon dioxide.
+CaCO₃ → CaO + CO₂
+
+In this reaction, calcium carbonate decomposes into two simpler substances. This reaction is used in the manufacture of cement.
+
+Another example is the decomposition of water into hydrogen and oxygen when electricity is passed through it.
+2H₂O → 2H₂ + O₂
+
+This type of decomposition reaction is called electrolytic decomposition because electricity is used.
+Decomposition reactions are opposite of combination reactions. In combination reactions, substances combine, while in decomposition reactions, substances break down.
+
+
+Topic 11: Displacement Reaction
+
+A displacement reaction is a reaction in which one element replaces another element from a compound.
+
+In this reaction, a more reactive element displaces a less reactive element from its compound.
+The general form of a displacement reaction is:
+A + BC → AC + B
+
+Example:
+Zn + CuSO₄ → ZnSO₄ + Cu
+
+In this reaction, zinc replaces copper from copper sulphate solution. Zinc is more reactive than copper, so it displaces copper and forms zinc sulphate.
+Copper is released as a separate element.
+
+Another example is:
+Fe + CuSO₄ → FeSO₄ + Cu
+
+Iron displaces copper from copper sulphate solution.
+Displacement reactions help us understand the reactivity of different elements.
+
+
+Topic 12: Double Displacement Reaction
+
+A double displacement reaction is a reaction in which two compounds exchange their ions to form two new compounds.
+
+In this reaction, both reactants exchange parts to form new products.
+The general form is:
+AB + CD → AD + CB
+
+Example:
+Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl
+In this reaction, sodium sulphate reacts with barium chloride to form barium sulphate and sodium chloride.
+Barium sulphate is formed as a white precipitate. This type of reaction is also called a precipitation reaction.
+
+Another example is:
+HCl + NaOH → NaCl + H₂O
+In this reaction, hydrochloric acid reacts with sodium hydroxide to form sodium chloride and water. This is also called a neutralization reaction.
+Double displacement reactions are very important in chemistry and are commonly used in laboratories and industries.
+
+
+Topic 13: Oxidation and Reduction
+
+Oxidation and reduction are very important types of chemical reactions. These reactions always occur together.
+
+Oxidation is the process in which a substance gains oxygen or loses hydrogen. Reduction is the process in which a substance loses oxygen or gains hydrogen.
+
+In simple words:
+Oxidation = Gain of oxygen or Loss of hydrogen
+Reduction = Loss of oxygen or Gain of hydrogen
+
+Example:
+CuO + H₂ → Cu + H₂O
+In this reaction, copper oxide loses oxygen and becomes copper. This is reduction because oxygen is removed.
+
+Hydrogen gains oxygen and becomes water. This is oxidation because oxygen is added.
+This means oxidation and reduction happen at the same time. Such reactions are called redox reactions (reduction + oxidation).
+
+Another example is rusting of iron. Iron gains oxygen to form rust. This is oxidation.
+Oxidation and reduction reactions are very important in many processes such as respiration, burning, and corrosion.
+
+
+Topic 14: Effects of Oxidation in Everyday Life
+
+Oxidation can have both useful and harmful effects in our daily life.
+Two common harmful effects of oxidation are corrosion and rancidity.
+
+Corrosion
+Corrosion is the slow destruction of metals due to reaction with oxygen, moisture, or other substances in the environment.
+The most common example of corrosion is rusting of iron.
+When iron reacts with oxygen and moisture, it forms rust, which is a reddish-brown substance.
+Iron + Oxygen + Water → Rust (Iron oxide)
+Rust weakens the metal and damages it.
+Corrosion damages many metal objects such as bridges, cars, pipelines, and machines.
+Prevention of corrosion:
+Corrosion can be prevented by:
+• Painting
+• Oiling or greasing
+• Galvanization (coating with zinc)
+• Alloying
+These methods protect metal from contact with air and moisture.
+
+Rancidity
+Rancidity is the process in which food containing fats and oils gets oxidized and develops a bad smell and taste.
+For example, when chips or fried food are left open for a long time, they develop a bad smell. This is due to rancidity.
+Rancidity makes food unsafe and unpleasant to eat.
+Prevention of rancidity:
+Rancidity can be prevented by:
+• Storing food in airtight containers
+• Keeping food in refrigerators
+• Adding antioxidants
+• Packing food with nitrogen gas
+Nitrogen prevents oxidation because it does not react easily.
+
+Class 10 Science Test Paper
+Chapter 1: Chemical Reactions and Equations
+Time: 1 Hour
+Maximum Marks: 30
+
+Section A: Multiple Choice Questions (1 mark each)
+(5 × 1 = 5 marks)
+Choose the correct option.
+	1. A chemical reaction involves:
+a) Only change in shape
+b) Formation of new substances
+c) Change in size only
+d) No change
+
+	2. Which of the following indicates a chemical reaction?
+a) Change in colour
+b) Formation of gas
+c) Change in temperature
+d) All of the above
+
+	3. Which of the following is a combination reaction?
+a) AB → A + B
+b) A + B → AB
+c) A + BC → AC + B
+d) AB + CD → AD + CB
+
+	4. Rusting of iron is an example of:
+a) Reduction
+b) Oxidation
+c) Neutralization
+d) Decomposition
+
+	5. The substances present on the left side of a chemical equation are called:
+a) Products
+b) Reactants
+c) Elements
+d) Compounds
+
+Section B: Very Short Answer Questions (2 marks each)
+(5 × 2 = 10 marks)
+	6. Define a chemical reaction.
+
+	7. What is a balanced chemical equation?
+
+	8. State the law of conservation of mass.
+
+	9. What is corrosion? Give one example.
+
+	10. What is rancidity?
+
+Section C: Short Answer Questions (3 marks each)
+(3 × 3 = 9 marks)
+	11. Write any three observations that indicate a chemical reaction has occurred.
+
+	12. Explain decomposition reaction with one example.
+
+	13. Explain displacement reaction with one example.
+
+Section D: Long Answer Question (6 marks)
+(1 × 6 = 6 marks)
+	14. Balance the following chemical equations:
+a) H₂ + O₂ → H₂O
+b) Fe + H₂O → Fe₃O₄ + H₂
+c) Zn + HCl → ZnCl₂ + H₂

@@ -1,0 +1,297 @@
+Chapter 12: Magnetic Effects of Electric Current
+
+1. Magnet and Magnetism
+A magnet is a material that attracts iron, nickel, and cobalt.
+Example:
+	• Bar magnet
+	• Horseshoe magnet
+Magnets have two poles:
+	• North pole (N)
+	• South pole (S)
+Important properties:
+	• Like poles repel each other
+	• Unlike poles attract each other
+
+2. Magnetic Field
+The area around a magnet where its force can be felt is called magnetic field.
+If you place a compass near a magnet, the needle moves. This shows magnetic field is present.
+
+Magnetic Field Lines
+Magnetic field is shown using magnetic field lines.
+Properties:
+	• Field lines go from North pole to South pole
+	• They form closed curves
+	• They never intersect each other
+	• Closer lines mean stronger magnetic field
+
+3. Magnetic Field Around a Current-Carrying Conductor
+When electric current flows through a wire, it produces a magnetic field around it.
+This was discovered by scientist Hans Christian Oersted.
+Example:
+If current flows in a wire, compass needle near it deflects.
+This proves that electric current produces magnetic field.
+
+4. Direction of Magnetic Field (Right-Hand Thumb Rule)
+The right-hand thumb rule helps find direction of magnetic field.
+Rule:
+	• Hold wire in right hand
+	• Thumb shows direction of current
+	• Fingers show direction of magnetic field
+This helps determine field direction.
+
+5. Magnetic Field Around a Circular Loop
+When current flows through a circular loop, magnetic field is produced around it.
+Properties:
+	• Field lines are circular near wire
+	• Field becomes stronger at center
+More current → stronger magnetic field
+More loops → stronger magnetic field
+
+6. Magnetic Field Around a Solenoid
+A solenoid is a coil of many circular loops of wire.
+It produces strong magnetic field when current flows through it.
+Solenoid behaves like a bar magnet.
+It has:
+	• North pole
+	• South pole
+Inside solenoid, magnetic field is strong and uniform.
+
+7. Electromagnet
+An electromagnet is a magnet made using electric current.
+It is made by passing current through a coil wrapped around iron core.
+When current flows → magnet is formed
+When current stops → magnet disappears
+
+Uses of Electromagnets
+	• Electric bell
+	• Electric motor
+	• Cranes to lift iron
+	• Relays
+
+8. Force on a Current-Carrying Conductor
+When a current-carrying conductor is placed in magnetic field, it experiences a force.
+This force can move the conductor.
+This principle is used in electric motors.
+
+Direction of Force (Fleming’s Left-Hand Rule)
+Rule:
+Stretch three fingers of left hand:
+	• Thumb → direction of force
+	• Forefinger → direction of magnetic field
+	• Middle finger → direction of current
+All three are perpendicular.
+
+9. Electric Motor
+An electric motor is a device that converts electrical energy into mechanical energy.
+It works on the principle that a current-carrying conductor placed in a magnetic field experiences a force.
+This force causes the conductor to move, and this movement produces mechanical energy.
+
+Construction of Electric Motor
+Main parts:
+	1. Coil (armature) – current flows through it
+	2. Magnet – produces magnetic field
+	3. Split ring (commutator) – changes direction of current
+	4. Battery – provides electric current
+	5. Brushes – connect coil with battery
+
+Working of Electric Motor
+	• Current flows through coil
+	• Magnetic field produces force on coil
+	• Coil rotates
+	• Split ring changes direction of current
+	• Coil keeps rotating
+This produces continuous motion.
+
+Uses of Electric Motor
+	• Electric fan
+	• Mixer grinder
+	• Washing machine
+	• Water pump
+
+10. Electromagnetic Induction
+Electromagnetic induction is the process of producing electric current using magnetic field.
+When a conductor moves in magnetic field, current is produced.
+This was discovered by Michael Faraday.
+
+Example
+Moving a magnet inside a coil produces current.
+This principle is used in generators.
+
+11. Electric Generator
+An electric generator converts mechanical energy into electrical energy.
+It works on electromagnetic induction.
+
+Construction of Generator
+Main parts:
+	• Coil
+	• Magnet
+	• Slip rings
+	• Brushes
+	• Shaft
+
+Working of Generator
+	• Coil rotates in magnetic field
+	• Magnetic field produces current
+	• Current flows through external circuit
+
+Types of Generators
+	1. AC Generator – produces alternating current
+	2. DC Generator – produces direct current
+
+Uses of Generator
+	• Power plants
+	• Electricity generation
+	• Backup generators
+
+12. Fleming’s Right-Hand Rule
+This rule helps find direction of induced current.
+Rule:
+Stretch three fingers of right hand:
+	• Thumb → direction of motion
+	• Forefinger → direction of magnetic field
+	• Middle finger → direction of current
+All are perpendicular.
+
+13. Domestic Electric Circuit
+Domestic electric circuit supplies electricity to homes.
+Electricity comes from power station to houses.
+Main components:
+	• Live wire
+	• Neutral wire
+	• Earth wire
+	• Switch
+	• Fuse
+
+Live Wire
+Carries current to appliance.
+Color: Red or brown
+
+Neutral Wire
+Returns current to source.
+Color: Black or blue
+
+Earth Wire
+Protects from electric shock.
+Color: Green
+
+14. Electric Fuse
+Fuse is a safety device.
+It protects appliances from excess current.
+Fuse wire melts if current is too high.
+This stops the circuit and prevents damage.
+
+15. Earthing
+Earthing is safety method to prevent electric shock.
+Excess current goes to ground through earth wire.
+This protects people and appliances.
+
+16. Short Circuit and Overloading
+Short Circuit
+Occurs when live wire touches neutral wire.
+This causes very high current.
+It can cause fire.
+
+Overloading
+Occurs when too many devices are connected.
+This increases current and can damage circuit.
+
+
+Class 10 Science
+Chapter 12: Magnetic Effects of Electric Current
+Test Paper
+
+Section A: Very Short Answer Questions (1 mark each)
+Q1. What is a magnet?
+Q2. Name the two poles of a magnet.
+Q3. What is magnetic field?
+Q4. Who discovered magnetic effect of electric current?
+Q5. What is a solenoid?
+Q6. What is an electromagnet?
+Q7. What does electric motor convert?
+Q8. What does electric generator convert?
+Q9. What is electromagnetic induction?
+Q10. What is the function of earth wire?
+
+Section B: Short Answer Questions (2–3 marks each)
+Q11. Define magnetic field lines. Write any two properties.
+Q12. Explain right-hand thumb rule.
+Q13. What is electromagnet? Write two uses.
+Q14. Define electric motor.
+Q15. What is electric generator?
+Q16. What is earthing? Why is it important?
+
+Section C: Medium Answer Questions (3–5 marks each)
+Q17. Explain magnetic field around a current-carrying conductor.
+Q18. Explain working of electric motor.
+Q19. Explain electromagnetic induction with example.
+Q20. Explain domestic electric circuit.
+
+Section D: Long Answer Questions (5 marks each)
+Q21. Explain construction and working of electric generator.
+Q22. Explain Fleming’s left-hand rule with diagram.
+Q23. Explain fuse and its importance.
+
+Section E: Case-Based Questions
+A current-carrying wire is placed near a compass.
+The compass needle deflects.
+Q24. Answer the following:
+a) What does this show?
+b) Who discovered this effect?
+c) What is produced around the wire?
+d) Name the rule to find direction
+
+An electric fan uses an electric motor.
+Q25. Answer the following:
+a) What type of energy is used?
+b) What type of energy is produced?
+c) Name the device used
+d) Write principle of motor
+
+Section F: Assertion and Reason
+Q26.
+Assertion: Solenoid behaves like a magnet.
+Reason: Current produces magnetic field.
+Options:
+A. Both correct, reason correct explanation
+B. Both correct, reason not explanation
+C. Assertion correct, reason wrong
+D. Assertion wrong, reason correct
+
+Q27.
+Assertion: Fuse protects circuit.
+Reason: Fuse melts at high current.
+Options:
+A. Both correct, reason correct explanation
+B. Both correct, reason not explanation
+C. Assertion correct, reason wrong
+D. Assertion wrong, reason correct
+
+Section G: Diagram-Based Questions
+Q28. Draw and label:
+a) Electric motor
+b) Electric generator
+c) Solenoid
+d) Magnetic field around straight conductor
+(Homework practice)
+
+Answer Key (Short)
+	1. Material that attracts iron
+	2. North and South
+	3. Region of magnetic force
+	4. Hans Christian Oersted
+	5. Coil of wire
+	6. Magnet made using current
+	7. Electrical → Mechanical energy
+	8. Mechanical → Electrical energy
+	9. Production of current using magnetic field
+	10. Prevents electric shock
+Q24.
+a) Current produces magnetic field
+b) Oersted
+c) Magnetic field
+d) Right-hand thumb rule
+Q25.
+a) Electrical energy
+b) Mechanical energy
+c) Electric motor
+d) Force on current-carrying conductor

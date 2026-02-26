@@ -1,0 +1,266 @@
+Chapter 4: Carbon and Its Compounds
+
+Topic 1: Introduction to Carbon
+Carbon is a very important element found in nature. It is present in all living organisms and is the main element in organic compounds. Carbon is found in many forms such as coal, graphite, diamond, and petroleum.
+Carbon has the symbol C and atomic number 6. It is a non-metal.
+Carbon is unique because it can form a very large number of compounds. This is why carbon compounds are studied separately in chemistry. Most of the substances we use daily, such as fuels, plastics, medicines, and food, contain carbon.
+Carbon compounds are essential for life. All living organisms are made of carbon compounds.
+
+Topic 2: Bonding in Carbon – Covalent Bond
+Carbon forms bonds with other atoms by sharing electrons. This type of bond is called a covalent bond.
+Carbon has 4 electrons in its outer shell. It needs 4 more electrons to complete its outer shell and become stable. Instead of gaining or losing 4 electrons, carbon shares electrons with other atoms.
+For example, in methane (CH₄), carbon shares electrons with four hydrogen atoms. This forms four covalent bonds.
+Covalent bonds are strong bonds formed by sharing of electrons between atoms.
+Carbon mainly forms covalent compounds because gaining or losing 4 electrons requires too much energy.
+
+Topic 3: Versatile Nature of Carbon
+Carbon is called a versatile element because it can form a large number of compounds.
+This is due to two special properties of carbon:
+	1. Catenation
+	2. Tetravalency
+Catenation is the property of carbon to form bonds with other carbon atoms. This allows carbon to form long chains, branched chains, and rings.
+For example:
+C–C–C–C
+This property allows carbon to form millions of compounds.
+Tetravalency means carbon has a valency of 4. It can form four covalent bonds with other atoms such as hydrogen, oxygen, nitrogen, and chlorine.
+Because of catenation and tetravalency, carbon can form a very large number of stable compounds.
+
+Topic 4: Saturated and Unsaturated Carbon Compounds
+Carbon compounds are classified into saturated and unsaturated compounds based on the type of bonds between carbon atoms.
+Saturated compounds have only single bonds between carbon atoms. These are called alkanes.
+Example: Methane (CH₄), Ethane (C₂H₆)
+Unsaturated compounds have double or triple bonds between carbon atoms.
+Compounds with double bonds are called alkenes.
+Example: Ethene (C₂H₄)
+Compounds with triple bonds are called alkynes.
+Example: Ethyne (C₂H₂)
+Unsaturated compounds are more reactive than saturated compounds.
+
+
+Topic 5: Chains, Branches, and Rings
+Due to catenation, carbon atoms can join together in different ways to form various structures. These structures include straight chains, branched chains, and rings.
+In straight chain compounds, carbon atoms are connected in a single line.
+Example:
+C–C–C–C (Butane)
+In branched chain compounds, one or more carbon atoms are attached as branches.
+Example:
+  C
+  |
+C–C–C
+This forms a branched structure.
+In ring compounds, carbon atoms form a closed loop or ring.
+Example:
+Cyclohexane (C₆H₁₂)
+These different structures allow carbon to form a large number of compounds with different properties.
+
+Topic 6: Functional Groups
+A functional group is an atom or group of atoms that gives specific properties to carbon compounds.
+Functional groups determine the chemical properties of compounds.
+Some important functional groups are:
+• Alcohol group (–OH)
+Example: Ethanol
+• Carboxylic acid group (–COOH)
+Example: Ethanoic acid
+• Aldehyde group (–CHO)
+Example: Methanal
+• Ketone group (–CO)
+Example: Propanone
+• Halogen group (–Cl, –Br, –I)
+Example: Chloroethane
+Functional groups help classify carbon compounds into different types.
+
+Topic 7: Homologous Series
+A homologous series is a group of carbon compounds with similar chemical properties and the same functional group.
+In a homologous series, each member differs from the next by a –CH₂ group.
+Example: Alkane series
+Methane → CH₄
+Ethane → C₂H₆
+Propane → C₃H₈
+Butane → C₄H₁₀
+All these compounds have similar properties but different molecular sizes.
+Homologous series help us study carbon compounds easily.
+
+Topic 8: Nomenclature of Carbon Compounds
+Nomenclature means naming carbon compounds in a systematic way.
+The name of a carbon compound depends on:
+• Number of carbon atoms
+• Type of bond
+• Functional group present
+Basic names based on number of carbon atoms:
+1 carbon → Meth
+2 carbons → Eth
+3 carbons → Prop
+4 carbons → But
+Example:
+CH₄ → Methane
+C₂H₆ → Ethane
+C₃H₈ → Propane
+This system helps identify compounds easily.
+
+Topic 9: Chemical Properties – Combustion
+Carbon compounds burn in air to produce carbon dioxide, water, heat, and light.
+Example:
+CH₄ + O₂ → CO₂ + H₂O
+This reaction is called combustion.
+Combustion reactions release heat, so they are exothermic reactions.
+This property makes carbon compounds useful as fuels.
+Examples of fuels include petrol, diesel, LPG, and CNG.
+
+Topic 10: Chemical Properties – Oxidation
+Oxidation is the process of adding oxygen or removing hydrogen.
+Carbon compounds can be oxidized to form new substances.
+Example:
+Ethanol + Oxygen → Ethanoic acid
+Oxidizing agents such as potassium permanganate and potassium dichromate are used for oxidation.
+Oxidation reactions are important in industries and chemical processes.
+
+Topic 11: Addition Reaction
+Addition reactions occur in unsaturated compounds.
+In these reactions, atoms are added to double or triple bonds.
+Example:
+Ethene + Hydrogen → Ethane
+C₂H₄ + H₂ → C₂H₆
+This reaction converts unsaturated compounds into saturated compounds.
+This process is used in making vegetable ghee from vegetable oil.
+
+Topic 12: Substitution Reaction
+Substitution reactions occur in saturated compounds.
+In these reactions, one atom is replaced by another atom.
+Example:
+Methane + Chlorine → Chloromethane
+CH₄ + Cl₂ → CH₃Cl + HCl
+Substitution reactions are important in making many useful chemicals.
+
+
+Topic 13: Ethanol
+Ethanol is a very important carbon compound. Its chemical formula is C₂H₅OH. It belongs to the alcohol family and contains the functional group –OH.
+Ethanol is a colourless liquid with a pleasant smell. It is soluble in water and is widely used in industries and laboratories.
+Ethanol is used as a fuel. It is also used in making alcoholic beverages, medicines, perfumes, and sanitizers.
+Ethanol reacts with sodium metal to produce hydrogen gas.
+Example:
+2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂
+Ethanol can also burn in air to produce carbon dioxide and water.
+Example:
+C₂H₅OH + O₂ → CO₂ + H₂O
+This reaction produces heat and light.
+
+Topic 14: Ethanoic Acid
+Ethanoic acid is another important carbon compound. Its chemical formula is CH₃COOH. It belongs to the carboxylic acid family and contains the functional group –COOH.
+Ethanoic acid is commonly known as acetic acid. It is present in vinegar.
+It is a colourless liquid with a sour taste and strong smell.
+Ethanoic acid reacts with bases to form salt and water.
+Example:
+CH₃COOH + NaOH → CH₃COONa + H₂O
+Ethanoic acid reacts with alcohol to form ester. This reaction is called esterification.
+Ethanoic acid is used in food preservation, vinegar, and chemical industries.
+
+Topic 15: Esterification Reaction
+Esterification is the reaction between an alcohol and a carboxylic acid to form an ester and water.
+Example:
+Ethanol + Ethanoic acid → Ester + Water
+C₂H₅OH + CH₃COOH → CH₃COOC₂H₅ + H₂O
+Esters have a pleasant fruity smell.
+This is why esters are used in perfumes, food flavouring, and cosmetics.
+Esterification reactions are important in making many useful products.
+
+Topic 16: Soaps and Detergents
+Soaps and detergents are cleansing agents used for washing and cleaning.
+Soaps are made from natural oils and fats by reacting them with sodium hydroxide or potassium hydroxide.
+Soaps are sodium or potassium salts of fatty acids.
+Detergents are synthetic cleansing agents made from chemicals.
+Detergents work well in both soft and hard water, while soaps do not work well in hard water.
+Soaps and detergents help remove dirt and grease from clothes and skin.
+
+Topic 17: Cleansing Action of Soap
+Soap cleans dirt by forming structures called micelles.
+A soap molecule has two ends:
+• Hydrophobic end (water-repelling)
+• Hydrophilic end (water-attracting)
+The hydrophobic end attaches to grease and dirt, while the hydrophilic end attaches to water.
+When soap is mixed with water, it forms micelles that trap dirt inside.
+These micelles are then washed away with water, cleaning the surface.
+This is called the cleansing action of soap.
+
+Topic 18: Soaps and Hard Water
+Hard water contains salts of calcium and magnesium.
+Soap does not work well in hard water because it reacts with these salts and forms insoluble substances called scum.
+This reduces the effectiveness of soap.
+Detergents do not form scum and work well in hard water.
+This is why detergents are more effective in washing clothes.
+
+Topic 19: Advantages of Detergents over Soaps
+Detergents have several advantages over soaps.
+They work well in hard water.
+They do not form scum.
+They clean more effectively.
+They can be used in acidic and basic water.
+Because of these advantages, detergents are widely used.
+
+Topic 20: Micelles
+Micelles are small structures formed by soap molecules in water.
+In a micelle, the hydrophobic ends face inward and trap dirt and grease, while the hydrophilic ends face outward toward water.
+Micelles help remove grease and dirt from surfaces.
+Micelle formation is essential for the cleansing action of soaps and detergents.
+
+
+Class 10 Science Test Paper
+Chapter 4: Carbon and Its Compounds
+Time: 1 Hour
+Maximum Marks: 30
+
+Section A: Multiple Choice Questions (1 mark each)
+(5 × 1 = 5 marks)
+Choose the correct option.
+	1. Carbon has how many valence electrons?
+a) 2
+b) 3
+c) 4
+d) 5
+
+	2. Which type of bond is formed by sharing of electrons?
+a) Ionic bond
+b) Covalent bond
+c) Metallic bond
+d) Hydrogen bond
+
+	3. Which of the following is a saturated hydrocarbon?
+a) Ethene
+b) Ethyne
+c) Methane
+d) Propene
+
+	4. What is the functional group of alcohol?
+a) –COOH
+b) –OH
+c) –CHO
+d) –CO
+
+	5. Which of the following is used in soaps?
+a) Sodium hydroxide
+b) Sodium carbonate
+c) Sodium salts of fatty acids
+d) Hydrochloric acid
+
+Section B: Very Short Answer Questions (2 marks each)
+(5 × 2 = 10 marks)
+	6. Why is carbon tetravalent?
+
+	7. Define covalent bond.
+
+	8. What is a homologous series?
+
+	9. What is catenation?
+
+	10. Write the general formula of alkanes.
+
+Section C: Short Answer Questions (3 marks each)
+(3 × 3 = 9 marks)
+	11. Write three properties of covalent compounds.
+
+	12. What is the difference between saturated and unsaturated hydrocarbons?
+
+	13. Explain cleansing action of soap.
+
+Section D: Long Answer Question (6 marks)
+(1 × 6 = 6 marks)
+	14. Explain the formation of methane molecule using electron sharing diagram.

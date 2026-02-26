@@ -1,0 +1,276 @@
+Chapter 6: Control and Coordination
+
+1. Introduction to Control and Coordination
+Control and coordination is the process by which the body controls its activities and coordinates different functions.
+Our body has many organs that work together. To function properly, these organs must work in a coordinated manner. Control and coordination ensure that the body responds properly to changes in the environment.
+For example:
+	• Pulling your hand away when touching a hot object
+	• Walking, running, or writing
+	• Responding to light, sound, or smell
+This control is done by two main systems:
+	• Nervous system
+	• Endocrine system
+The nervous system provides quick responses, while the endocrine system provides slow and long-lasting responses.
+
+2. Nervous System
+The nervous system controls and coordinates all activities of the body. It helps the body respond to stimuli.
+A stimulus is any change in the environment that causes a response.
+Example:
+Heat, light, sound, smell, and touch are stimuli.
+The nervous system performs three main functions:
+1. Receiving information
+Sense organs receive information from the environment.
+2. Processing information
+The brain and spinal cord process the information.
+3. Responding to information
+Muscles and glands respond accordingly.
+Example:
+When you touch a hot object, the nervous system quickly sends signals, and you remove your hand.
+
+3. Structure of Neuron
+A neuron is the basic unit of the nervous system. It is also called a nerve cell.
+Neurons carry messages in the form of electrical impulses.
+A neuron has three main parts:
+1. Dendrites:
+Dendrites receive signals from other neurons or sense organs.
+2. Cell body (Cyton):
+It contains the nucleus and controls the activities of the neuron.
+3. Axon:
+Axon carries impulses away from the cell body to muscles or other neurons.
+The axon may be covered with a myelin sheath, which helps in faster transmission of impulses.
+Neurons are specialized to transmit information quickly.
+
+4. Types of Nervous System
+The human nervous system is divided into two main parts:
+	1. Central Nervous System (CNS)
+	2. Peripheral Nervous System (PNS)
+
+A. Central Nervous System (CNS)
+The central nervous system consists of:
+	• Brain
+	• Spinal cord
+Functions:
+	• Controls body activities
+	• Processes information
+	• Makes decisions
+The brain is the main control center of the body.
+The spinal cord connects the brain to the rest of the body.
+
+B. Peripheral Nervous System (PNS)
+The peripheral nervous system consists of nerves that connect the brain and spinal cord to other parts of the body.
+Functions:
+	• Carries messages to and from CNS
+	• Controls voluntary and involuntary actions
+Example:
+Movement of hands and legs.
+
+5. Brain and Its Parts
+The brain is the main control center of the nervous system. It controls all activities of the body such as thinking, movement, breathing, and emotions.
+The brain is located inside the skull, which protects it from injury.
+The brain has three main parts:
+	• Forebrain
+	• Midbrain
+	• Hindbrain
+
+A. Forebrain
+The forebrain is the largest part of the brain. It controls thinking, intelligence, memory, emotions, and voluntary actions.
+Functions of forebrain:
+	• Thinking and decision making
+	• Memory and learning
+	• Control of voluntary movements
+	• Processing sensory information
+Example: Writing, reading, and solving problems.
+The cerebrum is the main part of the forebrain.
+
+B. Midbrain
+The midbrain connects the forebrain and hindbrain.
+Functions:
+	• Controls reflex movements of eyes and head
+	• Responds to visual and sound stimuli
+Example: Turning your head towards sound.
+
+C. Hindbrain
+The hindbrain controls involuntary actions.
+Main parts of hindbrain:
+	• Cerebellum
+	• Pons
+	• Medulla
+Functions:
+Cerebellum:
+	• Controls balance and posture
+	• Coordinates muscle movements
+Medulla:
+	• Controls breathing
+	• Controls heartbeat
+These actions happen automatically.
+
+6. Spinal Cord
+The spinal cord is a long tube-like structure that connects the brain to the rest of the body.
+Functions:
+	• Carries messages between brain and body
+	• Controls reflex actions
+It is protected by the vertebral column (backbone).
+
+7. Reflex Action
+Reflex action is a quick, automatic response to a stimulus without conscious thinking.
+Example:
+	• Pulling hand away from hot object
+	• Blinking eyes when dust enters
+Reflex actions help protect the body from harm.
+These actions are controlled by the spinal cord.
+Reflex actions are very fast.
+
+8. Reflex Arc
+Reflex arc is the path followed by nerve impulses during reflex action.
+Parts of reflex arc:
+	1. Receptor – detects stimulus
+	2. Sensory neuron – carries impulse to spinal cord
+	3. Spinal cord – processes impulse
+	4. Motor neuron – carries impulse to muscle
+	5. Effector – muscle or gland that responds
+Example:
+Touching a hot object → hand moves away.
+
+9. Voluntary and Involuntary Actions
+Voluntary Actions
+Voluntary actions are actions that are under our control.
+Example:
+	• Walking
+	• Writing
+	• Speaking
+These actions are controlled by the brain.
+
+Involuntary Actions
+Involuntary actions are actions that occur automatically without our control.
+Example:
+	• Heartbeat
+	• Breathing
+	• Digestion
+These actions are controlled by the medulla and autonomic nervous system.
+
+10. Endocrine System
+The endocrine system controls body activities using hormones.
+It consists of glands called endocrine glands.
+These glands release hormones directly into the blood.
+Hormones are chemical messengers.
+They control:
+	• Growth
+	• Development
+	• Metabolism
+	• Reproduction
+Endocrine system works slower than nervous system but effects last longer.
+
+11. Major Endocrine Glands and Their Functions
+Pituitary Gland
+Called the master gland.
+Controls other glands and growth.
+
+Thyroid Gland
+Controls metabolism.
+Uses iodine to produce hormone called thyroxine.
+Deficiency causes goitre.
+
+Pancreas
+Produces insulin.
+Insulin controls blood sugar level.
+Deficiency causes diabetes.
+
+Adrenal Gland
+Produces adrenaline.
+Controls stress and emergency responses.
+Example:
+Faster heartbeat during fear.
+
+Testes (in males)
+Produces testosterone.
+Controls male characteristics.
+
+Ovaries (in females)
+Produces estrogen.
+Controls female characteristics.
+
+12. Coordination in Plants
+Plants also show control and coordination but do not have a nervous system.
+Plants respond to stimuli such as light, water, gravity, and touch.
+These responses are called tropisms.
+
+Types of Tropisms
+Phototropism: Response to light
+Example: Plant bends towards light
+Geotropism: Response to gravity
+Example: Roots grow downward
+Hydrotropism: Response to water
+Example: Roots grow towards water
+Thigmotropism: Response to touch
+Example: Climbing plants wrap around support
+
+Plant Hormones
+Plants use hormones for coordination.
+Examples:
+Auxin – promotes growth
+Gibberellin – promotes stem growth
+Cytokinin – promotes cell division
+Abscisic acid – slows growth
+
+
+Class 10 Science Test Paper
+Chapter 6: Control and Coordination
+Time: 1 Hour
+Maximum Marks: 30
+
+Section A: Multiple Choice Questions (1 mark each)
+(5 × 1 = 5 marks)
+Choose the correct option.
+	1. What is the basic unit of the nervous system?
+a) Brain
+b) Neuron
+c) Heart
+d) Hormone
+
+	2. Which part of the brain controls thinking and memory?
+a) Cerebellum
+b) Medulla
+c) Cerebrum
+d) Spinal cord
+
+	3. Reflex actions are controlled by:
+a) Brain
+b) Heart
+c) Spinal cord
+d) Lungs
+
+	4. Which hormone controls blood sugar level?
+a) Thyroxine
+b) Insulin
+c) Adrenaline
+d) Estrogen
+
+	5. Response of plants to light is called:
+a) Hydrotropism
+b) Geotropism
+c) Phototropism
+d) Thigmotropism
+
+Section B: Very Short Answer Questions (2 marks each)
+(5 × 2 = 10 marks)
+	6. Define control and coordination.
+
+	7. What is a neuron?
+
+	8. What is reflex action?
+
+	9. Name the master gland of the body.
+
+	10. What are hormones?
+
+Section C: Short Answer Questions (3 marks each)
+(3 × 3 = 9 marks)
+	11. Write three functions of the brain.
+
+	12. Explain reflex arc.
+
+	13. Write three differences between nervous system and endocrine system.
+
+Section D: Long Answer Question (6 marks)
+(1 × 6 = 6 marks)
+	14. Explain the endocrine system and name four endocrine glands with their functions.
