@@ -50,6 +50,7 @@ export default function TabsLayout() {
         options={{
           title: 'Query',
           tabBarIcon: ({ color, size }) => <HelpCircleIcon color={color} size={size} />,
+          href: null,
         }}
       />
 
