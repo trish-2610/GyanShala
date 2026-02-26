@@ -21,7 +21,7 @@ export default function RootLayout() {
     <I18nextProvider i18n={i18n}>
       <ThemeProvider value={NAV_THEME[colorScheme ?? 'light']}>
         <StatusBar style={colorScheme === 'dark' ? 'light' : 'dark'} />
-        <Stack />
+        <Stack screenOptions={{ headerShown: false }} />
         <PortalHost />
       </ThemeProvider>
     </I18nextProvider>

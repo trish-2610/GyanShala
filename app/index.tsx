@@ -2,17 +2,12 @@ import { Button } from '@/components/ui/button';
 import { Icon } from '@/components/ui/icon';
 import { Text } from '@/components/ui/text';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
-import { Stack, router } from 'expo-router';
+import { router } from 'expo-router';
 import { BookOpenIcon, Globe2Icon, SparklesIcon } from 'lucide-react-native';
 import { useColorScheme } from 'nativewind';
 import * as React from 'react';
 import { useTranslation } from 'react-i18next';
 import { ScrollView, View } from 'react-native';
-
-const SCREEN_OPTIONS = {
-  title: 'GyanShala',
-  headerTransparent: true,
-};
 
 export default function HomeScreen() {
   const { colorScheme } = useColorScheme();
@@ -20,13 +15,11 @@ export default function HomeScreen() {
   const { t } = useTranslation();
 
   return (
-    <>
-      <Stack.Screen options={SCREEN_OPTIONS} />
-      <ScrollView
-        contentContainerStyle={{ flexGrow: 1 }}
-        className="bg-background"
-        bounces={false}>
-        <View className="flex-1 gap-10 px-6 pb-12 pt-24">
+    <ScrollView
+      contentContainerStyle={{ flexGrow: 1 }}
+      className="bg-background"
+      bounces={false}>
+      <View className="flex-1 gap-10 px-6 pb-12 pt-24">
           {/* Top bar with chip + language toggle */}
           <View className="flex-row items-center justify-between gap-4">
             <View className="self-start rounded-full bg-primary/10 px-3 py-1">
@@ -37,9 +30,9 @@ export default function HomeScreen() {
           </View>
 
           {/* Hero */}
-          <View className="gap-4">
+          <View className="gap-3">
+            <Text className="text-4xl font-extrabold text-foreground">GyanShala</Text>
             <Text className="text-3xl font-semibold text-foreground">{t('hero_title')}</Text>
-
             <Text className="text-base text-muted-foreground">{t('hero_body')}</Text>
           </View>
 
@@ -181,6 +174,5 @@ export default function HomeScreen() {
           </View>
         </View>
       </ScrollView>
-    </>
   );
 }

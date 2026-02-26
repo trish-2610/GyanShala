@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Text } from '@/components/ui/text';
 import { Stack, router } from 'expo-router';
 import * as React from 'react';
+import { useTranslation } from 'react-i18next';
 import { ScrollView, View } from 'react-native';
 
 const SCREEN_OPTIONS = {
@@ -9,10 +10,16 @@ const SCREEN_OPTIONS = {
 };
 
 export default function DashboardScreen() {
+  const { t } = useTranslation();
 
   return (
     <>
-      <Stack.Screen options={SCREEN_OPTIONS} />
+      <Stack.Screen
+        options={{
+          ...SCREEN_OPTIONS,
+          title: t('tabs_dashboard'),
+        }}
+      />
       <ScrollView
         contentContainerStyle={{ flexGrow: 1 }}
         className="bg-background"
@@ -20,12 +27,13 @@ export default function DashboardScreen() {
         <View className="flex-1 gap-8 px-6 pb-10 pt-20">
           <View className="gap-2">
             <Text className="text-xs font-medium uppercase tracking-wide text-primary">
-              GyanShala
+              {t('app_name')}
             </Text>
-            <Text className="text-2xl font-semibold text-foreground">Your learning dashboard</Text>
+            <Text className="text-2xl font-semibold text-foreground">
+              {t('dashboard_header_title')}
+            </Text>
             <Text className="text-sm text-muted-foreground">
-              Use the tabs below to move between your dashboard, studies, queries, tests and career
-              awareness.
+              {t('dashboard_header_body')}
             </Text>
           </View>
 
@@ -35,7 +43,7 @@ export default function DashboardScreen() {
             onPress={() => {
               router.replace('/');
             }}>
-            <Text className="font-medium">Back to home</Text>
+            <Text className="font-medium">{t('dashboard_back_home')}</Text>
           </Button>
         </View>
       </ScrollView>

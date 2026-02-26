@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Text } from '@/components/ui/text';
 import { Stack, router } from 'expo-router';
 import * as React from 'react';
+import { useTranslation } from 'react-i18next';
 import { ScrollView, View } from 'react-native';
 
 const SCREEN_OPTIONS = {
@@ -12,117 +13,126 @@ type SubjectKey = 'english' | 'hindi' | 'maths' | 'science' | 'social';
 
 const CLASSES = ['6', '7', '8', '9', '10'];
 
-const SUBJECTS: { key: SubjectKey; label: string }[] = [
-  { key: 'english', label: 'English' },
-  { key: 'hindi', label: 'Hindi' },
-  { key: 'maths', label: 'Maths' },
-  { key: 'science', label: 'Science' },
-  { key: 'social', label: 'Social' },
-];
-
 const SUBJECT_TOPICS: Record<
   SubjectKey,
-  { title: string; description: string }[]
+  { titleKey: string; bodyKey: string }[]
 > = {
   english: [
     {
-      title: 'Reading Comprehension',
-      description: 'Practise reading short passages and answering simple questions in English.',
+      titleKey: 'studies_english_topic1_title',
+      bodyKey: 'studies_english_topic1_body',
     },
     {
-      title: 'Grammar Basics',
-      description: 'Revision of nouns, verbs, tenses and simple sentence formation.',
+      titleKey: 'studies_english_topic2_title',
+      bodyKey: 'studies_english_topic2_body',
     },
     {
-      title: 'Vocabulary Builder',
-      description: 'Learn new everyday words with meanings and example sentences.',
+      titleKey: 'studies_english_topic3_title',
+      bodyKey: 'studies_english_topic3_body',
     },
     {
-      title: 'Writing Practice',
-      description: 'Short paragraph and letter-writing practice using guided examples.',
+      titleKey: 'studies_english_topic4_title',
+      bodyKey: 'studies_english_topic4_body',
     },
   ],
   hindi: [
     {
-      title: 'पाठ समझ',
-      description: 'छोटे-छोटे गद्यांश पढ़ना और उनसे जुड़े सरल प्रश्नों के उत्तर देना.',
+      titleKey: 'studies_hindi_topic1_title',
+      bodyKey: 'studies_hindi_topic1_body',
     },
     {
-      title: 'व्याकरण मूल बातें',
-      description: 'संज्ञा, क्रिया, लिंग और वचन जैसे महत्वपूर्ण व्याकरण के नियमों की दोहराई.',
+      titleKey: 'studies_hindi_topic2_title',
+      bodyKey: 'studies_hindi_topic2_body',
     },
     {
-      title: 'शब्द भंडार',
-      description: 'नए हिंदी शब्दों का अभ्यास उनके अर्थ और वाक्यों के साथ.',
+      titleKey: 'studies_hindi_topic3_title',
+      bodyKey: 'studies_hindi_topic3_body',
     },
     {
-      title: 'लेखन अभ्यास',
-      description: 'संक्षिप्त अनुच्छेद और पत्र-लेखन के लिए अभ्यास प्रश्न.',
+      titleKey: 'studies_hindi_topic4_title',
+      bodyKey: 'studies_hindi_topic4_body',
     },
   ],
   maths: [
     {
-      title: 'Numbers & Operations',
-      description: 'Addition, subtraction, multiplication and division with easy examples.',
+      titleKey: 'studies_maths_topic1_title',
+      bodyKey: 'studies_maths_topic1_body',
     },
     {
-      title: 'Fractions & Decimals',
-      description: 'Understanding parts of a whole using day-to-day situations.',
+      titleKey: 'studies_maths_topic2_title',
+      bodyKey: 'studies_maths_topic2_body',
     },
     {
-      title: 'Geometry Basics',
-      description: 'Introduction to shapes, angles and simple constructions.',
+      titleKey: 'studies_maths_topic3_title',
+      bodyKey: 'studies_maths_topic3_body',
     },
     {
-      title: 'Word Problems',
-      description: 'Practice story-based sums related to money, time and distance.',
+      titleKey: 'studies_maths_topic4_title',
+      bodyKey: 'studies_maths_topic4_body',
     },
   ],
   science: [
     {
-      title: 'Plants & Animals',
-      description: 'Overview of local plants, crops and common animals around the village.',
+      titleKey: 'studies_science_topic1_title',
+      bodyKey: 'studies_science_topic1_body',
     },
     {
-      title: 'Human Body',
-      description: 'Basic information about body parts, health and hygiene.',
+      titleKey: 'studies_science_topic2_title',
+      bodyKey: 'studies_science_topic2_body',
     },
     {
-      title: 'Water & Air',
-      description: 'Simple explanation of water cycle, air and their importance.',
+      titleKey: 'studies_science_topic3_title',
+      bodyKey: 'studies_science_topic3_body',
     },
     {
-      title: 'Energy & Light',
-      description: 'Everyday examples of energy, light and simple machines.',
+      titleKey: 'studies_science_topic4_title',
+      bodyKey: 'studies_science_topic4_body',
     },
   ],
   social: [
     {
-      title: 'My Community',
-      description: 'Understanding family, neighbours and roles in the local community.',
+      titleKey: 'studies_social_topic1_title',
+      bodyKey: 'studies_social_topic1_body',
     },
     {
-      title: 'Our Country',
-      description: 'Intro to India, states, important symbols and festivals.',
+      titleKey: 'studies_social_topic2_title',
+      bodyKey: 'studies_social_topic2_body',
     },
     {
-      title: 'History Stories',
-      description: 'Short stories about freedom fighters and important events.',
+      titleKey: 'studies_social_topic3_title',
+      bodyKey: 'studies_social_topic3_body',
     },
     {
-      title: 'Maps & Directions',
-      description: 'Reading simple maps and learning directions using village examples.',
+      titleKey: 'studies_social_topic4_title',
+      bodyKey: 'studies_social_topic4_body',
     },
   ],
 };
 
 export default function StudiesScreen() {
+  const { t } = useTranslation();
   const [selectedClass, setSelectedClass] = React.useState<string | null>(null);
   const [selectedSubject, setSelectedSubject] = React.useState<SubjectKey | null>(null);
 
+  const subjects: { key: SubjectKey; label: string }[] = React.useMemo(
+    () => [
+      { key: 'english', label: t('studies_subject_english') },
+      { key: 'hindi', label: t('studies_subject_hindi') },
+      { key: 'maths', label: t('studies_subject_maths') },
+      { key: 'science', label: t('studies_subject_science') },
+      { key: 'social', label: t('studies_subject_social') },
+    ],
+    [t]
+  );
+
   return (
     <>
-      <Stack.Screen options={SCREEN_OPTIONS} />
+      <Stack.Screen
+        options={{
+          ...SCREEN_OPTIONS,
+          title: t('tabs_studies'),
+        }}
+      />
       <ScrollView
         contentContainerStyle={{ flexGrow: 1 }}
         className="bg-background"
@@ -130,14 +140,13 @@ export default function StudiesScreen() {
         <View className="flex-1 gap-8 px-6 pb-10 pt-20">
           <View className="gap-2">
             <Text className="text-xs font-medium uppercase tracking-wide text-primary">
-              Studies
+              {t('tabs_studies')}
             </Text>
             <Text className="text-2xl font-semibold text-foreground">
-              Choose your class and subject
+              {t('studies_header_title')}
             </Text>
             <Text className="text-sm text-muted-foreground">
-              Pick a class, then select a subject to view topic-wise placeholder content. Later we
-              can link each topic to detailed lessons.
+              {t('studies_header_body')}
             </Text>
           </View>
 
@@ -145,7 +154,7 @@ export default function StudiesScreen() {
             {/* Class selection */}
             <View className="gap-2">
               <Text className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-                Select Class
+                {t('studies_select_class')}
               </Text>
               <View className="flex-row flex-wrap gap-2">
                 {CLASSES.map((cls) => {
@@ -160,7 +169,9 @@ export default function StudiesScreen() {
                         setSelectedClass(cls);
                         setSelectedSubject(null);
                       }}>
-                      <Text className="text-xs font-medium">Class {cls}</Text>
+                      <Text className="text-xs font-medium">
+                        {t('studies_class_label', { class: cls })}
+                      </Text>
                     </Button>
                   );
                 })}
@@ -171,10 +182,10 @@ export default function StudiesScreen() {
             {selectedClass && (
               <View className="gap-2">
                 <Text className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-                  Select Subject
+                  {t('studies_select_subject')}
                 </Text>
                 <View className="flex-row flex-wrap gap-2">
-                  {SUBJECTS.map((subject) => {
+                  {subjects.map((subject) => {
                     const isSelected = selectedSubject === subject.key;
                     return (
                       <Button
@@ -195,15 +206,23 @@ export default function StudiesScreen() {
             {selectedClass && selectedSubject && (
               <View className="gap-3">
                 <Text className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-                  Topics for Class {selectedClass} –{' '}
-                  {SUBJECTS.find((s) => s.key === selectedSubject)?.label}
+                  {t('studies_topics_heading', {
+                    class: selectedClass,
+                    subject:
+                      subjects.find((s) => s.key === selectedSubject)?.label ??
+                      t('studies_subject_fallback'),
+                  })}
                 </Text>
                 {SUBJECT_TOPICS[selectedSubject].map((topic) => (
                   <View
-                    key={topic.title}
+                    key={topic.titleKey}
                     className="gap-1 rounded-xl border border-border/60 bg-background/80 p-3">
-                    <Text className="text-xs font-semibold text-foreground">{topic.title}</Text>
-                    <Text className="text-[11px] text-muted-foreground">{topic.description}</Text>
+                    <Text className="text-xs font-semibold text-foreground">
+                      {t(topic.titleKey)}
+                    </Text>
+                    <Text className="text-[11px] text-muted-foreground">
+                      {t(topic.bodyKey)}
+                    </Text>
                   </View>
                 ))}
               </View>
@@ -216,7 +235,7 @@ export default function StudiesScreen() {
             onPress={() => {
               router.replace('/(tabs)/dashboard');
             }}>
-            <Text className="font-medium">Back to dashboard</Text>
+            <Text className="font-medium">{t('studies_back_dashboard')}</Text>
           </Button>
         </View>
       </ScrollView>

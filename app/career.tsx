@@ -1,7 +1,9 @@
 import { Button } from '@/components/ui/button';
 import { Text } from '@/components/ui/text';
+import { i18n } from '@/lib/i18n';
 import { Stack, router } from 'expo-router';
 import * as React from 'react';
+import { useTranslation } from 'react-i18next';
 import { ScrollView, TextInput, View } from 'react-native';
 import careerData from '@/assets/career_data.json';
 
@@ -32,6 +34,13 @@ function getCareerGuidance(student: StudentInput) {
   const govtJobs = data[level]?.government_jobs ?? [];
   const scholarships = data[level]?.scholarships ?? [];
 
+  const nextSteps = [
+    'career_next_step1',
+    'career_next_step2',
+    'career_next_step3',
+    'career_next_step4',
+  ].map((key) => i18n.t(key));
+
   return {
     student_profile: {
       class: student.class,
@@ -44,12 +53,7 @@ function getCareerGuidance(student: StudentInput) {
     recommended_paths: streamOptions,
     government_opportunities: govtJobs,
     scholarships,
-    next_steps: [
-      'Choose a path that matches your interest and strengths.',
-      'Research colleges or institutes in your area.',
-      'Apply for scholarships early.',
-      'If planning for government exams, start preparation in advance.',
-    ],
+    next_steps: nextSteps,
   };
 }
 
@@ -61,6 +65,7 @@ export default function CareerScreen() {
   const [state, setState] = React.useState<string>('');
   const [language, setLanguage] = React.useState<string>('');
   const [result, setResult] = React.useState<GuidanceResult | null>(null);
+  const { t } = useTranslation();
 
   const handleSubmit = () => {
     const numericMarks = marks ? Number(marks) : null;
@@ -77,7 +82,12 @@ export default function CareerScreen() {
 
   return (
     <>
-      <Stack.Screen options={SCREEN_OPTIONS} />
+      <Stack.Screen
+        options={{
+          ...SCREEN_OPTIONS,
+          title: t('career_nav_title'),
+        }}
+      />
       <ScrollView
         contentContainerStyle={{ flexGrow: 1 }}
         className="bg-background"
@@ -86,22 +96,23 @@ export default function CareerScreen() {
         <View className="flex-1 gap-8 px-6 pb-10 pt-20">
           <View className="gap-2">
             <Text className="text-xs font-medium uppercase tracking-wide text-primary">
-              Career Awareness
+              {t('career_chip')}
             </Text>
             <Text className="text-2xl font-semibold text-foreground">Find simple guidance</Text>
             <Text className="text-sm text-muted-foreground">
-              Fill a few details about your class and stream. The app will suggest some possible
-              study paths, government exams and scholarships using offline data.
+              {t('career_header_body')}
             </Text>
           </View>
 
           <View className="gap-4 rounded-2xl border border-border/70 bg-card/80 p-4">
-            <Text className="text-sm font-semibold text-foreground">Student details</Text>
+            <Text className="text-sm font-semibold text-foreground">
+              {t('career_student_details_title')}
+            </Text>
 
             {/* Class selection */}
             <View className="gap-2">
               <Text className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-                Class
+                {t('career_class_label')}
               </Text>
               <View className="flex-row gap-2">
                 {(['10', '12'] as const).map((cls) => {
@@ -113,7 +124,9 @@ export default function CareerScreen() {
                       variant={isSelected ? 'default' : 'outline'}
                       className="rounded-full px-4 py-1.5"
                       onPress={() => setStudentClass(cls)}>
-                      <Text className="text-xs font-medium">Class {cls}</Text>
+                      <Text className="text-xs font-medium">
+                        {t('career_class_button', { class: cls })}
+                      </Text>
                     </Button>
                   );
                 })}
@@ -123,11 +136,19 @@ export default function CareerScreen() {
             {/* Stream selection */}
             <View className="gap-2">
               <Text className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-                Stream
+                {t('career_stream_label')}
               </Text>
               <View className="flex-row flex-wrap gap-2">
                 {(['Science', 'Commerce', 'Arts', 'Vocational'] as const).map((s) => {
                   const isSelected = stream === s;
+                  const labelKey =
+                    s === 'Science'
+                      ? 'career_stream_science'
+                      : s === 'Commerce'
+                        ? 'career_stream_commerce'
+                        : s === 'Arts'
+                          ? 'career_stream_arts'
+                          : 'career_stream_vocational';
                   return (
                     <Button
                       key={s}
@@ -135,7 +156,7 @@ export default function CareerScreen() {
                       variant={isSelected ? 'default' : 'outline'}
                       className="rounded-full px-3 py-1"
                       onPress={() => setStream(s)}>
-                      <Text className="text-xs font-medium">{s}</Text>
+                      <Text className="text-xs font-medium">{t(labelKey)}</Text>
                     </Button>
                   );
                 })}
@@ -145,13 +166,13 @@ export default function CareerScreen() {
             {/* Marks */}
             <View className="gap-1.5">
               <Text className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-                Approx. percentage (optional)
+                {t('career_marks_label')}
               </Text>
               <TextInput
                 value={marks}
                 onChangeText={setMarks}
                 keyboardType="numeric"
-                placeholder="e.g. 72"
+                placeholder={t('career_marks_placeholder')}
                 className="rounded-xl border border-border bg-background px-3 py-2 text-xs text-foreground"
                 placeholderTextColor="#9ca3af"
               />
@@ -160,12 +181,12 @@ export default function CareerScreen() {
             {/* Interest */}
             <View className="gap-1.5">
               <Text className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-                Interest area (optional)
+                {t('career_interest_label')}
               </Text>
               <TextInput
                 value={interest}
                 onChangeText={setInterest}
-                placeholder="e.g. Medical, Teaching, Business"
+                placeholder={t('career_interest_placeholder')}
                 className="rounded-xl border border-border bg-background px-3 py-2 text-xs text-foreground"
                 placeholderTextColor="#9ca3af"
               />
@@ -174,12 +195,12 @@ export default function CareerScreen() {
             {/* State */}
             <View className="gap-1.5">
               <Text className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-                State (optional)
+                {t('career_state_label')}
               </Text>
               <TextInput
                 value={state}
                 onChangeText={setState}
-                placeholder="e.g. Uttar Pradesh"
+                placeholder={t('career_state_placeholder')}
                 className="rounded-xl border border-border bg-background px-3 py-2 text-xs text-foreground"
                 placeholderTextColor="#9ca3af"
               />
@@ -188,34 +209,38 @@ export default function CareerScreen() {
             {/* Language */}
             <View className="gap-1.5">
               <Text className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-                Preferred language (optional)
+                {t('career_pref_language_label')}
               </Text>
               <TextInput
                 value={language}
                 onChangeText={setLanguage}
-                placeholder="e.g. Hindi, English"
+                placeholder={t('career_pref_language_placeholder')}
                 className="rounded-xl border border-border bg-background px-3 py-2 text-xs text-foreground"
                 placeholderTextColor="#9ca3af"
               />
             </View>
 
             <Button className="mt-2 rounded-2xl" onPress={handleSubmit}>
-              <Text className="text-sm font-medium text-primary-foreground">Get guidance</Text>
+              <Text className="text-sm font-medium text-primary-foreground">
+                {t('career_get_guidance')}
+              </Text>
             </Button>
           </View>
 
           {result && (
             <View className="gap-4 rounded-2xl border border-border/70 bg-card/80 p-4">
-              <Text className="text-sm font-semibold text-foreground">Suggested paths</Text>
+              <Text className="text-sm font-semibold text-foreground">
+                {t('career_suggested_paths_title')}
+              </Text>
 
               {/* Recommended paths */}
               <View className="gap-2">
                 <Text className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-                  Study options
+                  {t('career_study_options_label')}
                 </Text>
                 {result.recommended_paths.length === 0 ? (
                   <Text className="text-[11px] text-muted-foreground">
-                    No specific paths found for this combination yet. Try a different stream or class.
+                    {t('career_no_paths_message')}
                   </Text>
                 ) : (
                   result.recommended_paths.map((path: any) => {
@@ -232,7 +257,7 @@ export default function CareerScreen() {
                         )}
                         {path.duration && (
                           <Text className="text-[11px] text-muted-foreground">
-                            Duration: {path.duration}
+                            {t('career_duration_label', { duration: path.duration })}
                           </Text>
                         )}
                       </View>
@@ -244,7 +269,7 @@ export default function CareerScreen() {
               {/* Government opportunities */}
               <View className="gap-2">
                 <Text className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-                  Government opportunities
+                  {t('career_govt_opportunities_label')}
                 </Text>
                 {result.government_opportunities.map((job: any) => (
                   <View
@@ -252,7 +277,7 @@ export default function CareerScreen() {
                     className="gap-1 rounded-xl border border-border/60 bg-background/80 p-3">
                     <Text className="text-xs font-semibold text-foreground">{job.job}</Text>
                     <Text className="text-[11px] text-muted-foreground">
-                      Eligibility: {job.eligibility}
+                        {t('career_eligibility_label', { eligibility: job.eligibility })}
                     </Text>
                     <Text className="text-[11px] text-muted-foreground">
                       {job.description}
@@ -264,7 +289,7 @@ export default function CareerScreen() {
               {/* Scholarships */}
               <View className="gap-2">
                 <Text className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-                  Scholarships
+                  {t('career_scholarships_label')}
                 </Text>
                 {result.scholarships.map((sch: any) => (
                   <View
@@ -272,11 +297,11 @@ export default function CareerScreen() {
                     className="gap-1 rounded-xl border border-border/60 bg-background/80 p-3">
                     <Text className="text-xs font-semibold text-foreground">{sch.name}</Text>
                     <Text className="text-[11px] text-muted-foreground">
-                      Eligibility: {sch.eligibility}
+                        {t('career_eligibility_label', { eligibility: sch.eligibility })}
                     </Text>
                     {sch.link && (
                       <Text className="text-[11px] text-muted-foreground">
-                        Website: {sch.link}
+                          {t('career_website_label', { link: sch.link })}
                       </Text>
                     )}
                   </View>
@@ -286,7 +311,7 @@ export default function CareerScreen() {
               {/* Next steps */}
               <View className="gap-1">
                 <Text className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-                  Next steps
+                  {t('career_next_steps_label')}
                 </Text>
                 {result.next_steps.map((step: string) => (
                   <Text key={step} className="text-[11px] text-muted-foreground">
@@ -303,7 +328,7 @@ export default function CareerScreen() {
             onPress={() => {
               router.replace('/(tabs)/dashboard');
             }}>
-            <Text className="font-medium">Back to dashboard</Text>
+            <Text className="font-medium">{t('career_back_dashboard')}</Text>
           </Button>
         </View>
       </ScrollView>
