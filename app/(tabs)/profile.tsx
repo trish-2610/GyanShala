@@ -54,15 +54,15 @@ export default function ProfileScreen() {
           <View className="gap-3 rounded-2xl border border-border/70 bg-card/80 p-4">
             <Text className="text-sm font-semibold text-foreground">Career awareness</Text>
             <Text className="text-xs text-muted-foreground">
-              Read simple guidance about different careers, entrance exams and next steps after
-              school.
+              Open a simple tool that suggests possible study paths, exams and scholarships using
+              offline career data.
             </Text>
             <Button
               size="sm"
               variant="outline"
               className="self-start rounded-full px-4 py-1.5"
               onPress={() => router.push('/career')}>
-              <Text className="text-xs font-medium">Open career awareness screen</Text>
+              <Text className="text-xs font-medium">Open career guidance</Text>
             </Button>
           </View>
         </View>
