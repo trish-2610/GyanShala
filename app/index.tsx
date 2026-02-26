@@ -1,10 +1,12 @@
 import { Button } from '@/components/ui/button';
 import { Icon } from '@/components/ui/icon';
 import { Text } from '@/components/ui/text';
+import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 import { Stack, router } from 'expo-router';
 import { BookOpenIcon, Globe2Icon, SparklesIcon } from 'lucide-react-native';
 import { useColorScheme } from 'nativewind';
 import * as React from 'react';
+import { useTranslation } from 'react-i18next';
 import { ScrollView, View } from 'react-native';
 
 const SCREEN_OPTIONS = {
@@ -12,11 +14,10 @@ const SCREEN_OPTIONS = {
   headerTransparent: true,
 };
 
-const LANGUAGES = ['English', 'हिन्दी', 'বাংলা', 'தமிழ்', 'తెలుగు', 'मराठी'];
-
 export default function HomeScreen() {
   const { colorScheme } = useColorScheme();
   const isDark = colorScheme === 'dark';
+  const { t } = useTranslation();
 
   return (
     <>
@@ -26,23 +27,20 @@ export default function HomeScreen() {
         className="bg-background"
         bounces={false}>
         <View className="flex-1 gap-10 px-6 pb-12 pt-24">
-          {/* Hero */}
-          <View className="gap-4">
+          {/* Top bar with chip + language toggle */}
+          <View className="flex-row items-center justify-between gap-4">
             <View className="self-start rounded-full bg-primary/10 px-3 py-1">
-              <Text className="text-xs font-medium text-primary">
-                Multilingual Rural Learning Portal
-              </Text>
+              <Text className="text-xs font-medium text-primary">{t('tagline_chip')}</Text>
             </View>
 
-            <Text className="text-3xl font-semibold text-foreground">
-              Learning that reaches every village.
-            </Text>
+            <LanguageSwitcher />
+          </View>
 
-            <Text className="text-base text-muted-foreground">
-              GyanShala is a low-bandwidth, AI-powered education companion built for government
-              schools, NGOs, and community classrooms. It helps teachers deliver structured lessons,
-              revision, and career guidance even when internet access is patchy.
-            </Text>
+          {/* Hero */}
+          <View className="gap-4">
+            <Text className="text-3xl font-semibold text-foreground">{t('hero_title')}</Text>
+
+            <Text className="text-base text-muted-foreground">{t('hero_body')}</Text>
           </View>
 
           {/* Primary actions */}
@@ -52,7 +50,7 @@ export default function HomeScreen() {
               onPress={() => {
                 router.push('/auth');
               }}>
-              <Text className="font-medium text-primary-foreground">Start Learning</Text>
+              <Text className="font-medium text-primary-foreground">{t('primary_start')}</Text>
             </Button>
             <Button
               className="flex-1"
@@ -60,7 +58,7 @@ export default function HomeScreen() {
               onPress={() => {
                 router.push('/dashboard');
               }}>
-              <Text className="font-medium">Browse Content</Text>
+              <Text className="font-medium">{t('primary_browse')}</Text>
             </Button>
           </View>
 
@@ -71,13 +69,11 @@ export default function HomeScreen() {
                 <Icon as={SparklesIcon} className="text-primary" />
               </View>
               <Text className="text-base font-semibold text-foreground">
-                Built for low connectivity
+                {t('feature_low_connectivity_title')}
               </Text>
             </View>
             <Text className="text-sm text-muted-foreground">
-              Lessons are optimized to work smoothly on 2G/3G networks, with offline-friendly
-              content and lightweight media so learners never miss a class. Downloadable modules and
-              bite-sized videos keep data usage low while still feeling rich and interactive.
+              {t('feature_low_connectivity_body')}
             </Text>
           </View>
 
@@ -87,10 +83,11 @@ export default function HomeScreen() {
               <View className="rounded-full bg-primary/10 p-2 self-start">
                 <Icon as={Globe2Icon} className="text-primary" />
               </View>
-              <Text className="text-sm font-semibold text-foreground">Multiple Languages</Text>
+              <Text className="text-sm font-semibold text-foreground">
+                {t('feature_multilang_title')}
+              </Text>
               <Text className="text-xs text-muted-foreground">
-                Switch between regional languages so students can learn in the language they
-                understand best, including local scripts and examples rooted in everyday rural life.
+                {t('feature_multilang_body')}
               </Text>
             </View>
 
@@ -98,10 +95,11 @@ export default function HomeScreen() {
               <View className="rounded-full bg-primary/10 p-2 self-start">
                 <Icon as={BookOpenIcon} className="text-primary" />
               </View>
-              <Text className="text-sm font-semibold text-foreground">AI Learning Guide</Text>
+              <Text className="text-sm font-semibold text-foreground">
+                {t('feature_ai_title')}
+              </Text>
               <Text className="text-xs text-muted-foreground">
-                AI-assisted summaries, practice questions, and step-by-step explanations that adjust
-                to each learner&apos;s pace, helping students revise smarter and teachers save time.
+                {t('feature_ai_body')}
               </Text>
             </View>
           </View>
@@ -109,37 +107,32 @@ export default function HomeScreen() {
           {/* Language chips */}
           <View className="gap-3">
             <Text className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-              Supported Languages
+              {t('supported_languages_heading')}
             </Text>
             <View className="flex-row flex-wrap gap-2">
-              {LANGUAGES.map((lang) => (
-                <View
-                  key={lang}
-                  className="rounded-full border border-border/70 bg-background/80 px-3 py-1">
-                  <Text className="text-xs text-foreground">{lang}</Text>
-                </View>
-              ))}
+              <View className="rounded-full border border-border/70 bg-background/80 px-3 py-1">
+                <Text className="text-xs text-foreground">
+                  {t('supported_languages_list')}
+                </Text>
+              </View>
             </View>
           </View>
 
           {/* How it helps */}
           <View className="gap-4 rounded-3xl border border-border/60 bg-card/80 p-4">
-            <Text className="text-sm font-semibold text-foreground">How GyanShala helps</Text>
-            <Text className="text-xs text-muted-foreground">
-              GyanShala brings together curriculum-aligned lessons, practice sets, and guidance
-              content so that teachers, volunteers, and parents can run effective study circles in
-              villages and small towns.
+            <Text className="text-sm font-semibold text-foreground">
+              {t('how_it_helps_title')}
             </Text>
+            <Text className="text-xs text-muted-foreground">{t('how_it_helps_body')}</Text>
             <View className="gap-2">
               <Text className="text-xs text-muted-foreground">
-                • Teachers get ready-to-use lesson flows and homework suggestions.
+                • {t('how_it_helps_point_teachers')}
               </Text>
               <Text className="text-xs text-muted-foreground">
-                • Students get revision, quizzes, and concept explanations in their own language.
+                • {t('how_it_helps_point_students')}
               </Text>
               <Text className="text-xs text-muted-foreground">
-                • Communities can track engagement and support learners who are at risk of dropping
-                out.
+                • {t('how_it_helps_point_community')}
               </Text>
             </View>
           </View>
@@ -147,28 +140,31 @@ export default function HomeScreen() {
           {/* Audience cards */}
           <View className="gap-3">
             <Text className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-              Made For
+              {t('made_for_heading')}
             </Text>
             <View className="gap-2">
               <View className="gap-2 rounded-2xl border border-border/60 bg-card/80 p-3">
-                <Text className="text-xs font-semibold text-foreground">Rural Schools</Text>
+                <Text className="text-xs font-semibold text-foreground">
+                  {t('made_for_rural_schools_title')}
+                </Text>
                 <Text className="text-xs text-muted-foreground">
-                  Support teachers with structured digital content that fits into regular classroom
-                  routines without needing computer labs or expensive devices.
+                  {t('made_for_rural_schools_body')}
                 </Text>
               </View>
               <View className="gap-2 rounded-2xl border border-border/60 bg-card/80 p-3">
-                <Text className="text-xs font-semibold text-foreground">NGOs & Learning Centres</Text>
+                <Text className="text-xs font-semibold text-foreground">
+                  {t('made_for_ngos_title')}
+                </Text>
                 <Text className="text-xs text-muted-foreground">
-                  Run after-school programs, bridge courses, and foundational literacy and numeracy
-                  camps with ready-made modules.
+                  {t('made_for_ngos_body')}
                 </Text>
               </View>
               <View className="gap-2 rounded-2xl border border-border/60 bg-card/80 p-3">
-                <Text className="text-xs font-semibold text-foreground">Parents & Mentors</Text>
+                <Text className="text-xs font-semibold text-foreground">
+                  {t('made_for_parents_title')}
+                </Text>
                 <Text className="text-xs text-muted-foreground">
-                  Use simple, guided practice sessions to keep children learning at home, even when
-                  schools are far away or timing is irregular.
+                  {t('made_for_parents_body')}
                 </Text>
               </View>
             </View>
@@ -177,11 +173,10 @@ export default function HomeScreen() {
           {/* Footer note */}
           <View className="gap-1">
             <Text className="text-[11px] font-medium text-muted-foreground">
-              Designed for schools, NGOs & community centres.
+              {t('footer_note_line1')}
             </Text>
             <Text className="text-[11px] text-muted-foreground">
-              Bring GyanShala to your village and keep every learner connected to quality learning,
-              guidance, and opportunities.
+              {t('footer_note_line2')}
             </Text>
           </View>
         </View>

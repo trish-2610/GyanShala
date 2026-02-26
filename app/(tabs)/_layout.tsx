@@ -7,10 +7,12 @@ import {
   LayoutDashboardIcon,
   UserIcon,
 } from 'lucide-react-native';
+import { useTranslation } from 'react-i18next';
 
 export default function TabsLayout() {
   const { colorScheme } = useColorScheme();
   const isDark = colorScheme === 'dark';
+  const { t } = useTranslation();
 
   return (
     <Tabs
@@ -30,7 +32,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="dashboard"
         options={{
-          title: 'Dashboard',
+          title: t('tabs_dashboard'),
           tabBarIcon: ({ color, size }) => (
             <LayoutDashboardIcon color={color} size={size} />
           ),
@@ -40,7 +42,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="studies"
         options={{
-          title: 'Studies',
+          title: t('tabs_studies'),
           tabBarIcon: ({ color, size }) => <BookOpenIcon color={color} size={size} />,
         }}
       />
@@ -48,7 +50,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="query"
         options={{
-          title: 'Query',
+          title: t('tabs_query'),
           tabBarIcon: ({ color, size }) => <HelpCircleIcon color={color} size={size} />,
           href: null,
         }}
@@ -57,7 +59,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="test"
         options={{
-          title: 'Test',
+          title: t('tabs_test'),
           tabBarIcon: ({ color, size }) => <ListChecksIcon color={color} size={size} />,
         }}
       />
@@ -65,7 +67,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="profile"
         options={{
-          title: 'Profile',
+          title: t('tabs_profile'),
           tabBarIcon: ({ color, size }) => <UserIcon color={color} size={size} />,
         }}
       />
