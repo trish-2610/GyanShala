@@ -1,6 +1,5 @@
-import { Button } from '@/components/ui/button';
 import { Text } from '@/components/ui/text';
-import { Stack, router } from 'expo-router';
+import { Stack } from 'expo-router';
 import * as React from 'react';
 import { useTranslation } from 'react-i18next';
 import { ScrollView, View } from 'react-native';
@@ -30,21 +29,55 @@ export default function DashboardScreen() {
               {t('app_name')}
             </Text>
             <Text className="text-2xl font-semibold text-foreground">
-              {t('dashboard_header_title')}
+              {t('dashboard_placeholder_title', { defaultValue: 'Dashboard (coming soon)' })}
             </Text>
             <Text className="text-sm text-muted-foreground">
-              {t('dashboard_header_body')}
+              {t('dashboard_placeholder_body', {
+                defaultValue:
+                  'This screen will later show your recent activity, progress, and shortcuts to lessons. For now it uses simple placeholder cards.',
+              })}
             </Text>
           </View>
 
-          <Button
-            className="mt-4 rounded-2xl"
-            variant="outline"
-            onPress={() => {
-              router.replace('/');
-            }}>
-            <Text className="font-medium">{t('dashboard_back_home')}</Text>
-          </Button>
+          <View className="gap-3 rounded-2xl border border-border/70 bg-card/80 p-4">
+            <Text className="text-sm font-semibold text-foreground">
+              {t('dashboard_placeholder_card_progress_title', { defaultValue: 'Learning progress' })}
+            </Text>
+            <Text className="text-xs text-muted-foreground">
+              {t('dashboard_placeholder_card_progress_body', {
+                defaultValue:
+                  'Here you will later see how many lessons you have completed and what to revise next.',
+              })}
+            </Text>
+          </View>
+
+          <View className="gap-3 rounded-2xl border border-border/70 bg-card/80 p-4">
+            <Text className="text-sm font-semibold text-foreground">
+              {t('dashboard_placeholder_card_languages_title', {
+                defaultValue: 'Languages & classes',
+              })}
+            </Text>
+            <Text className="text-xs text-muted-foreground">
+              {t('dashboard_placeholder_card_languages_body', {
+                defaultValue:
+                  'Later this area will help you quickly switch languages and jump to your most used classes.',
+              })}
+            </Text>
+          </View>
+
+          <View className="gap-3 rounded-2xl border border-border/70 bg-card/80 p-4">
+            <Text className="text-sm font-semibold text-foreground">
+              {t('dashboard_placeholder_card_actions_title', {
+                defaultValue: 'Quick actions',
+              })}
+            </Text>
+            <Text className="text-xs text-muted-foreground">
+              {t('dashboard_placeholder_card_actions_body', {
+                defaultValue:
+                  'Shortcuts to continue your last lesson, open tests, or ask a new query will appear here.',
+              })}
+            </Text>
+          </View>
         </View>
       </ScrollView>
     </>

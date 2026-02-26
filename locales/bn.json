@@ -62,6 +62,18 @@
   "dashboard_header_title": "আপনার লার্নিং ড্যাশবোর্ড",
   "dashboard_header_body": "নীচের ট্যাব ব্যবহার করে ড্যাশবোর্ড, স্টাডিজ, প্রশ্ন, টেস্ট এবং ক্যারিয়ার অ্যাওয়ারনেসের মাঝে যান।",
   "dashboard_back_home": "হোমে ফিরে যান",
+  "dashboard_languages_title": "উপলব্ধ ভাষা",
+  "dashboard_languages_body": "জ্ঞানশালা এই মুহূর্তে ইন্টারফেসের জন্য এসব ভাষা সাপোর্ট করে। সময়ের সাথে আরও আঞ্চলিক ভাষা যোগ করা যেতে পারে।",
+  "dashboard_language_placeholder_body": "এই ভাষায় কনটেন্ট একই পাঠ থাকবে, তবে লেবেল আর গাইডেন্স অনুবাদ করা ভাষায় দেখা যাবে।",
+
+  "dashboard_placeholder_title": "ড্যাশবোর্ড (শীঘ্রই আসছে)",
+  "dashboard_placeholder_body": "এই স্ক্রিনে পরে আপনার সাম্প্রতিক কাজ, প্রগ্রেস আর পাঠের শর্টকাট দেখা যাবে। আপাতত এখানে কিছু সাধারণ প্লেসহোল্ডার কার্ড দেখানো হচ্ছে।",
+  "dashboard_placeholder_card_progress_title": "শেখার অগ্রগতি",
+  "dashboard_placeholder_card_progress_body": "এখানে পরে দেখতে পাবেন কতগুলো লেসন আপনি শেষ করেছেন এবং পরেরবার কোনটি রিভিশন করা দরকার।",
+  "dashboard_placeholder_card_languages_title": "ভাষা ও ক্লাস",
+  "dashboard_placeholder_card_languages_body": "পরে এই অংশ থেকে দ্রুত ভাষা বদলানো আর সবচেয়ে বেশি ব্যবহৃত ক্লাসে যাওয়া সহজ হবে।",
+  "dashboard_placeholder_card_actions_title": "দ্রুত করণীয়",
+  "dashboard_placeholder_card_actions_body": "আপনার শেষ লেসন চালিয়ে যাওয়া, টেস্ট খোলা বা নতুন প্রশ্ন করার শর্টকাটগুলো এখানে দেখা যাবে।",
 
   "profile_title": "আপনার লার্নিং প্রোফাইল",
   "profile_subtitle": "মূল শিক্ষার্থী তথ্য আর প্রশ্ন ও ক্যারিয়ার অ্যাওয়ারনেস–এর দ্রুত লিঙ্ক দেখে নিন।",

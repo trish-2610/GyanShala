@@ -63,6 +63,19 @@
   "dashboard_header_body": "Use the tabs below to move between your dashboard, studies, queries, tests and career awareness.",
   "dashboard_back_home": "Back to home",
 
+  "dashboard_languages_title": "Available languages",
+  "dashboard_languages_body": "GyanShala currently supports these languages for the interface. More regional languages can be added over time.",
+  "dashboard_language_placeholder_body": "Content in this language will use the same lessons, but with translated labels and guidance.",
+
+  "dashboard_placeholder_title": "Dashboard (coming soon)",
+  "dashboard_placeholder_body": "This screen will later show your recent activity, progress, and shortcuts to lessons. For now it uses simple placeholder cards.",
+  "dashboard_placeholder_card_progress_title": "Learning progress",
+  "dashboard_placeholder_card_progress_body": "Here you will later see how many lessons you have completed and what to revise next.",
+  "dashboard_placeholder_card_languages_title": "Languages & classes",
+  "dashboard_placeholder_card_languages_body": "Later this area will help you quickly switch languages and jump to your most used classes.",
+  "dashboard_placeholder_card_actions_title": "Quick actions",
+  "dashboard_placeholder_card_actions_body": "Shortcuts to continue your last lesson, open tests, or ask a new query will appear here.",
+
   "profile_title": "Your learning profile",
   "profile_subtitle": "View basic learner details and quick links to your queries and career awareness space.",
   "profile_basic_details_title": "Basic details",

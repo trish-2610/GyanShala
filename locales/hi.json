@@ -62,6 +62,18 @@
   "dashboard_header_title": "आपका लर्निंग डैशबोर्ड",
   "dashboard_header_body": "नीचे दिए टैब से आप डैशबोर्ड, स्टडीज़, प्रश्न, टेस्ट और करियर अवेयरनेस के बीच जा सकते हैं।",
   "dashboard_back_home": "होम पर वापस जाएँ",
+  "dashboard_languages_title": "उपलब्ध भाषाएँ",
+  "dashboard_languages_body": "ज्ञानशाला इस समय इंटरफेस के लिए इन भाषाओं को सपोर्ट करता है। समय के साथ और क्षेत्रीय भाषाएँ जोड़ी जा सकती हैं।",
+  "dashboard_language_placeholder_body": "इस भाषा में कंटेंट वही पाठ रहेगा, लेकिन लेबल और मार्गदर्शन अनुवादित रूप में दिखेंगे।",
+
+  "dashboard_placeholder_title": "डैशबोर्ड (जल्द आ रहा है)",
+  "dashboard_placeholder_body": "इस स्क्रीन पर बाद में आपका हाल का एक्टिविटी, प्रोग्रेस और लेसन के शॉर्टकट दिखेंगे। अभी के लिए यहाँ केवल साधारण प्लेसहोल्डर कार्ड हैं।",
+  "dashboard_placeholder_card_progress_title": "सीखने की प्रगति",
+  "dashboard_placeholder_card_progress_body": "यहाँ आगे चलकर आप देख सकेंगे कि आपने कितने लेसन पूरे कर लिए हैं और अगला रिविज़न किसका है।",
+  "dashboard_placeholder_card_languages_title": "भाषाएँ और कक्षाएँ",
+  "dashboard_placeholder_card_languages_body": "बाद में यह हिस्सा आपको जल्दी से भाषा बदलने और सबसे ज्यादा इस्तेमाल की जाने वाली कक्षाओं पर जाने में मदद करेगा।",
+  "dashboard_placeholder_card_actions_title": "त्वरित क्रियाएँ",
+  "dashboard_placeholder_card_actions_body": "अपना पिछला लेसन जारी रखने, टेस्ट खोलने या नया प्रश्न पूछने जैसे शॉर्टकट यहाँ दिखाई देंगे।",
 
   "profile_title": "आपकी लर्निंग प्रोफाइल",
   "profile_subtitle": "मूल विद्यार्थी विवरण और आपके प्रश्न व करियर अवेयरनेस के त्वरित लिंक देखें।",
