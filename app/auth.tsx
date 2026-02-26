@@ -78,6 +78,7 @@ export default function AuthScreen() {
           name,
           email: email.toLowerCase(),
           password,
+          createdAt: new Date(),
         });
 
         Alert.alert('Welcome to GyanShala', 'Account created successfully. You can now log in.');
