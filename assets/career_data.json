@@ -1,0 +1,192 @@
+{
+  "after10th": {
+    "streams": {
+      "Science": [
+        {
+          "path_name": "11th & 12th Science (PCB or PCM)",
+          "description": "Continue with Science stream to pursue engineering, medical or research careers later.",
+          "duration": "2 years",
+          "careers": ["Engineering", "Medical", "Data Science", "Research"]
+        },
+        {
+          "path_name": "Polytechnic Diploma",
+          "description": "Technical diplomas in Mechanical, Civil, Electrical, Computer, etc. with strong job prospects.",
+          "duration": "3 years",
+          "careers": ["Junior Engineer", "Draftsman", "Technician"]
+        },
+        {
+          "path_name": "ITI Courses",
+          "description": "Skill-based training for trades like Electrician, Fitter, Mechanic, Welder, Computer Tech, etc.",
+          "duration": "1–2 years",
+          "careers": ["Electrician", "Mechanic", "IT Technician", "Fitter"]
+        },
+        {
+          "path_name": "Skill Courses",
+          "description": "Short courses like Digital Marketing, Web Design, Graphics, Animation.",
+          "duration": "3 months to 1 year",
+          "careers": ["Web Designer", "Animator", "Digital Marketer"]
+        }
+      ],
+      "Commerce": [
+        {
+          "path_name": "11th & 12th Commerce",
+          "description": "Prepare for business, finance, CA, CS later after 12th.",
+          "duration": "2 years",
+          "careers": ["Accountant", "Business Analyst", "Banking"]
+        },
+        {
+          "path_name": "Skill & Diploma Courses",
+          "description": "Short training in Tally, Banking, Retail, Insurance.",
+          "duration": "6 months to 1 year",
+          "careers": ["Accounting Assistant", "Sales Executive"]
+        }
+      ],
+      "Arts": [
+        {
+          "path_name": "11th & 12th Arts",
+          "description": "Continue with Arts stream – social sciences, journalism, design paths later.",
+          "duration": "2 years",
+          "careers": ["Journalist", "Teacher", "Social Worker"]
+        },
+        {
+          "path_name": "Diploma / Skill Courses",
+          "description": "Creative fields like Fashion, Photography, UI/UX, Music, Theatre.",
+          "duration": "6 months to 2 years",
+          "careers": ["Photographer", "Fashion Designer", "Musician"]
+        }
+      ]
+    },
+    "government_jobs": [
+      {
+        "job": "Railway Group D / NTPC",
+        "eligibility": "10th/12th pass",
+        "description": "Jobs in Indian Railways for clerical/non-technical roles."
+      },
+      {
+        "job": "Police Constable",
+        "eligibility": "10th/12th pass",
+        "description": "State police recruitment with physical standards."
+      },
+      {
+        "job": "Gramin Dak Sevak (India Post)",
+        "eligibility": "10th pass",
+        "description": "Mail & customer service in rural areas." 
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "National Scholarship Portal",
+        "eligibility": "10th/12th & above",
+        "link": "https://scholarships.gov.in/"
+      }
+    ]
+  },
+
+  "after12th": {
+    "streams": {
+      "Science": [
+        {
+          "degree": "B.Tech (Engineering)",
+          "duration": "4 years",
+          "description": "Engineering in CSE, Mechanical, ECE, Civil, etc.",
+          "careers": ["Software Developer", "Mechanical Engineer", "Project Manager"]
+        },
+        {
+          "degree": "MBBS / BDS",
+          "duration": "5.5 years",
+          "description": "Medical doctor degree through NEET.",
+          "careers": ["Doctor", "Surgeon", "Medical Researcher"]
+        },
+        {
+          "degree": "B.Sc Nursing",
+          "duration": "4 years",
+          "description": "Professional nursing programme.",
+          "careers": ["Staff Nurse", "Healthcare Admin"]
+        },
+        {
+          "degree": "B.Pharm",
+          "duration": "4 years",
+          "description": "Pharmacy degree for pharmacists and researchers.",
+          "careers": ["Pharmacist", "Pharma Research"]
+        }
+      ],
+      "Commerce": [
+        {
+          "degree": "B.Com",
+          "duration": "3 years",
+          "description": "Commerce foundation degree.",
+          "careers": ["Accountant", "Finance Officer"]
+        },
+        {
+          "degree": "BBA",
+          "duration": "3 years",
+          "description": "Business administration foundation.",
+          "careers": ["Manager", "Business Analyst"]
+        },
+        {
+          "degree": "CA (Chartered Accountant)",
+          "duration": "Varies, articleship needed",
+          "description": "Professional accounting certification.", 
+          "careers": ["Chartered Accountant", "Consultant"]
+        }
+      ],
+      "Arts": [
+        {
+          "degree": "BA",
+          "duration": "3 years",
+          "description": "Bachelor of Arts in Humanities.",
+          "careers": ["Teacher", "Writer", "Social Worker"]
+        },
+        {
+          "degree": "Hotel Management",
+          "duration": "3 years",
+          "description": "Hospitality & hotel operations degree.",
+          "careers": ["Hotel Manager", "Event Planner"]
+        }
+      ],
+      "Vocational": [
+        {
+          "degree": "Diploma in Animation",
+          "duration": "2 years",
+          "description": "Design & animation skills.",
+          "careers": ["Animator", "Graphic Designer"]
+        },
+        {
+          "degree": "Diploma in IT",
+          "duration": "2 years",
+          "description": "IT and web development skilled certified.",
+          "careers": ["Web Developer", "IT Support"]
+        }
+      ]
+    },
+    "government_jobs": [
+      {
+        "job": "SSC CHSL",
+        "eligibility": "12th pass",
+        "description": "Clerk/LDC and allied posts across ministries." 
+      },
+      {
+        "job": "RRB NTPC",
+        "eligibility": "12th pass",
+        "description": "Railway non-technical popular categories." 
+      },
+      {
+        "job": "Agniveer (Army/Navy/Air Force)",
+        "eligibility": "12th pass",
+        "description": "Short-term defence recruitment scheme." 
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "National Scholarship Portal",
+        "eligibility": "12th pass & UG enrolled",
+        "link": "https://scholarships.gov.in/"
+      },
+      {
+        "name": "Buddy4Study Scholarships",
+        "eligibility": "12th/UG & income based",
+        "link": "https://www.buddy4study.com/"
+      }
+    ]
+  }
+}
