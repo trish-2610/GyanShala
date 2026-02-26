@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Text } from '@/components/ui/text';
-import { LanguageSwitcher } from '@/components/LanguageSwitcher';
+import { LanguageDropdown } from '@/components/LanguageDropdown';
 import { clearCurrentUser, getCurrentUser } from '@/lib/session';
 import { Stack, router } from 'expo-router';
 import * as React from 'react';
@@ -23,23 +23,33 @@ export default function ProfileScreen() {
         className="bg-background"
         bounces={false}>
         <View className="flex-1 gap-8 px-6 pb-10 pt-20">
-          <View className="flex-row items-center justify-between gap-4">
-            <View className="gap-2">
-              <Text className="text-xs font-medium uppercase tracking-wide text-primary">
-                {t('tabs_profile')}
-              </Text>
-              <Text className="text-2xl font-semibold text-foreground">
-                {t('profile_title', { defaultValue: 'Your learning profile' })}
-              </Text>
-              <Text className="text-sm text-muted-foreground">
-                {t('profile_subtitle', {
-                  defaultValue:
-                    'View basic learner details and quick links to your queries and career awareness space.',
-                })}
-              </Text>
-            </View>
+          <View className="gap-2">
+            <Text className="text-xs font-medium uppercase tracking-wide text-primary">
+              {t('tabs_profile')}
+            </Text>
+            <Text className="text-2xl font-semibold text-foreground">
+              {t('profile_title', { defaultValue: 'Your learning profile' })}
+            </Text>
+            <Text className="text-sm text-muted-foreground">
+              {t('profile_subtitle', {
+                defaultValue:
+                  'View basic learner details and quick links to your queries and career awareness space.',
+              })}
+            </Text>
+          </View>
 
-            <LanguageSwitcher compact />
+          {/* Settings: language selection */}
+          <View className="gap-3 rounded-2xl border border-border/70 bg-card/80 p-4">
+            <Text className="text-sm font-semibold text-foreground">
+              {t('profile_language_title', { defaultValue: 'App language' })}
+            </Text>
+            <Text className="text-xs text-muted-foreground">
+              {t('profile_language_body', {
+                defaultValue:
+                  'Choose which language is used for buttons, labels, and other text in the app.',
+              })}
+            </Text>
+            <LanguageDropdown />
           </View>
 
           <View className="gap-3 rounded-2xl border border-border/70 bg-card/80 p-4">

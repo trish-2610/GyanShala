@@ -81,6 +81,9 @@
   "profile_logout_body": "End this learning session and go back to the login screen.",
   "profile_logout_button": "Logout",
 
+  "profile_language_title": "App language",
+  "profile_language_body": "Choose which language is used for buttons, labels, and other text in the app.",
+
   "studies_header_title": "Choose your class and subject",
   "studies_header_body": "Pick a class, then select a subject to view topic-wise placeholder content. Later we can link each topic to detailed lessons.",
   "studies_select_class": "Select Class",

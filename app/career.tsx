@@ -98,7 +98,9 @@ export default function CareerScreen() {
             <Text className="text-xs font-medium uppercase tracking-wide text-primary">
               {t('career_chip')}
             </Text>
-            <Text className="text-2xl font-semibold text-foreground">Find simple guidance</Text>
+            <Text className="text-2xl font-semibold text-foreground">
+              {t('career_header_title')}
+            </Text>
             <Text className="text-sm text-muted-foreground">
               {t('career_header_body')}
             </Text>
