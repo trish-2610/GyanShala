@@ -40,7 +40,7 @@ export default function TestScreen() {
             variant="outline"
             className="rounded-2xl"
             onPress={() => {
-              router.replace('/dashboard');
+              router.replace('/(tabs)/dashboard');
             }}>
             <Text className="font-medium">Back to dashboard</Text>
           </Button>
@@ -49,4 +49,3 @@ export default function TestScreen() {
     </>
   );
 }
-

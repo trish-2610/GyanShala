@@ -85,7 +85,7 @@ export default function AuthScreen() {
       }
 
       Alert.alert('Login successful', `Welcome back, ${found[0].name}!`);
-      router.replace('/dashboard');
+      router.replace('/(tabs)/dashboard');
     } catch (error) {
       console.error(error);
       Alert.alert('Error', 'Something went wrong. Please try again.');
@@ -134,7 +134,7 @@ export default function AuthScreen() {
       }
 
       Alert.alert('Login successful', `Welcome back, ${found.name}!`);
-      router.replace('/dashboard');
+      router.replace('/(tabs)/dashboard');
     } finally {
       setLoading(false);
     }
