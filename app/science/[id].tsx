@@ -75,6 +75,17 @@ export default function ScienceChapterScreen() {
             ))}
           </View>
 
+          <Button
+            className="rounded-2xl"
+            onPress={() =>
+              router.push({
+                pathname: '/(tabs)/test',
+                params: { scienceChapter: chapterId },
+              } as any)
+            }>
+            <Text className="font-medium">Take chapter test</Text>
+          </Button>
+
           <Button variant="outline" className="rounded-2xl" onPress={() => router.back()}>
             <Text className="font-medium">Back to Studies</Text>
           </Button>
