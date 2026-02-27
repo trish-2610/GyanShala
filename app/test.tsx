@@ -7,7 +7,7 @@ import {
 import type { SocialTopicId } from '@/lib/socialStudies';
 import { getScienceTestChapter, SCIENCE_TEST_CHAPTER_ORDER } from '@/lib/scienceTests';
 import type { ScienceChapterId } from '@/lib/scienceStudies';
-import { Stack, router } from 'expo-router';
+import { Stack, router, useLocalSearchParams } from 'expo-router';
 import * as React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Pressable, ScrollView, View } from 'react-native';
@@ -18,6 +18,7 @@ const SCREEN_OPTIONS = {
 
 export default function TestScreen() {
   const { t } = useTranslation();
+  const params = useLocalSearchParams<{ scienceChapter?: string; socialChapter?: string }>();
   const [selectedSubject, setSelectedSubject] = React.useState<'social' | 'science'>(
     'social'
   );
@@ -28,6 +29,20 @@ export default function TestScreen() {
   const [expandedAnswerIds, setExpandedAnswerIds] = React.useState<
     Record<string, boolean>
   >({});
+
+  React.useEffect(() => {
+    if (params.scienceChapter && SCIENCE_TEST_CHAPTER_ORDER.includes(params.scienceChapter as ScienceChapterId)) {
+      setSelectedSubject('science');
+      setSelectedScienceChapterId(params.scienceChapter as ScienceChapterId);
+    }
+  }, [params.scienceChapter]);
+
+  React.useEffect(() => {
+    if (params.socialChapter && SOCIAL_TEST_CHAPTER_ORDER.includes(params.socialChapter as SocialTopicId)) {
+      setSelectedSubject('social');
+      setSelectedSocialChapterId(params.socialChapter as SocialTopicId);
+    }
+  }, [params.socialChapter]);
 
   const chapter =
     selectedSubject === 'social'
