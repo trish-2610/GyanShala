@@ -4,55 +4,156 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 3.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 3.9%;
-    --primary: 0 0% 9%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 96.1%;
-    --secondary-foreground: 0 0% 9%;
-    --muted: 0 0% 96.1%;
-    --muted-foreground: 0 0% 45.1%;
-    --accent: 0 0% 96.1%;
-    --accent-foreground: 0 0% 9%;
-    --destructive: 0 84.2% 60.2%;
-    --border: 0 0% 89.8%;
-    --input: 0 0% 89.8%;
-    --ring: 0 0% 63%;
-    --radius: 0.625rem;
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
+    --background: #ffffff;
+    --foreground: #0f1419;
+    --card: #f7f8f8;
+    --card-foreground: #0f1419;
+    --popover: #ffffff;
+    --popover-foreground: #0f1419;
+    --primary: #1e9df1;
+    --primary-foreground: #ffffff;
+    --secondary: #0f1419;
+    --secondary-foreground: #ffffff;
+    --muted: #e5e5e6;
+    --muted-foreground: #0f1419;
+    --accent: #e3ecf6;
+    --accent-foreground: #1e9df1;
+    --destructive: #f4212e;
+    --destructive-foreground: #ffffff;
+    --border: #e1eaef;
+    --input: #f7f9fa;
+    --ring: #1da1f2;
+    --chart-1: #1e9df1;
+    --chart-2: #00b87a;
+    --chart-3: #f7b928;
+    --chart-4: #17bf63;
+    --chart-5: #e0245e;
+    --sidebar: #f7f8f8;
+    --sidebar-foreground: #0f1419;
+    --sidebar-primary: #1e9df1;
+    --sidebar-primary-foreground: #ffffff;
+    --sidebar-accent: #e3ecf6;
+    --sidebar-accent-foreground: #1e9df1;
+    --sidebar-border: #e1e8ed;
+    --sidebar-ring: #1da1f2;
+
+    --font-sans: Open Sans, sans-serif;
+    --font-serif: Georgia, serif;
+    --font-mono: Menlo, monospace;
+
+    --radius: 1.3rem;
+
+    --shadow-x: 0px;
+    --shadow-y: 2px;
+    --shadow-blur: 0px;
+    --shadow-spread: 0px;
+    --shadow-opacity: 0;
+    --shadow-color: rgba(29, 161, 242, 0.15);
+    --shadow-2xs: 0px 2px 0px 0px
+      hsl(202.8169 89.1213% 53.1373% / 0.0);
+    --shadow-xs: 0px 2px 0px 0px
+      hsl(202.8169 89.1213% 53.1373% / 0.0);
+    --shadow-sm: 0px 2px 0px 0px
+        hsl(202.8169 89.1213% 53.1373% / 0.0),
+      0px 1px 2px -1px
+        hsl(202.8169 89.1213% 53.1373% / 0.0);
+    --shadow: 0px 2px 0px 0px
+        hsl(202.8169 89.1213% 53.1373% / 0.0),
+      0px 1px 2px -1px
+        hsl(202.8169 89.1213% 53.1373% / 0.0);
+    --shadow-md: 0px 2px 0px 0px
+        hsl(202.8169 89.1213% 53.1373% / 0.0),
+      0px 2px 4px -1px
+        hsl(202.8169 89.1213% 53.1373% / 0.0);
+    --shadow-lg: 0px 2px 0px 0px
+        hsl(202.8169 89.1213% 53.1373% / 0.0),
+      0px 4px 6px -1px
+        hsl(202.8169 89.1213% 53.1373% / 0.0);
+    --shadow-xl: 0px 2px 0px 0px
+        hsl(202.8169 89.1213% 53.1373% / 0.0),
+      0px 8px 10px -1px
+        hsl(202.8169 89.1213% 53.1373% / 0.0);
+    --shadow-2xl: 0px 2px 0px 0px
+      hsl(202.8169 89.1213% 53.1373% / 0.0);
+
+    --tracking-normal: 0em;
+    --spacing: 0.25rem;
   }
 
   .dark:root {
-    --background: 0 0% 3.9%;
-    --foreground: 0 0% 98%;
-    --card: 0 0% 3.9%;
-    --card-foreground: 0 0% 98%;
-    --popover: 0 0% 3.9%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 0 0% 98%;
-    --primary-foreground: 0 0% 9%;
-    --secondary: 0 0% 14.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 14.9%;
-    --muted-foreground: 0 0% 63.9%;
-    --accent: 0 0% 14.9%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 70.9% 59.4%;
-    --border: 0 0% 14.9%;
-    --input: 0 0% 14.9%;
-    --ring: 300 0% 45%;
-    --chart-1: 220 70% 50%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
+    --background: #000000;
+    --foreground: #e7e9ea;
+    --card: #17181c;
+    --card-foreground: #d9d9d9;
+    --popover: #000000;
+    --popover-foreground: #e7e9ea;
+    --primary: #1c9cf0;
+    --primary-foreground: #ffffff;
+    --secondary: #f0f3f4;
+    --secondary-foreground: #0f1419;
+    --muted: #181818;
+    --muted-foreground: #72767a;
+    --accent: #061622;
+    --accent-foreground: #1c9cf0;
+    --destructive: #f4212e;
+    --destructive-foreground: #ffffff;
+    --border: #242628;
+    --input: #22303c;
+    --ring: #1da1f2;
+    --chart-1: #1e9df1;
+    --chart-2: #00b87a;
+    --chart-3: #f7b928;
+    --chart-4: #17bf63;
+    --chart-5: #e0245e;
+    --sidebar: #17181c;
+    --sidebar-foreground: #d9d9d9;
+    --sidebar-primary: #1da1f2;
+    --sidebar-primary-foreground: #ffffff;
+    --sidebar-accent: #061622;
+    --sidebar-accent-foreground: #1c9cf0;
+    --sidebar-border: #38444d;
+    --sidebar-ring: #1da1f2;
+
+    --font-sans: Open Sans, sans-serif;
+    --font-serif: Georgia, serif;
+    --font-mono: Menlo, monospace;
+
+    --radius: 1.3rem;
+
+    --shadow-x: 0px;
+    --shadow-y: 2px;
+    --shadow-blur: 0px;
+    --shadow-spread: 0px;
+    --shadow-opacity: 0;
+    --shadow-color: rgba(29, 161, 242, 0.25);
+    --shadow-2xs: 0px 2px 0px 0px
+      hsl(202.8169 89.1213% 53.1373% / 0.0);
+    --shadow-xs: 0px 2px 0px 0px
+      hsl(202.8169 89.1213% 53.1373% / 0.0);
+    --shadow-sm: 0px 2px 0px 0px
+        hsl(202.8169 89.1213% 53.1373% / 0.0),
+      0px 1px 2px -1px
+        hsl(202.8169 89.1213% 53.1373% / 0.0);
+    --shadow: 0px 2px 0px 0px
+        hsl(202.8169 89.1213% 53.1373% / 0.0),
+      0px 1px 2px -1px
+        hsl(202.8169 89.1213% 53.1373% / 0.0);
+    --shadow-md: 0px 2px 0px 0px
+        hsl(202.8169 89.1213% 53.1373% / 0.0),
+      0px 2px 4px -1px
+        hsl(202.8169 89.1213% 53.1373% / 0.0);
+    --shadow-lg: 0px 2px 0px 0px
+        hsl(202.8169 89.1213% 53.1373% / 0.0),
+      0px 4px 6px -1px
+        hsl(202.8169 89.1213% 53.1373% / 0.0);
+    --shadow-xl: 0px 2px 0px 0px
+        hsl(202.8169 89.1213% 53.1373% / 0.0),
+      0px 8px 10px -1px
+        hsl(202.8169 89.1213% 53.1373% / 0.0);
+    --shadow-2xl: 0px 2px 0px 0px
+      hsl(202.8169 89.1213% 53.1373% / 0.0);
+
+    --tracking-normal: 0em;
+    --spacing: 0.25rem;
   }
 }

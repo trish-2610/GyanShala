@@ -1,0 +1,303 @@
+Chapter 13: Our Environment 
+
+1. Environment
+Environment is everything that surrounds us.
+It includes both living and non-living things.
+Examples:
+Living components:
+	• Plants
+	• Animals
+	• Humans
+	• Microorganisms
+Non-living components:
+	• Air
+	• Water
+	• Soil
+	• Sunlight
+All living organisms depend on environment for survival.
+
+2. Ecosystem
+An ecosystem is a system formed by interaction between living organisms and their environment.
+It includes:
+	• Living components (biotic components)
+	• Non-living components (abiotic components)
+Example:
+Forest ecosystem
+Pond ecosystem
+Desert ecosystem
+In ecosystem, all organisms depend on each other.
+
+3. Components of Ecosystem
+There are two main components:
+(a) Biotic Components (Living Things)
+These include:
+	• Plants
+	• Animals
+	• Humans
+	• Bacteria
+They are living organisms.
+
+(b) Abiotic Components (Non-living Things)
+These include:
+	• Air
+	• Water
+	• Soil
+	• Sunlight
+	• Temperature
+They support life.
+
+4. Types of Organisms in Ecosystem
+There are three types:
+	1. Producers
+	2. Consumers
+	3. Decomposers
+
+(a) Producers
+Producers are organisms that make their own food using sunlight.
+Example:
+Plants
+Plants use photosynthesis to make food.
+They are the main source of energy.
+
+(b) Consumers
+Consumers are organisms that depend on producers or other consumers for food.
+Examples:
+Humans, animals
+Types of consumers:
+Herbivores – eat plants
+Example: cow, deer
+Carnivores – eat animals
+Example: lion, tiger
+Omnivores – eat plants and animals
+Example: humans, bear
+
+(c) Decomposers
+Decomposers break down dead plants and animals.
+Examples:
+Bacteria, fungi
+They recycle nutrients back into soil.
+They help maintain balance in ecosystem.
+
+5. Food Chain
+Food chain is a sequence of organisms where each organism eats the previous one.
+Example:
+Grass → Deer → Tiger
+Grass is eaten by deer.
+Deer is eaten by tiger.
+This shows transfer of energy.
+
+6. Trophic Levels
+Each step in food chain is called trophic level.
+Example:
+Grass → Deer → Tiger
+Trophic levels:
+1st level → Producer (grass)
+2nd level → Herbivore (deer)
+3rd level → Carnivore (tiger)
+Energy decreases at each level.
+
+7. Food Web
+Food web is a network of interconnected food chains.
+Example:
+Grass → Rabbit → Fox
+Grass → Deer → Tiger
+Food webs provide multiple food sources.
+This makes ecosystem more stable.
+
+8. Energy Flow in Ecosystem
+Energy flows from sun to producers and then to consumers.
+Flow:
+Sun → Plants → Animals → Humans
+Energy decreases at each step.
+Only about 10% energy transfers to next level.
+This is called 10% law.
+
+9. 10% Law of Energy Transfer
+The 10% law states that only 10% of energy is transferred from one trophic level to the next level.
+The remaining 90% energy is lost as heat, movement, and life processes.
+Example:
+Sun → Plants → Deer → Tiger
+If plants have 1000 units energy:
+Deer gets only 100 units
+Tiger gets only 10 units
+This is why food chains are usually short.
+
+10. Biological Magnification (Biomagnification)
+Biological magnification is the increase in concentration of harmful chemicals at each trophic level.
+Harmful chemicals enter food chain and accumulate in organisms.
+These chemicals are not easily broken down.
+
+Example
+Pesticides enter plants → eaten by insects → eaten by birds → eaten by humans
+Concentration increases at each level.
+This is dangerous for top consumers.
+Example chemical:
+DDT (pesticide)
+
+11. Ozone Layer
+The ozone layer is a layer of ozone gas present in the upper atmosphere.
+It protects Earth from harmful ultraviolet (UV) rays of the sun.
+Without ozone layer, UV rays can damage living organisms.
+
+Importance of Ozone Layer
+	• Protects humans from skin cancer
+	• Protects plants and animals
+	• Protects environment
+
+12. Ozone Depletion
+Ozone depletion means thinning of ozone layer.
+Main cause:
+Chlorofluorocarbons (CFCs)
+CFCs are found in:
+	• Refrigerators
+	• Air conditioners
+	• Aerosol sprays
+These destroy ozone layer.
+
+Effects of Ozone Depletion
+	• Skin cancer
+	• Eye damage
+	• Harm to plants
+	• Environmental damage
+
+13. Waste
+Waste is unwanted material produced by humans.
+Examples:
+	• Plastic
+	• Food waste
+	• Paper
+	• Chemicals
+Waste must be properly managed.
+
+14. Biodegradable and Non-Biodegradable Substances
+Biodegradable Substances
+These can be broken down by microorganisms.
+Examples:
+	• Food waste
+	• Paper
+	• Leaves
+They do not harm environment.
+
+Non-Biodegradable Substances
+These cannot be broken down easily.
+Examples:
+	• Plastic
+	• Glass
+	• Metals
+They remain in environment for long time.
+They cause pollution.
+
+15. Waste Management
+Waste management means proper handling of waste.
+Methods:
+(a) Reduce
+Use less plastic.
+(b) Reuse
+Use items again.
+Example:
+Reuse bottles
+(c) Recycle
+Convert waste into useful products.
+Example:
+Recycling paper
+This is called 3R principle:
+Reduce, Reuse, Recycle
+
+
+Class 10 Science
+Chapter 13: Our Environment
+Test Paper
+
+Section A: Very Short Answer Questions (1 mark each)
+Q1. Define environment.
+Q2. Name two abiotic components of an ecosystem.
+Q3. Give an example of a producer.
+Q4. Give an example of a decomposer.
+Q5. What is trophic level?
+Q6. Define food web.
+Q7. What is ozone layer?
+Q8. Name one effect of ozone depletion.
+Q9. Define biodegradable substance.
+Q10. What is 3R principle in waste management?
+
+Section B: Short Answer Questions (2–3 marks each)
+Q11. Differentiate between biotic and abiotic components.
+Q12. Explain 10% law of energy transfer in food chain.
+Q13. Define biological magnification with example.
+Q14. List two non-biodegradable substances.
+Q15. What is the importance of ozone layer?
+Q16. Give any two methods of waste management.
+
+Section C: Medium Answer Questions (3–5 marks each)
+Q17. Draw a simple food chain and label trophic levels.
+Q18. Explain biological magnification with diagram.
+Q19. Explain ozone depletion and its causes.
+Q20. Explain difference between biodegradable and non-biodegradable substances with examples.
+
+Section D: Long Answer Questions (5–6 marks each)
+Q21. Explain ecosystem and its components with examples.
+Q22. Explain food web and energy flow in ecosystem.
+Q23. Explain waste management methods in detail.
+
+Section E: Case-Based Questions
+A farmer sprays pesticides on crops. Birds eat insects from crops, and humans consume birds.
+Q24. Answer the following:
+a) What is this phenomenon called?
+b) Why is it harmful to humans?
+c) Which chemical is mainly responsible?
+d) Suggest one way to reduce its effect.
+
+Sunlight passes through atmosphere. CFCs released from refrigerators reduce ozone.
+Q25. Answer the following:
+a) What layer is being affected?
+b) Why is it important?
+c) Name one effect on humans.
+d) Give one method to prevent ozone depletion.
+
+Section F: Assertion and Reason
+Q26.
+Assertion: Non-biodegradable waste pollutes the environment.
+Reason: It decomposes very slowly.
+Options:
+A. Both correct, reason correct explanation
+B. Both correct, reason not explanation
+C. Assertion correct, reason wrong
+D. Assertion wrong, reason correct
+
+Q27.
+Assertion: Recycling paper helps reduce waste.
+Reason: Paper is biodegradable.
+Options:
+A. Both correct, reason correct explanation
+B. Both correct, reason not explanation
+C. Assertion correct, reason wrong
+D. Assertion wrong, reason correct
+
+Section G: Diagram-Based Questions
+Q28. Draw and label:
+a) Food chain showing producer, herbivore, and carnivore
+b) Diagram showing 10% energy transfer at each trophic level
+c) Simple food web with three chains
+d) Diagram showing ozone layer in atmosphere
+
+Answer Key (Short)
+	1. Everything around us
+	2. Air, water
+	3. Plant
+	4. Fungi/bacteria
+	5. Step in food chain
+	6. Interconnected food chains
+	7. Layer of ozone in upper atmosphere
+	8. Skin cancer
+	9. Substances broken down by microbes
+	10. Reduce, Reuse, Recycle
+Q24.
+a) Biological magnification
+b) Harmful chemicals accumulate
+c) DDT
+d) Reduce pesticide use
+Q25.
+a) Ozone layer
+b) Protects from UV rays
+c) Skin cancer
+d) Avoid CFCs

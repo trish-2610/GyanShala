@@ -2,13 +2,16 @@ import { Button } from '@/components/ui/button';
 import { Text } from '@/components/ui/text';
 import { db } from '@/lib/db';
 import { users } from '@/lib/schema';
+import { setCurrentUser, getCurrentUser } from '@/lib/session';
 import { Stack, router } from 'expo-router';
 import { eq } from 'drizzle-orm';
 import * as React from 'react';
 import { Alert, Platform, ScrollView, TextInput, View } from 'react-native';
+import { useTranslation } from 'react-i18next';
 
 const SCREEN_OPTIONS = {
-  title: 'Login / Sign up',
+  // title is translated inside the screen using t()
+  title: 'GyanShala',
 };
 
 type Mode = 'login' | 'signup';
@@ -44,11 +47,19 @@ function saveWebUsers(usersList: WebUser[]) {
 }
 
 export default function AuthScreen() {
+  const { t } = useTranslation();
   const [mode, setMode] = React.useState<Mode>('login');
   const [name, setName] = React.useState('');
   const [email, setEmail] = React.useState('');
   const [password, setPassword] = React.useState('');
   const [loading, setLoading] = React.useState(false);
+
+  React.useEffect(() => {
+    const existing = getCurrentUser();
+    if (existing) {
+      router.replace('/(tabs)/dashboard');
+    }
+  }, []);
 
   const handleSubmitNative = async () => {
     if (!email || !password || (mode === 'signup' && !name)) {
@@ -62,7 +73,10 @@ export default function AuthScreen() {
       if (mode === 'signup') {
         const existing = await db.select().from(users).where(eq(users.email, email.toLowerCase()));
         if (existing.length > 0) {
-          Alert.alert('Account exists', 'This email is already registered. Please log in.');
+          Alert.alert(
+            t('auth_tab_signup'),
+            t('auth_button_login'),
+          );
           return;
         }
 
@@ -70,9 +84,10 @@ export default function AuthScreen() {
           name,
           email: email.toLowerCase(),
           password,
+          createdAt: new Date(),
         });
 
-        Alert.alert('Welcome to GyanShala', 'Account created successfully. You can now log in.');
+        Alert.alert(t('app_name'), t('auth_button_signup'));
         setMode('login');
         setPassword('');
         return;
@@ -80,12 +95,18 @@ export default function AuthScreen() {
 
       const found = await db.select().from(users).where(eq(users.email, email.toLowerCase()));
       if (found.length === 0 || found[0]?.password !== password) {
-        Alert.alert('Login failed', 'Invalid email or password.');
+        Alert.alert('Login', 'Invalid email or password.');
         return;
       }
 
-      Alert.alert('Login successful', `Welcome back, ${found[0].name}!`);
-      router.replace('/dashboard');
+      setCurrentUser({
+        id: found[0].id,
+        name: found[0].name,
+        email: found[0].email,
+      });
+
+      Alert.alert(t('auth_tab_login'), t('auth_heading_login'));
+      router.replace('/(tabs)/dashboard');
     } catch (error) {
       console.error(error);
       Alert.alert('Error', 'Something went wrong. Please try again.');
@@ -108,7 +129,10 @@ export default function AuthScreen() {
       if (mode === 'signup') {
         const existing = usersList.find((u) => u.email === lowerEmail);
         if (existing) {
-          Alert.alert('Account exists', 'This email is already registered. Please log in.');
+          Alert.alert(
+            t('auth_tab_signup'),
+            t('auth_button_login'),
+          );
           return;
         }
 
@@ -121,7 +145,7 @@ export default function AuthScreen() {
         };
 
         saveWebUsers([...usersList, newUser]);
-        Alert.alert('Welcome to GyanShala', 'Account created successfully. You can now log in.');
+        Alert.alert(t('app_name'), t('auth_button_signup'));
         setMode('login');
         setPassword('');
         return;
@@ -129,12 +153,18 @@ export default function AuthScreen() {
 
       const found = usersList.find((u) => u.email === lowerEmail && u.password === password);
       if (!found) {
-        Alert.alert('Login failed', 'Invalid email or password.');
+        Alert.alert('Login', 'Invalid email or password.');
         return;
       }
 
-      Alert.alert('Login successful', `Welcome back, ${found.name}!`);
-      router.replace('/dashboard');
+      setCurrentUser({
+        id: found.id,
+        name: found.name,
+        email: found.email,
+      });
+
+      Alert.alert(t('auth_tab_login'), t('auth_heading_login'));
+      router.replace('/(tabs)/dashboard');
     } finally {
       setLoading(false);
     }
@@ -150,7 +180,12 @@ export default function AuthScreen() {
 
   return (
     <>
-      <Stack.Screen options={SCREEN_OPTIONS} />
+      <Stack.Screen
+        options={{
+          ...SCREEN_OPTIONS,
+          title: t('auth_title_login_signup'),
+        }}
+      />
       <ScrollView
         contentContainerStyle={{ flexGrow: 1 }}
         className="bg-background"
@@ -158,13 +193,13 @@ export default function AuthScreen() {
         <View className="flex-1 gap-8 px-6 pb-10 pt-20">
           <View className="gap-2">
             <Text className="text-xs font-medium uppercase tracking-wide text-primary">
-              GyanShala
+              {t('auth_brand')}
             </Text>
             <Text className="text-2xl font-semibold text-foreground">
-              {mode === 'login' ? 'Welcome back' : 'Create your learning account'}
+              {mode === 'login' ? t('auth_heading_login') : t('auth_heading_signup')}
             </Text>
             <Text className="text-sm text-muted-foreground">
-              Use a simple account to save your progress across lessons, even on low connectivity.
+              {t('auth_subtitle')}
             </Text>
           </View>
 
@@ -174,7 +209,7 @@ export default function AuthScreen() {
               className="flex-1 rounded-full"
               onPress={mode === 'login' ? undefined : () => setMode('login')}>
               <Text className="text-sm font-medium">
-                Login
+                {t('auth_tab_login')}
               </Text>
             </Button>
             <Button
@@ -182,7 +217,7 @@ export default function AuthScreen() {
               className="flex-1 rounded-full"
               onPress={mode === 'signup' ? undefined : () => setMode('signup')}>
               <Text className="text-sm font-medium">
-                Sign up
+                {t('auth_tab_signup')}
               </Text>
             </Button>
           </View>
@@ -190,11 +225,13 @@ export default function AuthScreen() {
           <View className="gap-4">
             {mode === 'signup' && (
               <View className="gap-1.5">
-                <Text className="text-xs font-medium text-muted-foreground">Full name</Text>
+                <Text className="text-xs font-medium text-muted-foreground">
+                  {t('auth_label_full_name')}
+                </Text>
                 <TextInput
                   value={name}
                   onChangeText={setName}
-                  placeholder="Rural learner name"
+                  placeholder={t('auth_placeholder_full_name')}
                   className="rounded-xl border border-border bg-card px-3 py-2 text-foreground"
                   placeholderTextColor="#9ca3af"
                 />
@@ -202,25 +239,29 @@ export default function AuthScreen() {
             )}
 
             <View className="gap-1.5">
-              <Text className="text-xs font-medium text-muted-foreground">Email</Text>
+              <Text className="text-xs font-medium text-muted-foreground">
+                {t('auth_label_email')}
+              </Text>
               <TextInput
                 value={email}
                 onChangeText={setEmail}
                 keyboardType="email-address"
                 autoCapitalize="none"
-                placeholder="you@example.com"
+                placeholder={t('auth_placeholder_email')}
                 className="rounded-xl border border-border bg-card px-3 py-2 text-foreground"
                 placeholderTextColor="#9ca3af"
               />
             </View>
 
             <View className="gap-1.5">
-              <Text className="text-xs font-medium text-muted-foreground">Password</Text>
+              <Text className="text-xs font-medium text-muted-foreground">
+                {t('auth_label_password')}
+              </Text>
               <TextInput
                 value={password}
                 onChangeText={setPassword}
                 secureTextEntry
-                placeholder="Minimum 6 characters"
+                placeholder={t('auth_placeholder_password')}
                 className="rounded-xl border border-border bg-card px-3 py-2 text-foreground"
                 placeholderTextColor="#9ca3af"
               />
@@ -230,10 +271,10 @@ export default function AuthScreen() {
           <Button disabled={loading} onPress={handleSubmit} className="mt-2 rounded-2xl">
             <Text className="font-medium text-primary-foreground">
               {loading
-                ? 'Please wait...'
+                ? t('auth_button_loading')
                 : mode === 'login'
-                  ? 'Login & continue learning'
-                  : 'Create account & start learning'}
+                  ? t('auth_button_login')
+                  : t('auth_button_signup')}
             </Text>
           </Button>
         </View>

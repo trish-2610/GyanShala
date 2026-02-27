@@ -1,0 +1,303 @@
+Chapter 3: Metals and Nonmetals
+
+Topic 1: What are Metals and Non-metals?
+Elements are classified into metals and non-metals based on their physical and chemical properties.
+Metals are elements that are generally hard, shiny, strong, and good conductors of heat and electricity. Most metals are solid at room temperature. Examples of metals include iron, copper, aluminum, gold, and silver. Metals are widely used in making tools, machines, wires, and utensils because of their strength and conductivity.
+
+Non-metals are elements that are usually soft, dull, and poor conductors of heat and electricity. Many non-metals are gases, while some are solids. Examples of non-metals include oxygen, carbon, sulphur, nitrogen, and chlorine. Non-metals are important for life and are used in many essential processes such as respiration and combustion.
+
+Metals and non-metals have very different properties, which help us identify and use them properly.
+
+Topic 2: Physical Properties of Metals
+Metals have several physical properties that make them useful in daily life.
+One important property is that metals are lustrous, which means they have a shiny surface. For example, gold and silver shine when polished.
+
+Metals are malleable, which means they can be beaten into thin sheets. For example, aluminum is used to make foil because it can be easily flattened.
+
+Metals are also ductile, which means they can be drawn into thin wires. Copper is used in electrical wires because it is ductile and conducts electricity well.
+
+Metals are good conductors of heat and electricity. This is why metals like copper and aluminum are used in electrical wiring and cooking utensils.
+
+Metals are usually hard and strong, which makes them suitable for making tools, machines, and buildings.
+
+Metals also have high melting and boiling points, so they do not melt easily.
+
+Topic 3: Physical Properties of Non-metals
+Non-metals have physical properties that are opposite to metals.
+
+Non-metals are usually dull, which means they do not shine. For example, coal and sulphur are dull.
+
+Non-metals are not malleable. They cannot be beaten into thin sheets. They are brittle, which means they break easily when hit.
+
+Non-metals are not ductile, so they cannot be drawn into wires.
+
+Non-metals are poor conductors of heat and electricity. This is why non-metals are not used for electrical wiring.
+
+Many non-metals have low melting and boiling points.
+However, there are some exceptions. For example, graphite is a non-metal but conducts electricity.
+
+Topic 4: Uses of Metals and Non-metals
+Metals are used in many areas because of their strength and conductivity.
+
+Iron is used to make buildings, bridges, and machines. Copper and aluminum are used in electrical wires. Gold and silver are used to make jewelry. Aluminum is used to make cooking utensils and aircraft.
+
+Non-metals are also very important. Oxygen is necessary for breathing. Nitrogen is used in fertilizers. Chlorine is used to purify water. Carbon is used as fuel in the form of coal.
+Both metals and non-metals are essential for daily life and industry.
+
+Topic 5: Chemical Properties of Metals
+Metals react with different substances such as oxygen, water, acids, and other metal compounds. These reactions help us understand the chemical behavior of metals.
+
+When metals react with oxygen, they form metal oxides. These metal oxides are basic in nature.
+Example:
+2Mg + O₂ → 2MgO
+Magnesium reacts with oxygen to form magnesium oxide.
+
+When metals react with water, they form metal hydroxide and hydrogen gas.
+Example:
+2Na + 2H₂O → 2NaOH + H₂
+Sodium reacts with water to form sodium hydroxide and hydrogen gas.
+
+When metals react with acids, they form salt and hydrogen gas.
+Example:
+Zn + 2HCl → ZnCl₂ + H₂
+Zinc reacts with hydrochloric acid to form zinc chloride and hydrogen gas.
+These reactions show that metals are reactive and form positive ions.
+
+Topic 6: Chemical Properties of Non-metals
+Non-metals also react with different substances, but their reactions are different from metals.
+
+When non-metals react with oxygen, they form non-metal oxides. These oxides are usually acidic in nature.
+Example:
+C + O₂ → CO₂
+Carbon reacts with oxygen to form carbon dioxide.
+Non-metals usually do not react with water.
+
+Non-metals also react with metals to form compounds called ionic compounds.
+Example:
+Na + Cl → NaCl
+Sodium reacts with chlorine to form sodium chloride.
+Non-metals gain electrons and form negative ions.
+
+Topic 7: Reaction of Metals and Non-metals with Oxygen
+Both metals and non-metals react with oxygen to form oxides.
+Metal oxides are basic in nature.
+Example:
+Ca + O₂ → CaO
+Calcium oxide is basic.
+
+Non-metal oxides are acidic in nature.
+Example:
+S + O₂ → SO₂
+Sulphur dioxide is acidic.
+
+Some metal oxides such as aluminum oxide and zinc oxide show both acidic and basic properties. These are called amphoteric oxides.
+Example: Al₂O₃ and ZnO
+
+Topic 8: Reaction of Metals with Water
+Different metals react differently with water.
+
+Some metals such as sodium and potassium react very fast with cold water. These reactions are very violent.
+Example:
+2Na + 2H₂O → 2NaOH + H₂
+
+Some metals such as magnesium react slowly with hot water.
+Some metals such as iron react only with steam.
+Example:
+3Fe + 4H₂O → Fe₃O₄ + 4H₂
+Some metals such as copper, silver, and gold do not react with water at all.
+
+Topic 9: Reaction of Metals with Acids
+Metals react with dilute acids to produce salt and hydrogen gas.
+Example:
+Zn + 2HCl → ZnCl₂ + H₂
+This reaction is used to test metals.
+
+However, some metals such as copper, silver, and gold do not react with dilute acids because they are less reactive.
+This shows that metals have different levels of reactivity.
+
+Topic 10: Reaction of Metals with Metal Compounds (Displacement Reaction)
+A more reactive metal can displace a less reactive metal from its compound.
+Example:
+Zn + CuSO₄ → ZnSO₄ + Cu
+
+Zinc displaces copper from copper sulphate.
+But copper cannot displace zinc from zinc sulphate.
+This helps us compare reactivity of metals.
+
+Topic 11: Reactivity Series of Metals
+The reactivity series is a list of metals arranged in order of decreasing reactivity.
+Some common metals in reactivity series are:
+
+Potassium (K)
+Sodium (Na)
+Calcium (Ca)
+Magnesium (Mg)
+Aluminum (Al)
+Zinc (Zn)
+Iron (Fe)
+Copper (Cu)
+Silver (Ag)
+Gold (Au)
+
+Metals at the top are more reactive. Metals at the bottom are less reactive.
+Highly reactive metals react easily with water and acids. Less reactive metals do not react easily.
+The reactivity series helps us predict displacement reactions and extraction methods.
+
+Topic 12: Ionic Compounds
+Ionic compounds are formed when metals react with non-metals by transfer of electrons.
+
+Metals lose electrons and form positive ions. Non-metals gain electrons and form negative ions.
+Example:
+Na + Cl → NaCl
+
+Sodium loses one electron and chlorine gains one electron.
+Properties of ionic compounds:
+• High melting and boiling points
+• Hard and brittle
+• Conduct electricity when dissolved in water
+• Usually soluble in water
+Ionic compounds are important in daily life.
+
+Topic 13: Physical Properties of Ionic Compounds
+Ionic compounds have special physical properties due to the strong force of attraction between their ions. These forces hold the ions tightly together.
+Ionic compounds are usually solid and hard. For example, sodium chloride (common salt) is a hard solid.
+
+They have high melting and boiling points. This is because a large amount of heat energy is required to break the strong bonds between the ions.
+Ionic compounds are generally soluble in water but insoluble in organic solvents such as petrol and kerosene.
+
+They do not conduct electricity in solid state because the ions cannot move freely. However, they conduct electricity when dissolved in water or in molten state because the ions are free to move.
+These properties make ionic compounds useful in many applications such as salts, fertilizers, and medicines.
+
+Topic 14: Occurrence of Metals
+Metals occur in nature either in free state or in combined state.
+Less reactive metals such as gold, silver, and platinum are found in free state because they do not react easily with air or water.
+
+Most metals such as iron, aluminum, zinc, and copper are found in combined state in the form of compounds. These compounds are called ores.
+An ore is a naturally occurring substance from which a metal can be extracted easily and economically.
+
+For example:
+Bauxite is the ore of aluminum.
+Hematite is the ore of iron.
+Ores contain impurities such as sand and clay, which must be removed before extracting the metal.
+
+Topic 15: Extraction of Metals
+Extraction of metals is the process of obtaining metals from their ores.
+The extraction method depends on the reactivity of the metal.
+
+Highly reactive metals such as sodium, potassium, and calcium are extracted using electrolysis. In this process, electricity is used to separate the metal from its compound.
+Moderately reactive metals such as iron, zinc, and lead are extracted by heating with carbon. Carbon removes oxygen from the metal oxide.
+Example:
+Fe₂O₃ + C → Fe + CO₂
+
+Less reactive metals such as copper and mercury are extracted by heating their ores.
+Very less reactive metals such as gold and silver are found in free state and require very little processing.
+
+Topic 16: Enrichment of Ores
+Ores contain impurities such as sand, clay, and stones. These impurities are called gangue.
+Before extracting the metal, the impurities must be removed. This process is called enrichment or concentration of ore.
+
+Different methods are used for enrichment depending on the nature of the ore.
+One common method is hydraulic washing, where water is used to separate heavier ore particles from lighter impurities.
+
+Another method is froth flotation, used for sulphide ores.
+Enrichment makes extraction easier and more efficient.
+
+Topic 17: Corrosion
+Corrosion is the slow destruction of metals due to reaction with air, moisture, or other substances.
+The most common example is rusting of iron.
+
+When iron reacts with oxygen and water, it forms rust (iron oxide).
+Iron + Oxygen + Water → Rust
+
+Rust is a reddish-brown substance that weakens the metal.
+Corrosion damages buildings, bridges, cars, and machines.
+It causes huge economic losses every year.
+
+Topic 18: Prevention of Corrosion
+Corrosion can be prevented by protecting metals from air and moisture.
+One common method is painting. Paint prevents air and moisture from reaching the metal surface.
+Oiling and greasing also prevent corrosion by forming a protective layer.
+Galvanization is another method. In this process, iron is coated with zinc to prevent rusting.
+Alloying is also used to prevent corrosion. Alloys are more resistant to corrosion.
+These methods increase the life of metal objects.
+
+Topic 19: Alloys
+An alloy is a mixture of two or more metals, or a metal and a non-metal.
+Alloys are made to improve the properties of metals such as strength, hardness, and resistance to corrosion.
+
+Example:
+Steel is an alloy of iron and carbon.
+Brass is an alloy of copper and zinc.
+Bronze is an alloy of copper and tin.
+Alloys are stronger and more useful than pure metals.
+They are used in making tools, machines, utensils, and buildings.
+
+Topic 20: Properties and Uses of Alloys
+Alloys have better properties than pure metals.
+They are stronger and harder. They are more resistant to corrosion. They may also have lower melting points.
+
+For example, stainless steel does not rust easily. It is used in kitchen utensils and medical instruments.
+Brass is used in making musical instruments and decorative items.
+Alloys are widely used in industries because of their improved properties.
+
+Class 10 Science Test Paper
+Chapter 3: Metals and Non-metals
+Time: 1 Hour
+Maximum Marks: 30
+
+Section A: Multiple Choice Questions (1 mark each)
+(5 × 1 = 5 marks)
+Choose the correct option.
+	1. Which of the following is a metal?
+a) Oxygen
+b) Sulphur
+c) Copper
+d) Carbon
+
+	2. Which property allows metals to be drawn into wires?
+a) Malleability
+b) Ductility
+c) Conductivity
+d) Hardness
+
+	3. Which of the following is a non-metal?
+a) Iron
+b) Aluminum
+c) Chlorine
+d) Zinc
+
+	4. Which of the following metals does not react with dilute acids?
+a) Zinc
+b) Magnesium
+c) Copper
+d) Iron
+
+	5. Which of the following is an alloy?
+a) Iron
+b) Copper
+c) Steel
+d) Oxygen
+
+Section B: Very Short Answer Questions (2 marks each)
+(5 × 2 = 10 marks)
+	6. Define metal.
+
+	7. What is an ore?
+
+	8. What is corrosion?
+
+	9. What is an alloy? Give one example.
+
+	10. Name one metal that reacts with cold water.
+
+Section C: Short Answer Questions (3 marks each)
+(3 × 3 = 9 marks)
+	11. Write three physical properties of metals.
+
+	12. Write three physical properties of non-metals.
+
+	13. Explain displacement reaction with one example.
+
+Section D: Long Answer Question (6 marks)
+(1 × 6 = 6 marks)
+	14. Explain the reactivity series of metals. Why is it important?   

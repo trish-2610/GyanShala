@@ -1,0 +1,281 @@
+Chapter 8: Heredity and Evolution
+
+1. Introduction to Heredity
+Heredity is the process by which characteristics are passed from parents to their offspring.
+These characteristics are passed through genes. Genes are present on chromosomes inside the nucleus of cells.
+Because of heredity, children resemble their parents in many ways.
+Examples:
+	• Eye color
+	• Hair color
+	• Height
+	• Skin color
+For example, a child may have the same eye color as their parents.
+Heredity ensures continuity of characteristics from one generation to the next.
+
+2. Importance of Heredity
+Heredity is important for several reasons.
+1. Transfer of characteristics
+Heredity helps transfer physical and biological traits from parents to offspring.
+Example: Hair type, height.
+2. Continuity of species
+Heredity ensures that species maintain their characteristics over generations.
+3. Basis of evolution
+Heredity allows variations to be passed on, which helps in evolution.
+4. Maintains similarities and differences
+Offspring resemble parents but are not exactly identical.
+
+3. Variations
+Variation means differences in characteristics among individuals of the same species.
+No two individuals are exactly the same, except identical twins.
+Examples of variation:
+	• Different heights
+	• Different eye colors
+	• Different skin tones
+Variations occur due to differences in genes and environmental factors.
+Variation is important because it helps organisms survive in changing environments.
+For example, some organisms may survive better in harsh conditions due to variation.
+
+4. Types of Variations
+There are two main types of variations:
+	1. Inherited variations
+	2. Acquired variations
+
+A. Inherited Variations
+Inherited variations are variations passed from parents to offspring through genes.
+These variations are permanent and can be passed to future generations.
+Examples:
+	• Eye color
+	• Blood group
+	• Hair color
+Inherited variations play an important role in evolution.
+
+B. Acquired Variations
+Acquired variations are variations that develop during the lifetime of an organism.
+These variations are caused by environmental factors, lifestyle, and habits.
+Examples:
+	• Muscles developed through exercise
+	• Scars
+	• Tanned skin
+Acquired variations are not passed to offspring.
+
+5. Mendel and His Experiments
+Gregor Mendel is known as the Father of Genetics. He studied how traits are inherited from parents to offspring.
+He performed experiments on pea plants because they have clear and easily observable traits.
+Examples of traits Mendel studied:
+	• Tall and short plants
+	• Round and wrinkled seeds
+	• Yellow and green seeds
+Mendel cross-bred pea plants with different traits and observed how traits appeared in the next generations.
+For example, he crossed a tall plant with a short plant.
+First generation (F₁ generation):
+All plants were tall.
+Second generation (F₂ generation):
+Both tall and short plants appeared.
+This showed that traits are controlled by factors (genes), and some traits are dominant while others are recessive.
+
+6. Genes
+Genes are units of heredity that carry information about traits.
+Genes are present on chromosomes inside the nucleus.
+Each gene controls a specific trait.
+For every trait, an organism has two genes:
+	• One from the mother
+	• One from the father
+Genes determine characteristics such as:
+	• Height
+	• Eye color
+	• Hair color
+Genes pass information from parents to offspring.
+
+7. Dominant and Recessive Traits
+Traits can be dominant or recessive.
+
+Dominant Trait
+A dominant trait is the trait that appears in the offspring even if only one gene is present.
+It hides the recessive trait.
+Example:
+Tallness is dominant over shortness.
+It is represented by capital letters (T).
+
+Recessive Trait
+A recessive trait appears only when both genes are recessive.
+It is hidden if a dominant gene is present.
+Example:
+Shortness is recessive.
+It is represented by small letters (t).
+
+Example:
+TT → Tall
+Tt → Tall
+tt → Short
+
+8. Laws of Inheritance
+Mendel gave laws that explain inheritance of traits.
+
+Law of Dominance
+This law states that dominant traits appear in the offspring, while recessive traits remain hidden.
+Example:
+Tall trait hides short trait.
+
+Law of Segregation
+This law states that genes separate during gamete formation.
+Each gamete receives only one gene.
+These genes combine again during fertilization.
+
+9. Punnett Square
+Punnett square is a diagram used to predict inheritance of traits.
+It shows possible gene combinations in offspring.
+Example:
+Cross between Tt and Tt
+	T	t
+T	TT	Tt
+t	Tt	tt
+Results:
+	• TT → Tall
+	• Tt → Tall
+	• Tt → Tall
+	• tt → Short
+Ratio:
+3 Tall : 1 Short
+This is called monohybrid cross.
+Punnett square helps predict probability of traits.
+
+10. Sex Determination in Humans
+Sex determination is the process that decides whether a baby will be male or female.
+In humans, sex is determined by special chromosomes called sex chromosomes.
+Humans have 23 pairs of chromosomes:
+	• 22 pairs are autosomes
+	• 1 pair is sex chromosomes
+Sex chromosomes are:
+	• XX in females
+	• XY in males
+
+Role of Male and Female in Sex Determination
+Female produces only one type of gamete: X
+Male produces two types of gametes: X and Y
+During fertilization:
+	• X (female) + X (male) = XX (Female child)
+	• X (female) + Y (male) = XY (Male child)
+Therefore, the father determines the sex of the child.
+
+11. Evolution
+Evolution is the process of gradual change in living organisms over millions of years.
+Evolution results in the formation of new species from existing species.
+Evolution occurs due to variations and natural selection.
+Example:
+Modern humans evolved from ancestors over millions of years.
+Evolution helps organisms adapt to their environment.
+
+12. Natural Selection
+Natural selection is the process by which organisms with favorable traits survive and reproduce, while others do not.
+This concept was explained by Charles Darwin.
+According to natural selection:
+	• Organisms with useful variations survive
+	• Organisms without useful variations may die
+Example:
+Giraffes with longer necks could reach food easily and survived better.
+Natural selection leads to evolution.
+
+13. Speciation
+Speciation is the process of formation of new species.
+It happens when groups of the same species become separated and develop different characteristics over time.
+Causes of speciation:
+	• Geographical isolation
+	• Genetic changes
+	• Environmental differences
+Example:
+Animals separated by mountains or rivers may evolve into different species.
+
+14. Evidence of Evolution
+Scientists use different types of evidence to support evolution.
+
+A. Fossils
+Fossils are preserved remains of ancient organisms.
+They show how organisms looked in the past.
+Fossils help understand evolutionary history.
+Example:
+Dinosaur fossils
+
+B. Homologous Organs
+Homologous organs have similar structure but different functions.
+Example:
+	• Human hand
+	• Whale flipper
+	• Bat wing
+This shows common ancestry.
+
+C. Analogous Organs
+Analogous organs have different structure but same function.
+Example:
+	• Wings of birds
+	• Wings of insects
+This shows different evolutionary origin.
+
+D. Vestigial Organs
+Vestigial organs are organs that have no function but were useful in ancestors.
+Example:
+	• Appendix in humans
+	• Wisdom teeth
+These show evolution.
+
+
+Class 10 Science Test Paper
+Chapter 8: Heredity and Evolution
+Time: 1 Hour
+Maximum Marks: 30
+
+Section A: Multiple Choice Questions (1 mark each)
+(5 × 1 = 5 marks)
+Choose the correct option.
+	1. Heredity is the transfer of characteristics from:
+a) Teacher to student
+b) Parents to offspring
+c) Plants to soil
+d) Environment to organism
+
+	2. Who is known as the Father of Genetics?
+a) Charles Darwin
+b) Gregor Mendel
+c) Isaac Newton
+d) Albert Einstein
+
+	3. Which trait appears only when both genes are recessive?
+a) Dominant trait
+b) Recessive trait
+c) Acquired trait
+d) Genetic trait
+
+	4. Which chromosomes determine the sex of humans?
+a) Autosomes
+b) Sex chromosomes
+c) Genes
+d) Cells
+
+	5. Fossils provide evidence of:
+a) Respiration
+b) Digestion
+c) Evolution
+d) Excretion
+
+Section B: Very Short Answer Questions (2 marks each)
+(5 × 2 = 10 marks)
+	6. Define heredity.
+
+	7. What is a gene?
+
+	8. What is variation?
+
+	9. Define evolution.
+
+	10. What is natural selection?
+
+Section C: Short Answer Questions (3 marks each)
+(3 × 3 = 9 marks)
+	11. Write three differences between inherited and acquired traits.
+
+	12. Explain dominant and recessive traits with example.
+
+	13. Explain sex determination in humans.
+
+Section D: Long Answer Question (6 marks)
+(1 × 6 = 6 marks)
+	14. Explain Mendel’s experiment and state his laws of inheritance.

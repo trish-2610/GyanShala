@@ -1,0 +1,302 @@
+Chapter 11: Electricity
+
+1. Electric Current
+Electric current is the flow of electric charge through a conductor.
+In simple words, when electrons move through a wire, electric current is produced.
+Example:
+When you switch on a bulb, current flows and the bulb glows.
+
+Definition
+Electric current is defined as the amount of charge flowing through a conductor in unit time.
+Formula:
+I = Q / t
+Where:
+I = current
+Q = charge
+t = time
+
+Unit of Electric Current
+SI unit of current is Ampere (A).
+1 Ampere means 1 Coulomb of charge flows in 1 second.
+
+Instrument to Measure Current
+Ammeter is used to measure electric current.
+It is always connected in series.
+
+2. Electric Circuit
+An electric circuit is a closed path through which electric current flows.
+Main components of a circuit:
+	• Battery (source of energy)
+	• Wire (conductor)
+	• Switch (to open or close circuit)
+	• Bulb (device that uses electricity)
+
+Open Circuit
+If switch is OFF, circuit is open and current does not flow.
+
+Closed Circuit
+If switch is ON, circuit is closed and current flows.
+
+3. Electric Potential and Potential Difference
+Electric potential is the amount of work done to move a unit charge from infinity to a point.
+Potential difference is the difference in electric potential between two points.
+It pushes current through the circuit.
+
+Formula
+V = W / Q
+Where:
+V = potential difference
+W = work done
+Q = charge
+
+Unit
+SI unit is Volt (V)
+
+Instrument Used
+Voltmeter is used to measure potential difference.
+It is connected in parallel.
+
+4. Ohm’s Law
+Ohm’s Law states that:
+The current flowing through a conductor is directly proportional to the potential difference across its ends, provided temperature remains constant.
+Formula:
+V = IR
+Where:
+V = voltage
+I = current
+R = resistance
+
+5. Resistance
+Resistance is the property of a conductor to oppose the flow of current.
+Example:
+Thin wire has more resistance than thick wire.
+
+Factors Affecting Resistance
+Resistance depends on:
+	1. Length of wire
+More length → more resistance
+	2. Thickness of wire
+More thickness → less resistance
+	3. Material of wire
+Different materials have different resistance
+	4. Temperature
+Higher temperature → higher resistance
+
+Unit of Resistance
+SI unit is Ohm (Ω)
+
+6. Resistor
+Resistor is a device used to control current in a circuit.
+It provides resistance.
+Symbol:
+Zig-zag line
+
+7. Rheostat
+Rheostat is a variable resistor.
+It is used to change resistance and control current.
+Example:
+Fan speed regulator
+
+8. Ohm’s Law Graph
+Graph between voltage (V) and current (I) is a straight line.
+This shows that voltage is directly proportional to current.
+Slope of graph gives resistance.
+
+9. Combination of Resistors in Series
+When resistors are connected one after another in a single path, they are said to be connected in series.
+In series combination, current is same in all resistors.
+Example:
+Battery → Resistor 1 → Resistor 2 → Resistor 3 → Back to battery
+
+Total Resistance in Series
+Total resistance is equal to sum of individual resistances.
+Formula:
+R = R₁ + R₂ + R₃
+This means total resistance increases in series.
+
+Example
+If
+R₁ = 2 Ω
+R₂ = 3 Ω
+Total resistance = 2 + 3 = 5 Ω
+
+Characteristics of Series Combination
+	• Current is same everywhere
+	• Total resistance increases
+	• Voltage divides among resistors
+
+10. Combination of Resistors in Parallel
+When resistors are connected side by side, they are said to be connected in parallel.
+In parallel combination, voltage is same across all resistors.
+
+Formula for Parallel Combination
+1/R = 1/R₁ + 1/R₂ + 1/R₃
+Total resistance decreases in parallel.
+
+Example
+If
+R₁ = 2 Ω
+R₂ = 2 Ω
+1/R = 1/2 + 1/2
+1/R = 1
+R = 1 Ω
+
+Characteristics of Parallel Combination
+	• Voltage is same across each resistor
+	• Total resistance decreases
+	• Current divides among resistors
+
+11. Heating Effect of Electric Current
+When electric current flows through a conductor, heat is produced. This is called heating effect of electric current.
+Reason:
+Resistance opposes flow of current, producing heat.
+Example:
+	• Electric heater
+	• Iron
+	• Electric stove
+
+Formula for Heat Produced
+H = I²Rt
+Where:
+H = heat
+I = current
+R = resistance
+t = time
+
+12. Electric Power
+Electric power is the rate at which electrical energy is used.
+Formula:
+P = VI
+Where:
+P = power
+V = voltage
+I = current
+
+Other formulas:
+P = I²R
+P = V²/R
+
+Unit of Electric Power
+SI unit is Watt (W)
+1 kilowatt (kW) = 1000 W
+
+13. Electric Energy
+Electric energy is the total energy used by electrical devices.
+Formula:
+Energy = Power × Time
+E = P × t
+
+Unit of Electric Energy
+SI unit = Joule (J)
+Commercial unit = kilowatt-hour (kWh)
+
+14. Commercial Unit of Electricity
+Commercial unit of electricity is kilowatt-hour (kWh).
+1 kWh = 1 unit
+This is the unit used in electricity bills.
+
+Meaning of 1 kWh
+If a 1000 W device runs for 1 hour, it uses 1 kWh energy.
+Example:
+100 W bulb used for 10 hours
+Energy = 100 × 10 = 1000 Wh = 1 kWh
+
+15. Electric Fuse
+Electric fuse is a safety device.
+It protects circuit from excessive current.
+Fuse melts if current is too high and stops the circuit.
+Example:
+Used in homes
+
+16. Advantages of Parallel Circuits in Homes
+House wiring uses parallel circuits because:
+	• Each appliance gets same voltage
+	• If one appliance fails, others still work
+	• Devices can be controlled separately
+
+
+Class 10 Science
+Chapter 11: Electricity
+Test Paper
+
+Section A: Very Short Answer Questions (1 mark each)
+Q1. Define electric current.
+Q2. Write the formula of electric current.
+Q3. What is SI unit of current?
+Q4. Name the instrument used to measure current.
+Q5. What is potential difference?
+Q6. What is SI unit of resistance?
+Q7. Write Ohm’s law.
+Q8. What is electric power?
+Q9. What is commercial unit of electricity?
+Q10. What is the function of electric fuse?
+
+Section B: Short Answer Questions (2–3 marks each)
+Q11. Define electric circuit. Draw its diagram.
+Q12. What is resistance? Write factors affecting resistance.
+Q13. Define Ohm’s law with formula.
+Q14. Differentiate between series and parallel combination.
+Q15. What is heating effect of electric current?
+Q16. Why are parallel circuits used in homes?
+
+Section C: Medium Answer Questions (3–5 marks each)
+Q17. Explain series combination of resistors with formula.
+Q18. Explain parallel combination of resistors with formula.
+Q19. Define electric power. Write formulas and unit.
+Q20. Explain electric energy and commercial unit.
+
+Section D: Numericals
+Q21. A current of 2 A flows through a conductor for 5 seconds. Find charge.
+Formula:
+Q = I × t
+
+Q22. A bulb operates at 220 V and 2 A. Find power.
+Formula:
+P = VI
+
+Q23. Find resistance if voltage = 10 V and current = 2 A.
+Formula:
+R = V / I
+
+Q24. Find energy used if power = 1000 W and time = 2 hours.
+Formula:
+Energy = Power × Time
+
+Section E: Long Answer Questions (5 marks each)
+Q25. Explain Ohm’s law with diagram and graph.
+Q26. Explain heating effect of electric current with examples.
+Q27. Explain advantages of parallel circuits in homes.
+
+Section F: Case-Based Questions
+An electric iron operates at 220 V and produces heat.
+Q28. Answer the following:
+a) What type of effect is used?
+b) What is formula of power?
+c) What is unit of power?
+d) Why is fuse used?
+
+Two resistors of 2 Ω and 3 Ω are connected in series.
+Q29. Answer the following:
+a) Find total resistance
+b) Does resistance increase or decrease?
+c) Is current same or different?
+d) Write formula of series resistance
+
+Section G: Assertion and Reason
+Q30.
+Assertion: Parallel combination has less resistance.
+Reason: Current divides in parallel circuit.
+Options:
+A. Both correct, reason correct explanation
+B. Both correct, reason not explanation
+C. Assertion correct, reason wrong
+D. Assertion wrong, reason correct
+
+Q31.
+Assertion: Fuse protects appliances.
+Reason: Fuse melts at high current.
+Options:
+A. Both correct, reason correct explanation
+B. Both correct, reason not explanation
+C. Assertion correct, reason wrong
+D. Assertion wrong, reason correct

@@ -1,7 +1,7 @@
-import { Button } from '@/components/ui/button';
 import { Text } from '@/components/ui/text';
-import { Stack, router } from 'expo-router';
+import { Stack } from 'expo-router';
 import * as React from 'react';
+import { useTranslation } from 'react-i18next';
 import { ScrollView, View } from 'react-native';
 
 const SCREEN_OPTIONS = {
@@ -9,10 +9,16 @@ const SCREEN_OPTIONS = {
 };
 
 export default function DashboardScreen() {
+  const { t } = useTranslation();
 
   return (
     <>
-      <Stack.Screen options={SCREEN_OPTIONS} />
+      <Stack.Screen
+        options={{
+          ...SCREEN_OPTIONS,
+          title: t('tabs_dashboard'),
+        }}
+      />
       <ScrollView
         contentContainerStyle={{ flexGrow: 1 }}
         className="bg-background"
@@ -20,85 +26,58 @@ export default function DashboardScreen() {
         <View className="flex-1 gap-8 px-6 pb-10 pt-20">
           <View className="gap-2">
             <Text className="text-xs font-medium uppercase tracking-wide text-primary">
-              GyanShala
+              {t('app_name')}
             </Text>
-            <Text className="text-2xl font-semibold text-foreground">Your learning dashboard</Text>
+            <Text className="text-2xl font-semibold text-foreground">
+              {t('dashboard_placeholder_title', { defaultValue: 'Dashboard' })}
+            </Text>
             <Text className="text-sm text-muted-foreground">
-              Choose what you want to focus on today: studies, queries, tests, or career guidance.
+              {t('dashboard_placeholder_body', {
+                defaultValue:
+                  'This screen will later show your recent activity, progress, and shortcuts to lessons. For now it uses simple placeholder cards.',
+              })}
             </Text>
           </View>
 
-          {/* Quick links to main areas */}
           <View className="gap-3 rounded-2xl border border-border/70 bg-card/80 p-4">
-            <Text className="text-sm font-semibold text-foreground">Start learning</Text>
+            <Text className="text-sm font-semibold text-foreground">
+              {t('dashboard_placeholder_card_progress_title', { defaultValue: 'Learning progress' })}
+            </Text>
             <Text className="text-xs text-muted-foreground">
-              Choose an area below to move to detailed screens for studies, doubts, tests and career
-              awareness.
+              {t('dashboard_placeholder_card_progress_body', {
+                defaultValue:
+                  'Here you will later see how many lessons you have completed and what to revise next.',
+              })}
             </Text>
           </View>
 
-          <View className="gap-3">
-            <View className="gap-2 rounded-2xl border border-border/70 bg-card/80 p-4">
-              <Text className="text-sm font-semibold text-foreground">Studies</Text>
-              <Text className="text-xs text-muted-foreground">
-                Pick your class and subject, then explore topic-wise content.
-              </Text>
-              <Button
-                size="sm"
-                className="self-start rounded-full px-4 py-1.5"
-                onPress={() => router.push('/studies')}>
-                <Text className="text-xs font-medium text-primary-foreground">Open Studies</Text>
-              </Button>
-            </View>
-
-            <View className="gap-2 rounded-2xl border border-border/70 bg-card/80 p-4">
-              <Text className="text-sm font-semibold text-foreground">Query</Text>
-              <Text className="text-xs text-muted-foreground">
-                Ask questions and see answers in your preferred language.
-              </Text>
-              <Button
-                size="sm"
-                className="self-start rounded-full px-4 py-1.5"
-                onPress={() => router.push('/query')}>
-                <Text className="text-xs font-medium text-primary-foreground">Open Query</Text>
-              </Button>
-            </View>
-
-            <View className="gap-2 rounded-2xl border border-border/70 bg-card/80 p-4">
-              <Text className="text-sm font-semibold text-foreground">Test</Text>
-              <Text className="text-xs text-muted-foreground">
-                Take short quizzes and track your scores.
-              </Text>
-              <Button
-                size="sm"
-                className="self-start rounded-full px-4 py-1.5"
-                onPress={() => router.push('/test')}>
-                <Text className="text-xs font-medium text-primary-foreground">Open Test</Text>
-              </Button>
-            </View>
-
-            <View className="gap-2 rounded-2xl border border-border/70 bg-card/80 p-4">
-              <Text className="text-sm font-semibold text-foreground">Career Awareness</Text>
-              <Text className="text-xs text-muted-foreground">
-                Read simple guidance about careers, exams and next steps.
-              </Text>
-              <Button
-                size="sm"
-                className="self-start rounded-full px-4 py-1.5"
-                onPress={() => router.push('/career')}>
-                <Text className="text-xs font-medium text-primary-foreground">Open Career</Text>
-              </Button>
-            </View>
+          <View className="gap-3 rounded-2xl border border-border/70 bg-card/80 p-4">
+            <Text className="text-sm font-semibold text-foreground">
+              {t('dashboard_placeholder_card_languages_title', {
+                defaultValue: 'Languages & classes',
+              })}
+            </Text>
+            <Text className="text-xs text-muted-foreground">
+              {t('dashboard_placeholder_card_languages_body', {
+                defaultValue:
+                  'Later this area will help you quickly switch languages and jump to your most used classes.',
+              })}
+            </Text>
           </View>
 
-          <Button
-            className="mt-4 rounded-2xl"
-            variant="outline"
-            onPress={() => {
-              router.replace('/');
-            }}>
-            <Text className="font-medium">Back to home</Text>
-          </Button>
+          <View className="gap-3 rounded-2xl border border-border/70 bg-card/80 p-4">
+            <Text className="text-sm font-semibold text-foreground">
+              {t('dashboard_placeholder_card_actions_title', {
+                defaultValue: 'Quick actions',
+              })}
+            </Text>
+            <Text className="text-xs text-muted-foreground">
+              {t('dashboard_placeholder_card_actions_body', {
+                defaultValue:
+                  'Shortcuts to continue your last lesson, open tests, or ask a new query will appear here.',
+              })}
+            </Text>
+          </View>
         </View>
       </ScrollView>
     </>

@@ -1,0 +1,267 @@
+Chapter 10: The Human Eye and the Colourful World 
+
+1. The Human Eye
+The human eye is a sense organ that helps us see objects around us. It works like a camera. It captures light and sends signals to the brain, which helps us see images.
+The eye allows us to see different colors, shapes, sizes, and distances.
+The main functions of the human eye are:
+	• To collect light from objects
+	• To focus light on the retina
+	• To convert light into electrical signals
+	• To send signals to the brain
+The brain then understands these signals and forms the image.
+
+2. Structure of the Human Eye
+The human eye has several important parts.
+(a) Cornea
+The cornea is the transparent front part of the eye. Light enters the eye through the cornea.
+Functions:
+	• Protects the eye
+	• Helps in refraction of light
+
+(b) Iris
+The iris is the colored part of the eye. It controls the amount of light entering the eye.
+It adjusts the size of the pupil.
+Example:
+	• Bright light → pupil becomes small
+	• Dim light → pupil becomes large
+
+(c) Pupil
+The pupil is the small opening in the center of the iris.
+Function:
+	• Allows light to enter the eye
+
+(d) Eye Lens
+The eye lens is a transparent convex lens.
+Function:
+	• Focuses light on retina
+	• Forms image
+
+(e) Retina
+The retina is the light-sensitive screen at the back of the eye.
+Function:
+	• Image is formed here
+	• Converts light into signals
+
+(f) Optic Nerve
+The optic nerve carries signals from retina to brain.
+The brain interprets signals and we see the image.
+
+3. How the Human Eye Forms Image
+The process of image formation:
+	1. Light enters through cornea
+	2. Passes through pupil
+	3. Eye lens focuses light
+	4. Image forms on retina
+	5. Retina sends signals to brain
+	6. Brain forms final image
+The image formed on retina is:
+	• Real
+	• Inverted
+	• Small
+But brain makes it appear straight.
+
+4. Power of Accommodation
+Accommodation is the ability of the eye to change focal length to see objects at different distances.
+The eye lens changes shape using muscles.
+	• To see near objects → lens becomes thick
+	• To see distant objects → lens becomes thin
+This helps us see clearly at all distances.
+
+5. Near Point and Far Point
+Near Point
+The minimum distance at which eye can see clearly.
+For normal human eye:
+Near point = 25 cm
+
+Far Point
+The maximum distance at which eye can see clearly.
+For normal eye:
+Far point = infinity
+
+6. Defects of Vision
+Sometimes eye cannot see clearly. These problems are called defects of vision.
+Main defects:
+	• Myopia (Near-sightedness)
+	• Hypermetropia (Far-sightedness)
+	• Presbyopia
+
+7. Myopia (Near-sightedness)
+In this defect, person can see near objects clearly but cannot see distant objects clearly.
+Cause:
+Image forms in front of retina.
+Reason:
+	• Eye lens too powerful OR
+	• Eyeball too long
+Correction:
+Using concave lens
+
+8. Hypermetropia (Far-sightedness)
+In this defect, person can see distant objects clearly but cannot see near objects clearly.
+Cause:
+Image forms behind retina.
+Reason:
+	• Eye lens too weak OR
+	• Eyeball too short
+Correction:
+Using convex lens
+
+9. Presbyopia
+Presbyopia is a defect of vision in old age. In this defect, a person cannot see nearby objects clearly.
+Cause:
+As people grow older, the eye muscles become weak and the eye lens loses its flexibility. Because of this, the lens cannot change its shape properly.
+Result:
+The eye cannot focus light correctly on the retina.
+Correction:
+It is corrected using bifocal lenses.
+Bifocal lenses have two parts:
+	• Upper part → concave lens (for distant vision)
+	• Lower part → convex lens (for near vision)
+Example:
+Old people use reading glasses.
+
+10. Refraction of Light through a Prism
+A prism is a transparent triangular glass object.
+When white light passes through a prism, it bends due to refraction.
+The light bends twice:
+	1. When entering the prism
+	2. When leaving the prism
+This bending causes separation of colors.
+
+11. Dispersion of Light
+Dispersion is the splitting of white light into its seven colors.
+These seven colors are:
+V – Violet
+I – Indigo
+B – Blue
+G – Green
+Y – Yellow
+O – Orange
+R – Red
+This is called VIBGYOR.
+Reason:
+Each color bends differently because each has different wavelength.
+Violet bends the most.
+Red bends the least.
+Example:
+Rainbow formation
+
+12. Spectrum
+The band of seven colors formed after dispersion is called spectrum.
+It is formed when white light passes through prism.
+Order of colors:
+Violet → Indigo → Blue → Green → Yellow → Orange → Red
+Example:
+Rainbow is a natural spectrum.
+
+13. Recombination of Light
+Recombination is the process of joining the seven colors back into white light.
+This can be done using another prism.
+When dispersed light passes through second prism, it combines and becomes white light again.
+This proves that white light is made of seven colors.
+
+14. Scattering of Light
+Scattering is the spreading of light in different directions when it hits small particles.
+Examples of particles:
+	• Dust
+	• Smoke
+	• Air molecules
+Short wavelength colors scatter more.
+Blue light scatters more than red light.
+
+15. Why is the Sky Blue?
+The sky appears blue due to scattering of light.
+When sunlight enters atmosphere, it hits air molecules.
+Blue light has shorter wavelength, so it scatters more.
+Because blue light scatters in all directions, sky appears blue.
+
+16. Why Does the Sun Appear Red at Sunrise and Sunset?
+At sunrise and sunset, sunlight travels longer distance in atmosphere.
+Most of the blue light gets scattered away.
+Only red light reaches our eyes.
+Red light has longer wavelength and scatters less.
+So sun appears red.
+
+17. Tyndall Effect
+Tyndall effect is the scattering of light by small particles in air.
+It makes the path of light visible.
+Examples:
+	• Sunlight entering dusty room
+	• Car headlights in fog
+	• Torch light in smoke
+
+
+Class 10 Science
+Chapter 10: The Human Eye and the Colourful World
+Test Paper
+
+Section A: Very Short Answer Questions (1 mark each)
+Q1. What is the function of retina?
+Q2. What is accommodation?
+Q3. What is the near point of a normal human eye?
+Q4. What is the far point of a normal human eye?
+Q5. Which lens is used to correct myopia?
+Q6. Which lens is used to correct hypermetropia?
+Q7. What is dispersion of light?
+Q8. Name the seven colors of spectrum.
+Q9. Why does sky appear blue?
+Q10. What is Tyndall effect?
+
+Section B: Short Answer Questions (2–3 marks each)
+Q11. Explain the function of iris and pupil.
+Q12. What is the role of eye lens?
+Q13. Define myopia and its correction.
+Q14. Define hypermetropia and its correction.
+Q15. What is spectrum?
+Q16. Explain scattering of light.
+
+Section C: Medium Answer Questions (3–5 marks each)
+Q17. Draw and explain structure of human eye.
+Q18. Explain power of accommodation.
+Q19. Explain dispersion of light through prism.
+Q20. Explain why sun appears red at sunrise and sunset.
+
+Section D: Long Answer Questions (5 marks each)
+Q21. Explain defects of vision and their correction.
+Include:
+	• Myopia
+	• Hypermetropia
+	• Presbyopia
+
+Q22. Explain scattering of light and Tyndall effect with examples.
+
+Q23. Explain formation of spectrum and recombination of light.
+
+Section E: Case-Based Questions
+A student cannot see distant objects clearly but can see nearby objects clearly.
+Answer the following:
+Q24.
+a) Name the defect
+b) Where is image formed?
+c) Which lens is used for correction?
+d) Draw ray diagram (homework)
+
+Sunlight passes through prism and forms seven colors.
+Q25.
+a) What is this process called?
+b) What is the band of colors called?
+c) Which color bends most?
+d) Which color bends least?
+
+Section F: Assertion and Reason Questions
+Q26.
+Assertion: Sky appears blue.
+Reason: Blue light scatters more.
+Options:
+A. Both correct, reason correct explanation
+B. Both correct, reason not explanation
+C. Assertion correct, reason wrong
+D. Assertion wrong, reason correct
+
+Q27.
+Assertion: Concave lens corrects myopia.
+Reason: It diverges light rays.
+Options:
+A. Both correct, reason correct explanation
+B. Both correct, reason not explanation
+C. Assertion correct, reason wrong
+D. Assertion wrong, reason correct
