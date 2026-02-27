@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Chatbot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="app-shell">
+        <header class="app-header">
+            <div class="container-fluid">
+                <div class="header-row">
+                    <div class="header-title">
+                        <div class="brand">RAG Chatbot</div>
+                        <div class="subtitle">Pre-built FAISS knowledge base</div>
+                    </div>
+                    <div class="header-actions">
+                        <button class="btn btn-outline-light btn-sm" id="clearChatBtn" type="button">Clear Chat</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="app-main">
+            <div class="container-fluid">
+                <div class="chat-card">
+                    <div class="chat-messages" id="chatMessages">
+                        {% if messages and messages|length > 0 %}
+                            {% for m in messages %}
+                                <div class="msg-row {{ 'msg-user' if m.role == 'user' else 'msg-assistant' }}">
+                                    <div class="msg-bubble">
+                                        {% if m.role == 'assistant' %}
+                                            <div class="msg-content">{{ m.content | safe }}</div>
+                                        {% else %}
+                                            <div class="msg-content">{{ m.content }}</div>
+                                        {% endif %}
+                                        <div class="msg-meta">{{ m.ts }}</div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        {% else %}
+                            <div class="empty-state">
+                                <div class="empty-title">Ask anything about your indexed PDFs</div>
+                                <div class="empty-subtitle">Your documents are already indexed. Start the conversation below.</div>
+                            </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="chat-inputbar">
+                        <form id="chatForm" class="chat-form">
+                            <input type="text" class="chat-input" id="chatInput" placeholder="Type your message..." autocomplete="off" />
+                            <button type="submit" class="btn btn-primary chat-send" id="sendBtn">Send</button>
+                        </form>
+                        <div class="chat-status" id="chatStatus" aria-live="polite"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const chatMessages = document.getElementById('chatMessages');
+        const chatForm = document.getElementById('chatForm');
+        const chatInput = document.getElementById('chatInput');
+        const chatStatus = document.getElementById('chatStatus');
+        const clearChatBtn = document.getElementById('clearChatBtn');
+        const sendBtn = document.getElementById('sendBtn');
+
+        function scrollToBottom() {
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function setStatus(text) {
+            chatStatus.textContent = text || '';
+        }
+
+        function escapeHtml(unsafe) {
+            return unsafe
+                .replaceAll('&', '&amp;')
+                .replaceAll('<', '&lt;')
+                .replaceAll('>', '&gt;')
+                .replaceAll('"', '&quot;')
+                .replaceAll("'", '&#039;');
+        }
+
+        function nowTime() {
+            const d = new Date();
+            return d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        }
+
+        function appendUserMessage(text) {
+            const row = document.createElement('div');
+            row.className = 'msg-row msg-user';
+            row.innerHTML = `
+                <div class="msg-bubble">
+                    <div class="msg-content">${escapeHtml(text)}</div>
+                    <div class="msg-meta">${nowTime()}</div>
+                </div>
+            `;
+            chatMessages.appendChild(row);
+        }
+
+        function appendAssistantMessage(html) {
+            const row = document.createElement('div');
+            row.className = 'msg-row msg-assistant';
+            row.innerHTML = `
+                <div class="msg-bubble">
+                    <div class="msg-content">${html}</div>
+                    <div class="msg-meta">${nowTime()}</div>
+                </div>
+            `;
+            chatMessages.appendChild(row);
+        }
+
+        function extractPlainTextFromHtml(html) {
+            const tmp = document.createElement('div');
+            tmp.innerHTML = html || '';
+            return (tmp.textContent || tmp.innerText || '').trim();
+        }
+
+        async function typeTextIntoElement(el, text, { speedMs = 24 } = {}) {
+            el.innerHTML = '';
+            const cursor = document.createElement('span');
+            cursor.className = 'typing-cursor';
+
+            const tokens = (text || '').split(/(\s+)/);
+            let i = 0;
+
+            return new Promise((resolve) => {
+                const tick = () => {
+                    if (i >= tokens.length) {
+                        cursor.remove();
+                        resolve();
+                        return;
+                    }
+
+                    const t = tokens[i++];
+                    el.appendChild(document.createTextNode(t));
+                    el.appendChild(cursor);
+
+                    scrollToBottom();
+                    window.setTimeout(tick, speedMs);
+                };
+
+                tick();
+            });
+        }
+
+        function appendLoading() {
+            const row = document.createElement('div');
+            row.className = 'msg-row msg-assistant';
+            row.id = 'loadingRow';
+            row.innerHTML = `
+                <div class="msg-bubble">
+                    <div class="typing">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="msg-meta">${nowTime()}</div>
+                </div>
+            `;
+            chatMessages.appendChild(row);
+        }
+
+        function removeLoading() {
+            const row = document.getElementById('loadingRow');
+            if (row) row.remove();
+        }
+
+        async function sendMessage(text) {
+            setStatus('');
+            appendUserMessage(text);
+            appendLoading();
+            scrollToBottom();
+
+            sendBtn.disabled = true;
+            chatInput.disabled = true;
+
+            try {
+                const res = await fetch("{{ url_for('chat_api') }}", {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: text })
+                });
+
+                const data = await res.json();
+                removeLoading();
+
+                if (!res.ok) {
+                    setStatus(data && data.error ? data.error : 'Error generating response');
+                    return;
+                }
+
+                const assistantHtml = data.answer_html || '';
+                const assistantText = data.answer || extractPlainTextFromHtml(assistantHtml);
+
+                const row = document.createElement('div');
+                row.className = 'msg-row msg-assistant';
+                row.innerHTML = `
+                    <div class="msg-bubble">
+                        <div class="msg-content" id="typingTarget"></div>
+                        <div class="msg-meta">${nowTime()}</div>
+                    </div>
+                `;
+                chatMessages.appendChild(row);
+                scrollToBottom();
+
+                const typingTarget = row.querySelector('#typingTarget');
+                await typeTextIntoElement(typingTarget, assistantText, { speedMs: 24 });
+
+                typingTarget.innerHTML = assistantHtml || escapeHtml(assistantText);
+                scrollToBottom();
+            } catch (e) {
+                removeLoading();
+                setStatus('Network error. Please try again.');
+            } finally {
+                sendBtn.disabled = false;
+                chatInput.disabled = false;
+                chatInput.focus();
+            }
+        }
+
+        chatForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const text = (chatInput.value || '').trim();
+            if (!text) return;
+            chatInput.value = '';
+            sendMessage(text);
+        });
+
+        clearChatBtn.addEventListener('click', async () => {
+            setStatus('');
+            try {
+                const res = await fetch("{{ url_for('clear_chat') }}", { method: 'POST' });
+                if (!res.ok) {
+                    setStatus('Could not clear chat');
+                    return;
+                }
+                chatMessages.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-title">Ask anything about your indexed PDFs</div>
+                        <div class="empty-subtitle">Your documents are already indexed. Start the conversation below.</div>
+                    </div>
+                `;
+            } catch (e) {
+                setStatus('Network error. Please try again.');
+            }
+        });
+
+        scrollToBottom();
+        chatInput.focus();
+    </script>
+</body>
+</html>
