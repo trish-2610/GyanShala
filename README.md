@@ -1,6 +1,6 @@
 # Gyan-Shala  
 ### A Multilingual Digital Learning Platform for Rural Students  
-
+![Website](docs/img/Web1.png)
 **Hackathon:** Symbiosis Skill Hackathon (SSH-2026)  
 **Team:** The BOSS (SSHE70)  
 **College:** Devi Ahilya Vishwavidyalaya (DAVV), Indore  
@@ -99,26 +99,46 @@ Built using open-source technologies with low infrastructure cost and scalable c
 
 ## Platform Snapshots
 
-### Mobile App View
-<!-- Add mobile app screenshots here -->
-
 ### Web Application View
-<!-- Add website screenshots here -->
+![Website](docs/img/Web2.png)
+![Website](docs/img/Web3.png)
+![Website](docs/img/Web4.png)
+The Gyan-Shala mobile application is designed specifically for rural students with a clean, simple, and multilingual interface. It supports:
+
+- Subject-wise learning content
+- Career guidance after 10th and 12th
+- Scholarship information
+- Low-data and offline access
+- AI-powered academic support
+
+The app is optimized for low-bandwidth environments and ensures smooth performance even in limited connectivity areas.
+The web platform provides a structured learning environment accessible from any browser. It includes:
+
+- Organized subject notes and summaries
+- Structured career roadmaps
+- Government exam guidance
+- Scholarship awareness hub
+- Regional language support
+
+The website is lightweight, responsive, and accessible across devices to ensure equal access for rural students.
+
+### Mobile App View
+![App](docs/img/App1.png)
+![App](docs/img/App2.png)
+The Gyan-Shala mobile application is designed specifically for rural students with a clean, simple, and multilingual interface. It supports:
+
+- Subject-wise learning content
+- Career guidance after 10th and 12th
+- Scholarship information
+- Low-data and offline access
+- AI-powered academic support
+
+The app is optimized for low-bandwidth environments and ensures smooth performance even in limited connectivity areas.
 
 ### 🤖 QA Chatbot (AI Learning Assistant)
-
-<p align="center">
-  <img src="images/chatbot-english.png" width="800"/>
-</p>
-
-<p align="center">
-  <img src="images/chatbot-hindi.png" width="800"/>
-</p>
-
-<p align="center">
-  <img src="images/chatbot-gujarati.png" width="800"/>
-</p>
-
+![Chatbot](docs/img/Chatbot1.jpeg)
+![Chatbot](docs/img/Chatbot2.jpeg)
+![Chatbot](docs/img/Chatbot3.jpeg)
 The AI-powered QA Chatbot is built using Retrieval-Augmented Generation (RAG) with LangChain and FAISS. It provides:
 
 - Instant doubt resolution  
